@@ -1,6 +1,6 @@
 写一个我们几个使用Markdown的语法规范：
 
-1.每个段落后面都要空一行再接其他内容。
-2. 
+1·`HTML`区块元素――比如 `<div>`、`<table>`、`<pre>`、`<p>` 等标签，必须在前后加上空行与其它内容区隔开
+2.没有特殊需求，不使用HTML原生标签
+3.测试字符实体 &lt;
 
-<audio src="http://yinyueyun.baidu.com//data/cloud/downloadsongfile?songIds=351035&rate=320&format=mp3">yinyue</audio>
