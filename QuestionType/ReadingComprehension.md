@@ -66,7 +66,7 @@ D) To explain the increase of international oil trade.
 		"id": "1",
 		"type": "ReadingComprehension",
 		"level": 3,
-		"duration": "10",
+		"duration": 10,
 		"flowable": false,
 		"recommendation-point": 2,
 		"stem": "Energy independence. It has a nice ring to it. Doesn’t it? If you think so, you’re not alone, because energy independence has been the dream of American president for decades, and never more so than in the past few years, when the most recent oil price shock has been partly responsible for kicking off the great recession.
@@ -91,8 +91,8 @@ D) To explain the increase of international oil trade.
 					"It ensures national security.",
 					"It will bring oil prices down.",
 					"It has long been everyone’s dream."
-				]
-				"reference-answer": "1",
+				],
+				"reference-answer": 0,
 			},
 			{
 				"type": "SingleChoice",
@@ -102,8 +102,8 @@ D) To explain the increase of international oil trade.
 					"They prove to be a good alternative to petroleum.",
 					"They do not provide a sustainable energy supply.",
 					"They cause serious damage to the environment."
-				]
-				"reference-answer": "3",
+				],
+				"reference-answer": 2,
 			},
 			{
 				"type": "SingleChoice",
@@ -113,8 +113,8 @@ D) To explain the increase of international oil trade.
 					"Its own oil reserves are quickly running out.",
 					"It wants to keep its own environment intact.",
 					"Its own oil production falls short of demand."
-				]
-				"reference-answer": "4",
+				],
+				"reference-answer": 3,
 			},
 			{
 				"type": "SingleChoice",
@@ -124,8 +124,8 @@ D) To explain the increase of international oil trade.
 					"It improves economic efficiency.",
 					"It makes for economic prosperity.",
 					"It saves the cost of oil exploration."
-				]
-				"reference-answer": "4",
+				],
+				"reference-answer": 3,
 			},
 			{
 				"type": "SingleChoice",
@@ -135,8 +135,8 @@ D) To explain the increase of international oil trade.
 					"To arouse Americans’ awareness of the energy crisis.",
 					"To stress the importance of energy conservation.",
 					"To explain the increase of international oil trade."
-				]
-				"reference-answer": "4",
+				],
+				"reference-answer": 3,
 			}
 		]
 	}
