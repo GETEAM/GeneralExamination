@@ -20,9 +20,13 @@ There is no question that the United States imports a great deal of energy and, 
 
 1.What does the author say about energy independence for America?
 
-A) It sounds very attractive. C) It will bring oil prices down.
+A) It sounds very attractive. 
 
-B) It ensures national security. D) It has long been everyone’s dream.
+B) It ensures national security.
+
+C) It will bring oil prices down. 
+
+D) It has long been everyone’s dream.
 
 2.What does the author think of biofuels?
 
@@ -46,9 +50,13 @@ D) Its own oil production falls short of demand.
 
 4.What does the author say about oil trade?
 
-A) It proves profitable to both sides. C) It makes for economic prosperity.
+A) It proves profitable to both sides.
 
-B) It improves economic efficiency. D) It saves the cost of oil exploration.
+B) It improves economic efficiency.
+
+C) It makes for economic prosperity. 
+
+D) It saves the cost of oil exploration.
 
 5.What is the author’s purpose in writing the passage?
 
@@ -63,7 +71,7 @@ D) To explain the increase of international oil trade.
 ##JSON结构
 
 	{
-		"id": "1",
+		"id": 1,
 		"type": "ReadingComprehension",
 		"level": 3,
 		"duration": 10,
@@ -93,6 +101,7 @@ D) To explain the increase of international oil trade.
 					"It has long been everyone’s dream."
 				],
 				"reference-answer": 0,
+				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
@@ -104,6 +113,7 @@ D) To explain the increase of international oil trade.
 					"They cause serious damage to the environment."
 				],
 				"reference-answer": 2,
+				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
@@ -115,6 +125,7 @@ D) To explain the increase of international oil trade.
 					"Its own oil production falls short of demand."
 				],
 				"reference-answer": 3,
+				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
@@ -126,6 +137,7 @@ D) To explain the increase of international oil trade.
 					"It saves the cost of oil exploration."
 				],
 				"reference-answer": 3,
+				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
@@ -137,6 +149,7 @@ D) To explain the increase of international oil trade.
 					"To explain the increase of international oil trade."
 				],
 				"reference-answer": 3,
+				"answer-analysis": "答案解析"
 			}
 		]
 	}
