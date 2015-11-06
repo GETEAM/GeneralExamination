@@ -73,43 +73,53 @@ The fact remains, however, that it will likely get warmer, on ( 8 ) , everywhere
 		"questions": [
 			{
 				"type": "BlankFilling",
-				"reference-answer": "A"
+				"reference-answer": "A",
+				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
-				"reference-answer": "B"
+				"reference-answer": "B",
+				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
-				"reference-answer": "C"
+				"reference-answer": "C",
+				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
-				"reference-answer": "D"
+				"reference-answer": "D",
+				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
-				"reference-answer": "E"
+				"reference-answer": "E",
+				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
-				"reference-answer": "F"
+				"reference-answer": "F",
+				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
-				"reference-answer": "G"
+				"reference-answer": "G",
+				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
-				"reference-answer": "H"
+				"reference-answer": "H",
+				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
-				"reference-answer": "I"
+				"reference-answer": "I",
+				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
-				"reference-answer": "J"
+				"reference-answer": "J",
+				"answer-analysisi": "答案解析"
 			}
 		]
 	}
