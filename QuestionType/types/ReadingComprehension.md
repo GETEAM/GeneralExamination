@@ -18,7 +18,7 @@ There is no question that the United States imports a great deal of energy and, 
 
 注意：此部分试题请在答题卡2上作答。
 
-1.What does the author say about energy independence for America?
+1. What does the author say about energy independence for America?
 
 A) It sounds very attractive. 
 
@@ -28,7 +28,7 @@ C) It will bring oil prices down.
 
 D) It has long been everyone’s dream.
 
-2.What does the author think of biofuels?
+2. What does the author think of biofuels?
 
 A) They keep America’s economy running healthily.
 
@@ -38,7 +38,7 @@ C) They do not provide a sustainable energy supply.
 
 D) They cause serious damage to the environment.
 
-3.Why does America rely heavily on oil imports?
+3. Why does America rely heavily on oil imports?
 
 A) It wants to expand its storage of crude oil.
 
@@ -48,7 +48,7 @@ C) It wants to keep its own environment intact.
 
 D) Its own oil production falls short of demand.
 
-4.What does the author say about oil trade?
+4. What does the author say about oil trade?
 
 A) It proves profitable to both sides.
 
@@ -58,7 +58,7 @@ C) It makes for economic prosperity.
 
 D) It saves the cost of oil exploration.
 
-5.What is the author’s purpose in writing the passage?
+5. What is the author’s purpose in writing the passage?
 
 A) To justify America’s dependence on oil imports.
 
