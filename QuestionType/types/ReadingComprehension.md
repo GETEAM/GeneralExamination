@@ -16,8 +16,6 @@ Third, there are benefits to trade. It allows for economic efficiency, and when 
 
 There is no question that the United States imports a great deal of energy and, in fact, relies on that steady flow to maintain its economy. When that flow is interrupted, we feel the pain in short supplies and higher prices, At the same time, we derive massive economic benefits when we buy the most affordable energy on the world market and when we engage in energy trade around the world.
 
-注意：此部分试题请在答题卡2上作答。
-
 1.What does the author say about energy independence for America?
 
 A) It sounds very attractive. 
