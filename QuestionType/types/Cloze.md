@@ -1,4 +1,4 @@
-#试题类型英文名(中文名)
+#Cloze(完形填空)
 
 ##实际样题
 
@@ -23,7 +23,7 @@
 				"type": "question的类型",
 				"shuffle": true, //只有当type为多选或者单选时，该选项才有效			
 				"stem": "question题干",			
-				options: [		//question的各个选项
+				"options": [		//question的各个选项
 					"option1",
 					"option2",
 					"option3",
