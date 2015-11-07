@@ -10,7 +10,7 @@ Already three-fourths of people in ( 5 ) countries live in cities. Now most urba
 
 Urbanization can ( 7 ) to social and economic progress, but also put ( 8 ) on cities to provide housing and ( 9 ) . The new report says almost two hundred thousand people move ( 10 ) cities and towns each day. It says worsening inequalities, ( 11 ) by social divisions and differences in ( 12 ) , could result in violence and crime ( 13 ) cities plan better.
 
-Another issue is urban sprawl (无序扩展的城区). This is where cities ( 14 ) quickly into rural areas, sometimes ( 15 ) a much faster rate than urban population growth.
+Another issue is urban sprawl(无序扩展的城区). This is where cities ( 14 ) quickly into rural areas, sometimes ( 15 ) a much faster rate than urban population growth.
 
 Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, Art Hall at the University of Kansas found that people are moving away from the ( 17 ) cities to smaller ones. He sees a ( 18 ) toward “de-urbanization” across the nation.
 
@@ -176,7 +176,7 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 
 		Urbanization can ( 7 ) to social and economic progress, but also put ( 8 ) on cities to provide housing and ( 9 ) . The new report says almost two hundred thousand people move ( 10 ) cities and towns each day. It says worsening inequalities, ( 11 ) by social divisions and differences in ( 12 ) , could result in violence and crime ( 13 ) cities plan better.
 
-		Another issue is urban sprawl (无序扩展的城区). This is where cities ( 14 ) quickly into rural areas, sometimes ( 15 ) a much faster rate than urban population growth.
+		Another issue is urban sprawl(无序扩展的城区). This is where cities ( 14 ) quickly into rural areas, sometimes ( 15 ) a much faster rate than urban population growth.
 
 		Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, Art Hall at the University of Kansas found that people are moving away from the ( 17 ) cities to smaller ones. He sees a ( 18 ) toward “de-urbanization” across the nation.
 
