@@ -3,9 +3,13 @@
 ##实际样题
 
 (An audio) 
-A. The man is not good at balancing his budget. 
+
+A. The man is not good at balancing his budget.
+
 B. She will go purchase the gift herself. 
+
 C. The gift should not be too expensive. 
+
 D. They are gonging to Jane's house-warming party. 
 
 ##JSON结构
