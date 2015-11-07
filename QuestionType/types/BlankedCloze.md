@@ -73,61 +73,61 @@ The fact remains, however, that it will likely get warmer, on ( 8 ) , everywhere
 			{
 				"type": "BlankFilling",
 				"strict": true,
-				"reference-answer": 0,
+				"reference-answer": "contributing",
 				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
 				"strict": true,
-				"reference-answer": 0,
+				"reference-answer": "contributing",
 				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
 				"strict": true,
-				"reference-answer": 0,
+				"reference-answer": "contributing",
 				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
 				"strict": true,
-				"reference-answer": 0,
+				"reference-answer": "contributing",
 				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
 				"strict": true,
-				"reference-answer": 0,
+				"reference-answer": "contributing",
 				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
 				"strict": true,
-				"reference-answer": 0,
+				"reference-answer": "contributing",
 				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
 				"strict": true,
-				"reference-answer": 0,
+				"reference-answer": "contributing",
 				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
 				"strict": true,
-				"reference-answer": 0,
+				"reference-answer": "contributing",
 				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
 				"strict": true,
-				"reference-answer": 0,
+				"reference-answer": "contributing",
 				"answer-analysisi": "答案解析"
 			},
 			{
 				"type": "BlankFilling",
 				"strict": true,
-				"reference-answer": 0,
+				"reference-answer": "contributing",
 				"answer-analysisi": "答案解析"
 			}
 		]
