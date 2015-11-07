@@ -1,4 +1,4 @@
-#Listening Short Conversation
+#ListeningShortConversation
 
 ##实际样题
 
@@ -11,7 +11,7 @@ D. They are gonging to Jane's house-warming party.
 ##JSON结构
 	{
 	    "id": 1,
-		"type": "Listening Short Conversation",
+		"type": "ListeningShortConversation",
 		"level": 3,
 		"duration": 10,
 		"flowable": ture,
@@ -19,6 +19,7 @@ D. They are gonging to Jane's house-warming party.
 		"questions":[
 			{
 				"type": "SingleChoice",
+				"shuffle": true,
 				"stem": "(An audio)",
 				"options": [
 		 			"The man is not good at balancing his budget.",
@@ -26,7 +27,9 @@ D. They are gonging to Jane's house-warming party.
 		  			"The gift should not be too expensive.",
 		  			"They are gonging to Jane's house-warming party."
 		  		],
-				"reference-answer": 0
+		  		"strict": true,
+				"reference-answer": 0,
+				"answer-analysis": "答案解析"
 			}
 		]
 
