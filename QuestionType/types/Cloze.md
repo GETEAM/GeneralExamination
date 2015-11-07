@@ -166,7 +166,7 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 		"type": "Cloze",			
 		"level": 3,						
 		"duration": 15,					
-		"flowable": true,				
+		"flowable": false,				
 		"recommendation-point": 1,		
 		"stem": "Over half the world’s people now live in cities. The latest “Global Report on Human Settlements” says a significant change took place last year. The report ( 1 ) this week from U.N. Habitat, a United Nations agency.
 
