@@ -75,22 +75,11 @@ D) To explain the increase of international oil trade.
 		"duration": 10,
 		"flowable": false,
 		"recommendation-point": 2,
-		"stem": "Energy independence. It has a nice ring to it. Doesn’t it? If you think so, you’re not alone, because energy independence has been the dream of American president for decades, and never more so than in the past few years, when the most recent oil price shock has been partly responsible for kicking off the great recession.
-
-		“Energy independence” and its rhetorical (修辞的) companion “energy security” are, however, slippery concepts that are rarely though through. What is it we want independence from, exactly?
-
-		Most people would probably say that they want to be independent from imported oil. But there are reasons that we buy all that old from elsewhere.
-
-		The first reason is that we need it to keep our economy running. Yes, there is a trickle(涓涓细流)of biofuel(生物燃料)available, and more may become available, but most biofuels cause economic waste and environmental destruction.
-
-		Second, Americans have basically decided that they don’t really want to produce all their own oil. They value the environmental quality they preserve over their oil imports from abroad. Vast areas of the United States are off-limits to oil exploration and production in the name of environmental protection. To what extent are Americans really willing to endure the environmental impacts of domestic energy production in order to cut back imports?
-
-		Third, there are benefits to trade. It allows for economic efficiency, and when we buy things from places that have lower production costs than we do, we benefit. And although you don’t read about this much, the United States is also a large exporter of oil products, selling about 2 million barrels of petroleum products per day to about 90 countries.
-
-		There is no question that the United States imports a great deal of energy and, in fact, relies on that steady flow to maintain its economy. When that flow is interrupted, we feel the pain in short supplies and higher prices, At the same time, we derive massive economic benefits when we buy the most affordable energy on the world market and when we engage in energy trade around the world.",
+		"stem": "Energy independence. It has a nice ring to it. Doesn’t it? If you think so, you’re not alone, because energy independence has been the dream of American president for decades, and never more so than in the past few years, when the most recent oil price shock has been partly responsible for kicking off the great recession. <br>“Energy independence” and its rhetorical (修辞的) companion “energy security” are, however, slippery concepts that are rarely though through. What is it we want independence from, exactly? <br>Most people would probably say that they want to be independent from imported oil. But there are reasons that we buy all that old from elsewhere. <br>The first reason is that we need it to keep our economy running. Yes, there is a trickle(涓涓细流)of biofuel(生物燃料)available, and more may become available, but most biofuels cause economic waste and environmental destruction. <br>Second, Americans have basically decided that they don’t really want to produce all their own oil. They value the environmental quality they preserve over their oil imports from abroad. Vast areas of the United States are off-limits to oil exploration and production in the name of environmental protection. To what extent are Americans really willing to endure the environmental impacts of domestic energy production in order to cut back imports? <br>Third, there are benefits to trade. It allows for economic efficiency, and when we buy things from places that have lower production costs than we do, we benefit. And although you don’t read about this much, the United States is also a large exporter of oil products, selling about 2 million barrels of petroleum products per day to about 90 countries. <br>There is no question that the United States imports a great deal of energy and, in fact, relies on that steady flow to maintain its economy. When that flow is interrupted, we feel the pain in short supplies and higher prices, At the same time, we derive massive economic benefits when we buy the most affordable energy on the world market and when we engage in energy trade around the world.",
 		"questions": [
 			{
 				"type": "SingleChoice",
+				"shuffle": true,
 				"stem": "What does the author say about energy independence for America?",
 				"options": [
 					"It sounds very attractive.",
@@ -98,11 +87,13 @@ D) To explain the increase of international oil trade.
 					"It will bring oil prices down.",
 					"It has long been everyone’s dream."
 				],
+				"strict": true,
 				"reference-answer": 0,
 				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
+				"shuffle": true,
 				"stem": "What does the author think of biofuels?",
 				"options": [
 					"They keep America’s economy running healthily.",
@@ -110,11 +101,13 @@ D) To explain the increase of international oil trade.
 					"They do not provide a sustainable energy supply.",
 					"They cause serious damage to the environment."
 				],
+				"strict": true,
 				"reference-answer": 2,
 				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
+				"shuffle": true,
 				"stem": "Why does America rely heavily on oil imports?",
 				"options": [
 					"It wants to expand its storage of crude oil.",
@@ -122,11 +115,13 @@ D) To explain the increase of international oil trade.
 					"It wants to keep its own environment intact.",
 					"Its own oil production falls short of demand."
 				],
+				"strict": true,
 				"reference-answer": 3,
 				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
+				"shuffle": true,
 				"stem": "What does the author say about oil trade?",
 				"options": [
 					"It proves profitable to both sides.",
@@ -134,11 +129,13 @@ D) To explain the increase of international oil trade.
 					"It makes for economic prosperity.",
 					"It saves the cost of oil exploration."
 				],
+				"strict": true,
 				"reference-answer": 3,
 				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
+				"shuffle": true,
 				"stem": "What is the author’s purpose in writing the passage?",
 				"options": [
 					"To justify America’s dependence on oil imports.",
@@ -146,6 +143,7 @@ D) To explain the increase of international oil trade.
 					"To stress the importance of energy conservation.",
 					"To explain the increase of international oil trade."
 				],
+				"strict": true,
 				"reference-answer": 3,
 				"answer-analysis": "答案解析"
 			}
