@@ -1,7 +1,8 @@
-#ÊÔÌâÀàĞÍÁĞ±í
+#è¯•é¢˜ç±»å‹åˆ—è¡¨
 
-##ËÄ¡¢Áù¼¶ÑùÌâ
+##å››ã€å…­çº§æ ·é¢˜
 
-1. [Ğ´×÷(Writing)](types/Writing.md)
-2. [ÔÄ¶ÁÀí½â(ReadingComprehension)](types/ReadingComprehension.md)
-3. [Ñ¡´ÊÌî¿Õ(BlankedCloze)](types/BlankedCloze.md)
+1. [å†™ä½œ(Writing)](types/Writing.md)
+2. [é˜…è¯»ç†è§£(ReadingComprehension)](types/ReadingComprehension.md)
+3. [é€‰è¯å¡«ç©º(BlankedCloze)](types/BlankedCloze.md)
+4. [æ®µè½ç¿»è¯‘(ParagraphTranslation)]ï¼ˆtypes/ParagraphTranslation.mdï¼‰
