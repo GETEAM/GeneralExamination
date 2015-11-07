@@ -2,67 +2,92 @@
 
 ##实际样题
 
-(An audio) 
+(item题干为一段音频) 
 
-Question 1 
+(小题题干为一段音频)
+
 A. He teaches in a law school. 
+
 B. He loves classical music. 
+
 C. He is a diplomat. 
+
 D. He is a wonderful lecturer. 
 
-Question 2
+(小题题干为一段音频)
+
 A. Went to see a play. 
+
 B. Watched a soccer game. 
+
 C. Took some photos. 
+
 D. Attended a dance. 
 
-Question 3
+(小题题干为一段音频)
+
 A. She decided to get married in three years. 
+
 B. Her mother objected to Eric’s flying lessons. 
+
 C. She insisted that Eric pursue graduate studies. 
+
 D. Her father said she could marry Eric right away. 
 
 ##JSON结构
+
 	{
 	    "id": 1,
-		"type": "Listening Long Conversation",
+		"type": "ListeningLongConversation",
 		"level": 3,
 		"duration": 10,
 		"flowable": ture,
 		"recommendation-point": 1,
 		"questions"[
 			{
-			"type": "SingleChoice",
-			"stem": "Question 1",
-			"options": [
-		  		"He teaches in a law school.",
-		  		"He loves classical music.",
-		  		"He is a diplomat.",
-		  		"He is a wonderful lecturer."
-		    ],
-			"reference-answer": "1"
+				"type": "SingleChoice",
+				"shuffle": true,
+				"pause": 3,
+				"stem": "(小题题干为一段音频)",
+				"options": [
+			  		"He teaches in a law school.",
+			  		"He loves classical music.",
+			  		"He is a diplomat.",
+			  		"He is a wonderful lecturer."
+			    ],
+			    "strict": true,
+				"reference-answer": 1,
+				"answer-analysis": "参考答案解析"
 			},
 			{
-			"type": "SingleChoice",
-			"stem": "Question 2",
-			"options": [
-		  		"Went to see a play.",
-		  		"Watched a soccer game.",
-		  		"Took some photos.",
-		  		"Attended a dance."
-		    ],
-			"reference-answer": "2"
+				"type": "SingleChoice",
+				"shuffle": true,
+				"pause": 3,
+				"stem": "(小题题干为一段音频)",
+				"options": [
+			  		"Went to see a play.",
+			  		"Watched a soccer game.",
+			  		"Took some photos.",
+			  		"Attended a dance."
+			    ],
+				"strict": true,
+				"reference-answer": 1,
+				"answer-analysis": "参考答案解析"
 			},
 			{
-			"type": "SingleChoice",
-			"stem": "Question 3",
-			"options": [
-		 		"She decided to get married in three years.",
-		  		"Her mother objected to Eric’s flying lessons.",
-		  		"Her mother objected to Eric’s flying lessons.",
-		  		"Her father said she could marry Eric right away."
-		    ],
-			"reference-answer": "2"
+				"type": "SingleChoice",
+				"shuffle": true,
+				"pause": 3,
+				"stem": "(小题题干为一段音频)",
+				"options": [
+			 		"She decided to get married in three years.",
+			  		"Her mother objected to Eric’s flying lessons.",
+			  		"Her mother objected to Eric’s flying lessons.",
+			  		"Her father said she could marry Eric right away."
+			    ],
+				"strict": true,
+				"reference-answer": 1,
+				"answer-analysis": "参考答案解析"
 			}
 		]
 	}

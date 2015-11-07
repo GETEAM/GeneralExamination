@@ -7,3 +7,4 @@
 3. [选词填空(BlankedCloze)](types/BlankedCloze.md)
 4. [完形填空(Cloze)](types/Cloze.md)
 5. [听力短对话(ListeningShortConversation)](types/ListeningShortConversation.md)
+6. [听力长对话(ListeningLongConversation)](types/ListeningLongConversation.md)
