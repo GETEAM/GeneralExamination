@@ -4,27 +4,27 @@
 
 Until the very latest moment of his existence, man
 has been bound to the planet on which he originated and 
-developed. Now (he had the capability to leave that planet)( 1 )
-and move out into the universe to those worlds which (he
-has known previously only directly)( 2 ). Men have explored
+developed. Now **(he had the capability to leave that planet)( 1 )**
+and move out into the universe to those worlds which **(he
+has known previously only directly)( 2 )**. Men have explored
 parts of the moon, put spaceships in orbit around another
-planet and possibly within the decade (will land into another)( 3 ) 
-planet and explore it. Can we( be too bold as to)( 4 ) 
-suggest that we may (be able to colonize other planet)( 5 ) 
+planet and possibly within the decade **(will land into another)( 3 )** 
+planet and explore it. Can we **(be too bold as to)( 4 ) **
+suggest that we may **(be able to colonize other planet)( 5 ) **
 within the not - too - distant future ? Some have advocated
 such a procedure as a solution to the population
 problem: ship the excess people off to the moon. But
-we (must keep in head the billions of dollars)( 6 ) we might 
+we **(must keep in head the billions of dollars)( 6 )** we might 
 spend in carrying out the project. To maintain the
 earth's population at its present level. we would have
 to blast off into space 7,500 people every hour of　every day of the year.
-Why are we (spending so little money on space )( 7 )
-exploration ? (Consider the great need for improving)( 8 ) 
+Why are we **(spending so little money on space )( 7 )**
+exploration ? **(Consider the great need for improving)( 8 )**
 many aspects of the global environment, one is surely
 justified in his concern for the money and resources
-that (they are poured into the space exploration efforts)( 9 ). 
+that **(they are poured into the space exploration efforts)( 9 )**. 
 But perhaps we should look at both sides of the
-coin (before arriving hasty conclusions)( 10 ). 
+coin **(before arriving hasty conclusions)( 10 )**. 
 
 ##JSON结构
 
