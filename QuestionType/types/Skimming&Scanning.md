@@ -28,45 +28,73 @@ This practice is also popular at The Pawn, although largely for rotisseries (烤
 Some British traditions are too sacred (神圣的)to mess with, however, Tomes says. "I'd never change a full English breakfast."
 
 1. What is British food generally known for?
+
 A) Its unique flavour.                    
+
 B) Its bad taste.           
+
 C) Its special cooking methods.             
+
 D) Its organic ingredients.
  
 2. The Second World War led to________ in Britain.
+
 A) an inadequate supply of food           
+
 B) a decrease of grain production
+
 C) an increase in food import
+
 D) a change in people's eating habits
  
 3. Why couldn't Britain compete with some of its neighbouring countries in terms of food in the post-war decades?
+
 A) Its food lacked variety.                
+
 B) Its people cared more for quantity.
+
 C) It was short of well-trained chefs.
+
 D) It didn't have flavourful food ingredients.
  
 4. With culinary improvement in recent years, London's restaurants are now able to appeal to the tastes of    .
+
 A) most young people                       
+
 B) elderly British diners
+
 C) all kinds of overseas visitors
+
 D) upper-class customers
  
 5. What do Hong Kong diners welcome, according to Welsh executive chef David Tamlyn?
+
 A) Authentic classic cuisine.         
+
 B) Locally produced ingredients.
+
 C) New ideas and presentations.
+
 D) The return of home-style dishes.
  
 6. While using quality ingredients, David Tamlyn insists that the dishes should________ .
+
 A) benefit people's health                 
+
 B) look beautiful and inviting 
+
 C) be offered at reasonable prices
+
 D) maintain British traditional tastes
  
 7. Why does Neil Tomes say he loves food ingredients from Britain?
+
 A)  They appeal to people from all over the world.
+
 B)  They are produced on excellent organic farms.
+
 C)  They are processed in a scientific way.
+
 D)  They come in a great variety.
 
 8. Tamlyn says that besides importing ingredients from Britain once a week, his restaurant also buys vegetables from _______.
