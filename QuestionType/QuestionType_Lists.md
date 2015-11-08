@@ -40,3 +40,4 @@
 4. [阅读理解是非题(ReadingTrueOrFalse)](types/ReadingTrueOrFalse.md)
 5. [阅读理解简答题(ReadingShortAnswerQuestion)](types/ReadingShortAnswerQuestion.md)
 6. [句子排序(ArrangingSentencesIntoParagraph)](types/ArrangingSentencesIntoParagraph.md)
+7. [段落排序(ArrangingParagraphsIntoPassage)](types/ArrangingParagraphsIntoPassage.md)
