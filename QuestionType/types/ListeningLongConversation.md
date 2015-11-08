@@ -44,13 +44,17 @@ D. Her father said she could marry Eric right away.
 		"flowable": ture,
 		"recommendation-point": 1,
 		"stem": "Followed 3 questions are based on the passage you have just heard.",
-		"src": "item题干音频"
+		"src": {
+			"audio": "item题干音频"
+		},
 		"questions"：[
 			{
 				"type": "SingleChoice",
 				"shuffle": true,
 				"pause": 3,
-				"src": "question题干音频",
+				"src": {
+					"audio": "question题干音频"
+				},
 				"options": [
 			  		"He teaches in a law school.",
 			  		"He loves classical music.",
@@ -65,7 +69,9 @@ D. Her father said she could marry Eric right away.
 				"type": "SingleChoice",
 				"shuffle": true,
 				"pause": 3,
-				"src": "question题干音频",
+				"src": {
+					"audio": "question题干音频"
+				},
 				"options": [
 			  		"Went to see a play.",
 			  		"Watched a soccer game.",
@@ -80,7 +86,9 @@ D. Her father said she could marry Eric right away.
 				"type": "SingleChoice",
 				"shuffle": true,
 				"pause": 3,
-				"src": "question题干音频",
+				"src": {
+					"audio": "question题干音频"
+				},
 				"options": [
 			 		"She decided to get married in three years.",
 			  		"Her mother objected to Eric’s flying lessons.",
