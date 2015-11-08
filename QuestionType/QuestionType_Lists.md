@@ -30,4 +30,8 @@
 
 1. [视频理解(VideoComprehension)](types/VideoComprehension.md)
 2. [会话跟读(ListeningAndRepeating)](types/ListeningAndRepeating.md)
-3. [视频写作(VideoWriting)](types/VideoWriting)
+3. [视频写作(VideoWriting)](types/VideoWriting.md)
+
+##课件样题
+
+1. [近义词替换(SimilarExpressions)](types/SimilarExpressions.md)

@@ -1,12 +1,15 @@
-#SimilarExpressions (近义词替换)
+#SimilarExpressions(近义词替换)
 
 ##实际样题
 
 All of you friends will **support** you.
 
 A. stand up for
+
 B. be against
+
 C. care for
+
 D. stand around
 
 ##JSON结构
@@ -21,11 +24,10 @@ D. stand around
 		"stem": "All of you friends will support you.",
 		"questions": [
 			{
-				"type": "SingleChoice",		
-				"strict": ture,
+				"type": "SingleChoice",
 				"shuffle": true,
 				"stem": "All of you friends will **support** you.",
-				options: [		//question的各个选项
+				options: [   
 					"stand up for",
 					"be against",
 					"care for",
