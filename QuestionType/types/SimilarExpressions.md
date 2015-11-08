@@ -27,7 +27,7 @@ D. stand around
 				"type": "SingleChoice",
 				"shuffle": true,
 				"stem": "All of you friends will **support** you.",
-				options: [   
+				"options": [   
 					"stand up for",
 					"be against",
 					"care for",
