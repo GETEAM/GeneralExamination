@@ -1,8 +1,8 @@
-#ListeningLongConversation(听力长对话)
+#ListeningPassage(短文听力)
 
 ##实际样题
 
-Followed 3 questions are based on the long conversation you have just heard.(item题干为一段音频) 
+Followed 3 questions are based on the passage you have just heard.(item题干为一段短文音频) 
 
 (小题题干为一段音频)
 
@@ -38,12 +38,12 @@ D. Her father said she could marry Eric right away.
 
 	{
 	    "id": 1,
-		"type": "ListeningLongConversation",
+		"type": "ListeningPassage",
 		"level": 3,
 		"duration": 10,
 		"flowable": ture,
 		"recommendation-point": 1,
-		"stem": "Followed 3 questions are based on the long conversation you have just heard.",
+		"stem": "Followed 3 questions are based on the passage you have just heard.",
 		"src": {
 			"audio": "item题干音频"
 		},

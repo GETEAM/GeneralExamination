@@ -25,7 +25,7 @@
 		],
 		"questions": [			//试题item所包含的所有问题数组，数组中的每个元素为一个question，每个question为一个对象
 			{
-				"type": "question的类型",
+				"type": "question的类型",	// SingleAnswer(简答)、BlankedFilling(填空）、SingleChoice(单选）、MultipleChoice(多选)、Record(录音）
 				"pause": "当有需要时，如听力播放完成后的暂停时间"， //此处单位为秒
 				"shuffle": true, //只有当type为多选或者单选时，该选项才有效			
 				"stem": "question题干",	
