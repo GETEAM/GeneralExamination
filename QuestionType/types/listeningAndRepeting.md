@@ -13,11 +13,12 @@
 		"duration": 10,
 		"flowable": ture,
 		"recommendation-point": 2,
-		"stem": "An audio",
+		"stem": "An audio",git
 
 		"questions": [
 			{
-				"type": "Record"
+				"type": "Record",
+				"strict": false
 			}
 		]
 	}
