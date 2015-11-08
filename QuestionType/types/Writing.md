@@ -17,6 +17,7 @@ For this part, you are allowed 30 minutes to write an essay based on the picture
 		"duration": 30,
 		"flowable": false,
 		"stem": "For this part, you are allowed 30 minutes to write an essay based on the picture below. You should start your essay with a brief description of the picture and comment on parents’ role in their children’s growth. You should write at least 150 words but no more than 180 words.</p><p data-anchor-id="j99c"><img src="http://i13.tietuku.com/62c1ee880bae1583.png" alt="作文图片" title=""></p><p data-anchor-id="u7cf">“Good news mom! I was accepted to the college of your choice.”</p>",
+		"src": "http://i13.tietuku.com/62c1ee880bae1583.png",
 		"questions": [
 			{
 				"type": "SimpleAnswer",

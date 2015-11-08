@@ -20,11 +20,12 @@ D. They are gonging to Jane's house-warming party.
 		"duration": 10,
 		"flowable": ture,
 		"recommendation-point": 1,
+		"src": "短对话音频"，
 		"questions":[
 			{
 				"type": "SingleChoice",
 				"shuffle": true,
-				"stem": "(An audio)",
+				"src": "question音频",
 				"options": [
 		 			"The man is not good at balancing his budget.",
 		  			"She will go purchase the gift herself.",
