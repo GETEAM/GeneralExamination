@@ -86,7 +86,7 @@ The End of the Book?
 		[O] For these reasons I think physical books will have a longer existence as a commercial product than some currently predict. Like swords, books have symbolic power. Like fireplaces, they induce a sense of comfort and warmth. And, perhaps, similar to sails, they make a useful back-up for when the lights go out.",
 		"questions": [
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,			
 				"stem": "Authors still published in printed versions will be considered important ones.",	
 				"strict": true,
@@ -94,7 +94,7 @@ The End of the Book?
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,			
 				"stem": "Some people are still in favor of printed books because of the sense of 
 				touch they can provide.",	
@@ -103,7 +103,7 @@ The End of the Book?
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,			
 				"stem": "The radio business has changed greatly and now attracts more listeners.",	
 				"strict": true,
@@ -111,7 +111,7 @@ The End of the Book?
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,			
 				"stem": "Contrary to many people’s prediction of its death, the film industry survived.",	
 				"strict": true,
@@ -119,7 +119,7 @@ The End of the Book?
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,			
 				"stem": "Remarkable changes have taken place in the book business.",	
 				"strict": true,
@@ -127,7 +127,7 @@ The End of the Book?
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,			
 				"stem": "Old technology sometimes continues to exist because of its reliability.",	
 				"strict": true,
@@ -135,7 +135,7 @@ The End of the Book?
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,			
 				"stem": "The increase of e-book sales will force the book business to make 
 				changes not seen for centuries.",	
@@ -144,7 +144,7 @@ The End of the Book?
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,			
 				"stem": "A new technology is unlikely to take the place of an old one 
 				without a clear advantage.",	
@@ -153,7 +153,7 @@ The End of the Book?
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,			
 				"stem": "Paperbacks of popular literature are more likely to be replaced by e-books.",	
 				"strict": true,
@@ -161,7 +161,7 @@ The End of the Book?
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,			
 				"stem": "A house with a fireplace has a stronger appeal to buyers.",	
 				"strict": true,

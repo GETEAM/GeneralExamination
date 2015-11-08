@@ -22,60 +22,60 @@ However, many black people still hold the __  of realization of equality someday
 		However, many black people still hold the __  of realization of equality someday in the future. But at the same time they must be aware that there’s still a long way to go before they get to that __ .",
 		"questions": [			
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"strict": true,
 				"reference-answer": forced,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"strict": true,
 				"reference-answer": large farms,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"strict": true,
 				"reference-answer": cruelly,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"strict": true,
 				"reference-answer": time-marking,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"strict": true,
 				"reference-answer": done away with,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"strict": true,
 				"reference-answer": gradually developed,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"strict": true,
 				"reference-answer": lacking strength,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"strict": true,
 				"reference-answer": It seems ironic that,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"strict": true,
 				"reference-answer": strong belief,		
 				"answer-analysis": "参考答案解析"
 			},{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"strict": true,
 				"reference-answer": ending place,		
 				"answer-analysis": "参考答案解析"

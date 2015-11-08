@@ -24,7 +24,7 @@ Englishmen like food from other countries,  especially from France,  China,  Ita
 		Englishmen like food from other countries,  especially from France,  China,  Italy and India.  People often get take-away food. they buy the food outside and then bring it home to eat.",
 		"questions": [
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,		
 				"stem": "In England many people have a  _____ breakfast and a  _____ lunch.",	
 				"strict": true,	
@@ -32,7 +32,7 @@ Englishmen like food from other countries,  especially from France,  China,  Ita
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,		
 				"stem": "There are many sandwich bars in  _____and ____workers can buy sandwiches there.",	
 				"strict": true,	
@@ -40,7 +40,7 @@ Englishmen like food from other countries,  especially from France,  China,  Ita
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,		
 				"stem": "In England,  tea can mean a  _____ and a  _____.",	
 				"strict": true,	
@@ -48,7 +48,7 @@ Englishmen like food from other countries,  especially from France,  China,  Ita
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,		
 				"stem": "Dinner lasts (持续) about  _______.",	
 				"strict": true,	
@@ -56,7 +56,7 @@ Englishmen like food from other countries,  especially from France,  China,  Ita
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,		
 				"stem": "English people often buy  ______ — they buy some food outside and bring it home.",	
 				"strict": true,	

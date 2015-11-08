@@ -16,7 +16,7 @@ January1st, 1937, is the historic date when Britain ________(join)the Common Mar
 		"stem": "January1st, 1937, is the historic date when Britain ________(join)the Common Market.",
 		"questions": [
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"strict": true,	
 				"reference-answer": "joined",		
 				"answer-analysis": "过去式"

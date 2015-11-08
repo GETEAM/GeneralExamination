@@ -25,7 +25,7 @@ There are three questions based on the passage you have just heard;
 		},
 		"questions": [	
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10,			
 				"stem": "What was Cathy's job? She was a__________;",		
 				"strict": false,

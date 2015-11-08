@@ -1,4 +1,4 @@
-#Arranging Paragraphs into Passage (段落排序)
+#ArrangingParagraphsintoPassage (段落排序)
 
 ##实际样题
 
@@ -26,34 +26,34 @@ E. African Americans have more difficulty obtaining business loans, buying homes
 		],
 		"questions": [
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"shuffle": true, 
 				"strict": true,
 				"reference-answer": 1,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"shuffle": true, 		
 				"strict": true,
 				"reference-answer": 0,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"shuffle": true, 
 				"reference-answer": 2,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"shuffle": true, 
 				"strict": true,
 				"reference-answer": 4,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"shuffle": true, 
 				"strict": true,
 				"reference-answer": 3,		

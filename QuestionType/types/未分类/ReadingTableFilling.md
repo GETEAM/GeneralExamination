@@ -42,7 +42,7 @@ Talk to the strangers       |  Don't say your parents 5. ____________
 		that your parents are away. Say ―Mum‘s having a shower,‖ or ―Dad‘s having a sleep.",
 		"questions": [
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10, 		
 				"stem": "Keep the door _______",	
 				"strict": true,	
@@ -50,7 +50,7 @@ Talk to the strangers       |  Don't say your parents 5. ____________
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10, 		
 				"stem": "To _______",	
 				"strict": true,	
@@ -58,7 +58,7 @@ Talk to the strangers       |  Don't say your parents 5. ____________
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10, 		
 				"stem": "Before ________",	
 				"strict": true,	
@@ -66,7 +66,7 @@ Talk to the strangers       |  Don't say your parents 5. ____________
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10, 		
 				"stem": "Ask ____________?‖ with the door locked.",	
 				"strict": true,	
@@ -74,7 +74,7 @@ Talk to the strangers       |  Don't say your parents 5. ____________
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankedFilling",
+				"type": "BlankFilling",
 				"pause": 10, 		
 				"stem": "Don‘t say your parents ____________",	
 				"strict": true,	

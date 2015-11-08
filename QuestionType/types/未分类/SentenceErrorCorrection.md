@@ -16,7 +16,7 @@ It took Jack two hours climb the mountain . _______
 		"stem": "It took Jack two hours climb the mountain . _______  ",
 		"questions": [
 			{
-				"type": "BlankedFilling",	
+				"type": "BlankFilling",	
 				"strict": true,	
 				"reference-answer": "climb to to climb",		
 				"answer-analysis": "参考答案解析"
