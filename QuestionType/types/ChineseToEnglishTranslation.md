@@ -1,4 +1,4 @@
-#Chinese To English Translation（汉译英翻译）
+#ChineseToEnglishTranslation(汉译英翻译)
 
 ##实际样题
 
@@ -8,7 +8,7 @@
 
 	{
 		"id": 1,						
-		"type": "Chinese To English Translation",			
+		"type": "ChineseToEnglishTranslation",			
 		"level": 4,						
 		"duration": 10,					
 		"flowable": false,				

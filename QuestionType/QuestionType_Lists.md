@@ -13,6 +13,7 @@
 9. [快速阅读(Skimming&Scanning)](types/Skimming&Scanning.md)
 10. [短文改错(PassageErrorCorrection)](types/PassageErrorCorrection.md)
 11. [英译汉(EnglishToChineseTranslation)](types/EnglishToChineseTranslation.md)
+12. [汉译英(ChineseToEnglishTranslation)](types/ChineseToEnglishTranslation.md)
 
 ##口语考试样题
 
