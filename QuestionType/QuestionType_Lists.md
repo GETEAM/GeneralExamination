@@ -24,4 +24,4 @@
 4. [图片评述(PictureComment)](types/PictureComment.md)
 5. [听对话回答问题(ListeningConversationAnswering)](types/ListeningConversationAnswering.md)
 6. [视频评述(VideoComment)](types/VideoComment.md)
-
+7. [短文复述(PassageRetelling)](types/PassageRetelling.md)
