@@ -25,7 +25,7 @@ There are three questions based on the passage you have just heard;
 		},
 		"questions": [	
 			{
-				"type": BlankedFilling,
+				"type": "BlankedFilling",
 				"pause": 10,			
 				"stem": "What was Cathy's job? She was a__________;",		
 				"strict": false,
@@ -33,7 +33,7 @@ There are three questions based on the passage you have just heard;
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": SingleAnswer,
+				"type": "SingleAnswer",
 				"pause": 60,			
 				"stem": "Which country relies heavily on nuclear power?",		
 				"strict": false,
@@ -41,7 +41,7 @@ There are three questions based on the passage you have just heard;
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": SingleAnswer,
+				"type": "SingleAnswer",
 				"pause": 60,			
 				"stem": "What do we learn about the people working in the shop?",		
 				"strict": false,
