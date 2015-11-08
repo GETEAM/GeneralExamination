@@ -1,8 +1,8 @@
-#Inappropriate Collocation (搭配不当)
+#InappropriateCollocation(搭配不当)
 
 ##实际样题
 
-A. He speaks American English well enough to pss by an American.
+A. He speaks American English well enough to pass by an American.
 
 B. He walked on the street the orther day and happened to pass by an American.
 
@@ -14,7 +14,7 @@ D. For almost three years,emails have been passing between the American and him.
 
 	{
 		"id": 1,						
-		"type": "Inappropriate Collocation",			
+		"type": "InappropriateCollocation",			
 		"level": 1,						
 		"duration": 1,					
 		"flowable": false,				

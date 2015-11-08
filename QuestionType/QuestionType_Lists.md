@@ -35,3 +35,4 @@
 ##课件样题
 
 1. [近义词替换(SimilarExpressions)](types/SimilarExpressions.md)
+2. [搭配不当(InappropriateCollocation)](types/InappropriateCollocation.md)
