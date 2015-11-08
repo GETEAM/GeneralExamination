@@ -38,3 +38,4 @@
 2. [搭配不当(InappropriateCollocation)](types/InappropriateCollocation.md)
 3. [单词变形填空(WordVariantBlankFilling)](types/WordVariantBlankFilling.md)
 4. [阅读理解是非题(ReadingTrueOrFalse)](types/ReadingTrueOrFalse.md)
+5. [阅读理解简答题(ReadingShortAnswerQuestion)](types/ReadingShortAnswerQuestion.md)
