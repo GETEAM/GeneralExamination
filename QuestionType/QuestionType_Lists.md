@@ -36,4 +36,4 @@
 
 1. [近义词替换(SimilarExpressions)](types/SimilarExpressions.md)
 2. [搭配不当(InappropriateCollocation)](types/InappropriateCollocation.md)
-3. [单词变形填空(SingleBlankFilling)](types/SingleBlankFilling.md)
+3. [单词变形填空(WordVariantBlankFilling)](types/WordVariantBlankFilling.md)
