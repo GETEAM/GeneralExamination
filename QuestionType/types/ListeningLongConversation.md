@@ -2,7 +2,7 @@
 
 ##实际样题
 
-(item题干为一段音频) 
+Followed 3 questions are based on the passage you have just heard.(item题干为一段音频) 
 
 (小题题干为一段音频)
 
@@ -43,12 +43,14 @@ D. Her father said she could marry Eric right away.
 		"duration": 10,
 		"flowable": ture,
 		"recommendation-point": 1,
-		"questions"[
+		"stem": "Followed 3 questions are based on the passage you have just heard.",
+		"src": "item题干音频"
+		"questions"：[
 			{
 				"type": "SingleChoice",
 				"shuffle": true,
 				"pause": 3,
-				"stem": "(小题题干为一段音频)",
+				"src": "question题干音频",
 				"options": [
 			  		"He teaches in a law school.",
 			  		"He loves classical music.",
@@ -63,7 +65,7 @@ D. Her father said she could marry Eric right away.
 				"type": "SingleChoice",
 				"shuffle": true,
 				"pause": 3,
-				"stem": "(小题题干为一段音频)",
+				"src": "question题干音频",
 				"options": [
 			  		"Went to see a play.",
 			  		"Watched a soccer game.",
@@ -78,7 +80,7 @@ D. Her father said she could marry Eric right away.
 				"type": "SingleChoice",
 				"shuffle": true,
 				"pause": 3,
-				"stem": "(小题题干为一段音频)",
+				"src": "question题干音频",
 				"options": [
 			 		"She decided to get married in three years.",
 			  		"Her mother objected to Eric’s flying lessons.",
