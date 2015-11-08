@@ -6,9 +6,13 @@
 
 1.What does the author say about energy independence for America?
 
-A) It sounds very attractive. C) It will bring oil prices down.
+A) It sounds very attractive. 
 
-B) It ensures national security. D) It has long been everyone’s dream.
+C) It will bring oil prices down.
+
+B) It ensures national security. 
+
+D) It has long been everyone’s dream.
 
 2.What does the author think of biofuels?
 
@@ -32,9 +36,13 @@ D) Its own oil production falls short of demand.
 
 4.What does the author say about oil trade?
 
-A) It proves profitable to both sides. C) It makes for economic prosperity.
+A) It proves profitable to both sides. 
 
-B) It improves economic efficiency. D) It saves the cost of oil exploration.
+C) It makes for economic prosperity.
+
+B) It improves economic efficiency. 
+
+D) It saves the cost of oil exploration.
 
 5.What is the author’s purpose in writing the passage?
 
