@@ -1,4 +1,4 @@
-#ListeningAndRepeting(会话跟读)
+#ListeningAndRepeating(会话跟读)
 
 ##实际样题
 
@@ -8,7 +8,7 @@
 
 	{
 		"id": 1,
-		"type": "ListeningAndRepeting",
+		"type": "ListeningAndRepeating",
 		"level": 3,
 		"duration": 10,
 		"flowable": ture,

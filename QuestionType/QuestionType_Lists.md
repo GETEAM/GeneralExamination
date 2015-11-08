@@ -29,4 +29,4 @@
 ##机考新题型
 
 1. [视频理解(VideoComprehension)](types/VideoComprehension.md)
-2. [会话跟读(ListeningAndRepeting)](types/ListeningAndRepeting.md)
+2. [会话跟读(ListeningAndRepeating)](types/ListeningAndRepeating.md)
