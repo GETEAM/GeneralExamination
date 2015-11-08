@@ -31,7 +31,7 @@ D. For almost three years,emails have been passing between the American and him.
 					"For almost three years,emails have been passing between the American and him."
 				],
 				"strict": true,	
-				"reference-answer": "1",		
+				"reference-answer": 1,		
 				"answer-analysis": "参考答案解析"
 			}
 		]
