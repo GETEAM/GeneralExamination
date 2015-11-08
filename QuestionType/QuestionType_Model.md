@@ -14,7 +14,11 @@
 		"flowable": "试题是否为流程性试题，true为是，false为否",				
 		"recommendation-point": "建议每小题的指定分数",		
 		"stem": "试题题干",
-		"src": "题干内容中包含的视频、音频、以及图片地址"
+		"src": { 		//题干中包含的视频、音频以及图片的地址
+			"image": "图片地址"，
+			"audio": "音频地址",
+			"video": "视频体质"
+		},
 		"item-options": [ 		//item选项数组，数组中的内容为item各选项
 			"item选项1",			
 			"item选项2"
@@ -25,7 +29,11 @@
 				"pause": "当有需要时，如听力播放完成后的暂停时间"， //此处单位为秒
 				"shuffle": true, //只有当type为多选或者单选时，该选项才有效			
 				"stem": "question题干",	
-				"src": "question题干中包含的视频、音频以及图片的地址"		
+				"src": { 		//题干中包含的视频、音频以及图片的地址
+					"image": "图片地址"，
+					"audio": "音频地址",
+					"video": "视频体质"
+				},		
 				options: [		//question的各个选项
 					"option1",
 					"option2",
