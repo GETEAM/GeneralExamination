@@ -3,8 +3,11 @@
 ##实际样题
 
 A. He speaks American English well enough to pss by an American.
+
 B. He walked on the street the orther day and happened to pass by an American.
+
 C. He walked out to the front door quickly and was passed for the thief.
+
 D. For almost three years,emails have been passing between the American and him.
 
 ##JSON结构
