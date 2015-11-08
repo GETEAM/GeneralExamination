@@ -1,4 +1,4 @@
-#ReadingTrueorFalse (阅读理解是非题)
+#ReadingTrueOrFalse (阅读理解是非题)
 
 ##实际样题
 
@@ -16,7 +16,7 @@ James Chaney, Andrew Goodman and Michael Schwerner were all white volunteers.
 
 	{
 		"id": 1,						
-		"type": "ReadingTrueorFalse",			
+		"type": "ReadingTrueOrFalse",			
 		"level": 2,						
 		"duration": 5,					
 		"flowable": false,				
