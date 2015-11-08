@@ -20,3 +20,14 @@
 
 1. [朗读(ReadAloud)](types/ReadAloud.md)
 2. [话题评述(TopicComment)](types/TopicComment.md)
+3. [口语问答(OralQuestionAnswer)](types/OralQuestionAnswer.md)
+4. [图片评述(PictureComment)](types/PictureComment.md)
+5. [听对话回答问题(ListeningConversationAnswering)](types/ListeningConversationAnswering.md)
+6. [视频评述(VideoComment)](types/VideoComment.md)
+7. [短文复述(PassageRetelling)](types/PassageRetelling.md)
+
+##机考新题型
+
+1. [视频理解(VideoComprehension)](types/VideoComprehension.md)
+2. [会话跟读(ListeningAndRepeating)](types/ListeningAndRepeating.md)
+3. [视频写作(VideoWriting)](types/VideoWriting)

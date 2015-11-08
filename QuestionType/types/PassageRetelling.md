@@ -10,7 +10,7 @@ Listen to the story twice and then retell it.  You'll have one minute to prepare
 	{
 		"id": 1,						
 		"type": "PassageRetelling",			
-		"level": 4",						
+		"level": 4,						
 		"duration": 5,					
 		"flowable": true,				
 		"recommendation-point": 5,		
