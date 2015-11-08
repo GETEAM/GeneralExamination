@@ -9,8 +9,8 @@ and move out into the universe to those worlds which **(he
 has known previously only directly)( 2 )**. Men have explored
 parts of the moon, put spaceships in orbit around another
 planet and possibly within the decade **(will land into another)( 3 )** 
-planet and explore it. Can we **(be too bold as to)( 4 ) **
-suggest that we may **(be able to colonize other planet)( 5 ) **
+planet and explore it. Can we **(be too bold as to)( 4 )**
+suggest that we may **(be able to colonize other planet)( 5 )**
 within the not - too - distant future ? Some have advocated
 such a procedure as a solution to the population
 problem: ship the excess people off to the moon. But
