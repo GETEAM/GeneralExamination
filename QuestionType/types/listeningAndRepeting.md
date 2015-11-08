@@ -1,4 +1,4 @@
-#listening And Repeting (会话跟读)
+#ListeningAndRepeting(会话跟读)
 
 ##实际样题
 
@@ -8,17 +8,21 @@
 
 	{
 		"id": 1,
-		"type": "listening And Repeting",
+		"type": "ListeningAndRepeting",
 		"level": 3,
 		"duration": 10,
 		"flowable": ture,
 		"recommendation-point": 2,
-		"stem": "An audio",git
-
+		"stem": "An audio",
+		"src": {
+			"audio": "会话音频地址"
+		},
 		"questions": [
 			{
 				"type": "Record",
-				"strict": false
+				"strict": false,
+				"reference-answer": "参考答案",
+				"reference-answer": "答案解析"
 			}
 		]
 	}
