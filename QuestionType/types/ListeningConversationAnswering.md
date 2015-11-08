@@ -18,7 +18,7 @@ A audio
 		},
 		"questions": [
 			{
-				"type": Record,
+				"type": "Record",
 				"pause": 10,			
 				"src": { 		
 					"audio": "音频地址"
