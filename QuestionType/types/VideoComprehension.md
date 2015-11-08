@@ -1,4 +1,4 @@
-#Listening Video
+#VideoComprehension(视频理解)
 
 ##实际样题
 
@@ -50,15 +50,19 @@ D) To explain the increase of international oil trade.
 
 	{
 		"id": 1,
-		"type": "Listening Video",
+		"type": "VideoComprehension",
 		"level": 3,
 		"duration": 10,
 		"flowable": ture,
 		"recommendation-point": 2,
 		"stem": "A Video",
+		"src": {
+			"video": "视频地址"
+		}
 		"questions": [
 			{
 				"type": "SingleChoice",
+				"shuffle": true,
 				"stem": "What does the author say about energy independence for America?",
 				"options": [
 					"It sounds very attractive.",
@@ -66,10 +70,13 @@ D) To explain the increase of international oil trade.
 					"It will bring oil prices down.",
 					"It has long been everyone’s dream."
 				],
+				"strict": true,
 				"reference-answer": 0,
+				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
+				"shuffle": true,
 				"stem": "What does the author think of biofuels?",
 				"options": [
 					"They keep America’s economy running healthily.",
@@ -77,10 +84,13 @@ D) To explain the increase of international oil trade.
 					"They do not provide a sustainable energy supply.",
 					"They cause serious damage to the environment."
 				],
+				"strict": true,
 				"reference-answer": 2,
+				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
+				"shuffle": true,
 				"stem": "Why does America rely heavily on oil imports?",
 				"options": [
 					"It wants to expand its storage of crude oil.",
@@ -88,10 +98,13 @@ D) To explain the increase of international oil trade.
 					"It wants to keep its own environment intact.",
 					"Its own oil production falls short of demand."
 				],
-				"reference-answer": 3,
+				"strict": true,
+				"reference-answer": 0,
+				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
+				"shuffle": true,
 				"stem": "What does the author say about oil trade?",
 				"options": [
 					"It proves profitable to both sides.",
@@ -99,10 +112,13 @@ D) To explain the increase of international oil trade.
 					"It makes for economic prosperity.",
 					"It saves the cost of oil exploration."
 				],
-				"reference-answer": 3,
+				"strict": true,
+				"reference-answer": 0,
+				"answer-analysis": "答案解析"
 			},
 			{
 				"type": "SingleChoice",
+				"shuffle": true,
 				"stem": "What is the author’s purpose in writing the passage?",
 				"options": [
 					"To justify America’s dependence on oil imports.",
@@ -110,7 +126,9 @@ D) To explain the increase of international oil trade.
 					"To stress the importance of energy conservation.",
 					"To explain the increase of international oil trade."
 				],
-				"reference-answer": 3,
+				"strict": true,
+				"reference-answer": 0,
+				"answer-analysis": "答案解析"
 			}
 		]
 	}
