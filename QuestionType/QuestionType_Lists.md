@@ -11,7 +11,6 @@
 7. [听力复合式听写(ListeningCompoundDictation)](types/ListeningCompoundDictation.md)
 8. [短文听力(ListeningPassage)](types/ListeningPassage.md)
 9. [快速阅读(Skimming&Scanning)](types/Skimming&Scanning.md)
+10. [短文改错(PassageErrorCorrection)](types/PassageErrorCorrection.md)
 
 
-
-[听力情景对话(ListeningSituationConversation)](types/ListeningSituationConversation.md)
