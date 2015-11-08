@@ -6,7 +6,7 @@ All of you friends will **support** you.
 
 A. stand up for
 B. be against
-c. care for
+C. care for
 D. stand around
 
 ##JSON结构
