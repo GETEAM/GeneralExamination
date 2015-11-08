@@ -9,7 +9,8 @@
 5. [听力短对话(ListeningShortConversation)](types/ListeningShortConversation.md)
 6. [听力长对话(ListeningLongConversation)](types/ListeningLongConversation.md)
 7. [听力复合式听写(ListeningCompoundDictation)](types/ListeningCompoundDictation.md)
-8. [快速阅读(Skimming&Scanning)](types/Skimming&Scanning.md)
+8. [短文听力(ListeningPassage)](types/ListeningPassage.md)
+9. [快速阅读(Skimming&Scanning)](types/Skimming&Scanning.md)
 
 
 
