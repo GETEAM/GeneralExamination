@@ -1,4 +1,4 @@
-#ListeningCompoundDictation
+#ListeningCompoundDictation(复合式听力)
 
 ##实际样题
 
