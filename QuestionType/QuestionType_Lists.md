@@ -22,4 +22,5 @@
 2. [话题评述(TopicComment)](types/TopicComment.md)
 3. [口语问答(OralQuestionAnswer)](types/OralQuestionAnswer.md)
 4. [图片评述(PictureComment)](types/PictureComment.md)
+5. [听对话回答问题(ListeningConversationAnswering)](types/ListeningConversationAnswering.md)
 
