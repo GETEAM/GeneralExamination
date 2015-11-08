@@ -20,3 +20,4 @@
 
 1. [朗读(ReadAloud)](types/ReadAloud.md)
 2. [话题评述(TopicComment)](types/TopicComment.md)
+3. [口语问答(OralQuestionAnswer)](types/OralQuestionAnswer.md)

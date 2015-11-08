@@ -12,14 +12,13 @@ A audio(How does your family usually celebrate Chinese New Year?)
 		"level": 4,						
 		"duration": 10,					
 		"flowable": true,				
-		"recommendation-point": 5,		
-		"stem": "一段音频",
+		"recommendation-point": 5,                                                                                         
 		"src": { 	
 			"audio": "音频地址"
 		},
 		"questions": [
 			{
-				"type": "record",
+				"type": "Record",
 				"pause": 300,			
 				"strict": false,
 				"reference-answer": "I think it’s so hard to tell. When look up the word “life” in
