@@ -1,4 +1,4 @@
-#SingleBlankFilling(单词变形填空)
+#WordVariantBlankFilling(单词变形填空)
 
 ##实际样题
 
@@ -8,7 +8,7 @@ January1st, 1937, is the historic date when Britain ________(join)the Common Mar
 
 	{
 		"id": 1,						
-		"type": "SingleBlankFilling",			
+		"type": "WordVariantBlankFillingss",			
 		"level": 2",						
 		"duration": 1,					
 		"flowable": false,				
