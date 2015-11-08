@@ -9,7 +9,6 @@ The disappearance of these three activists remained in the public eye for the mo
 James Chaney, Andrew Goodman and Michael Schwerner were all white volunteers.
 
 1. T
-
 2. F
 
 ##JSON结构
