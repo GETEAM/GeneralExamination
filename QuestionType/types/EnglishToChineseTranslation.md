@@ -1,4 +1,4 @@
-#English To Chinese Translation(英译汉翻译)
+#EnglishToChineseTranslation(英译汉翻译)
 
 ##实际样题
 
