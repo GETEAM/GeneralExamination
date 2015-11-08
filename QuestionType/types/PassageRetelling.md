@@ -22,7 +22,7 @@ Listen to the story twice and then retell it.  You'll have one minute to prepare
 		"questions": [
 			{
 				"type": Record,
-				"pause": 150 //此处单位为秒			
+				"pause": 150,			
 				"strict": false,
 				"reference-answer": "question的参考答案",		
 				"answer-analysis": "参考答案解析"
