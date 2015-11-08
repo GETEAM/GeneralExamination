@@ -13,4 +13,6 @@
 9. [快速阅读(Skimming&Scanning)](types/Skimming&Scanning.md)
 10. [短文改错(PassageErrorCorrection)](types/PassageErrorCorrection.md)
 
+##口语考试样题
 
+1. [朗读(ReadAloud)](types/ReadAloud.md)
