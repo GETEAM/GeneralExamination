@@ -13,13 +13,13 @@
 		"duration": 3,					
 		"flowable": true,				
 		"recommendation-point": 10,		
-		"stem": "A picture",
 		"src": {
 			"image": "图片地址"
 		},
 		"questions": [
 			{
-				"type": "Record",			
+				"type": "Record",
+				"pause":120,		
 				"strict": false,
 				"reference-answer": "略",		
 				"answer-analysis": "参考答案解析"
