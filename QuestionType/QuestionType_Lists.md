@@ -47,10 +47,12 @@
 6. [句子排序(ArrangingSentencesIntoParagraph)](types/ArrangingSentencesIntoParagraph.md)
 7. [段落排序(ArrangingParagraphsIntoPassage)](types/ArrangingParagraphsIntoPassage.md)
 8. [句子改错(SentenceErrorCorrection)](types/SentenceErrorCorrection.md)
+9. [阅读单词填空(PassageBlankFilling)](types/PassageBlankFilling.md)
 
 ##高等院校英语应用考试新增题型
 
 1. [听力简答(ListeningShortAnswer)](types/ListeningShortAnswer.md)
 2. [阅读匹配题(ReadingMatch)](types/ReadingMatch.md)
 3. [阅读理解填空(ReadingCloze)](types/ReadingCloze.md)
+
 
