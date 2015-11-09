@@ -1,5 +1,9 @@
 #试题类型列表
 
+##基础题
+
+1. [单选题(SingleChoice)](types/SingleChoice.md)
+
 ##四、六级样题
 
 1. [写作(Writing)](types/Writing.md)
@@ -41,3 +45,9 @@
 5. [阅读理解简答题(ReadingShortAnswerQuestion)](types/ReadingShortAnswerQuestion.md)
 6. [句子排序(ArrangingSentencesIntoParagraph)](types/ArrangingSentencesIntoParagraph.md)
 7. [段落排序(ArrangingParagraphsIntoPassage)](types/ArrangingParagraphsIntoPassage.md)
+8. [句子改错(SentenceErrorCorrection)](types/SentenceErrorCorrection.md)
+
+##高等院校英语应用考试新增题型
+
+1. [听力简答(ListeningShortAnswer)](types/ListeningShortAnswer.md)
+

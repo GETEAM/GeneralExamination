@@ -1,19 +1,19 @@
-#Sentence Error Correction (句子改错)
+#SentenceErrorCorrection(句子改错)
 
 ##实际样题
 
-It took Jack two hours climb the mountain . _______  
+It took Jack two hours climb the mountain. _______  
 
 ##JSON结构
 
 	{
 		"id": 1,						
-		"type": "Sentence Error Correction",			
+		"type": "SentenceErrorCorrection",			
 		"level": 2,						
 		"duration": 1,					
 		"flowable": false,				
 		"recommendation-point": 1,		
-		"stem": "It took Jack two hours climb the mountain . _______  ",
+		"stem": "It took Jack two hours climb the mountain. _______  ",
 		"questions": [
 			{
 				"type": "BlankFilling",	
