@@ -51,4 +51,5 @@
 ##高等院校英语应用考试新增题型
 
 1. [听力简答(ListeningShortAnswer)](types/ListeningShortAnswer.md)
+2. [阅读匹配题(ReadingMatch)](types/ReadingMatch.md)
 
