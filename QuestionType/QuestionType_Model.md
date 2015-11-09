@@ -35,7 +35,7 @@
 					"audio": "音频地址",
 					"video": "视频体质"
 				},		
-				options: [		//question的各个选项
+				"options": [		//question的各个选项
 					"option1",
 					"option2",
 					"option3",

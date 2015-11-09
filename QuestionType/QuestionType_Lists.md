@@ -3,6 +3,7 @@
 ##基础题
 
 1. [单选题(SingleChoice)](types/SingleChoice.md)
+2. [多选题(MultipleChoice)](types/MultipleChoice.md)
 
 ##四、六级样题
 

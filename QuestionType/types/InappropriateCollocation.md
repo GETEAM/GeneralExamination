@@ -24,7 +24,7 @@ D. For almost three years,emails have been passing between the American and him.
 			{
 				"type": "SingleChoice",
 				"shuffle": true, 			
-				options: [		
+				"options": [		
 					"He speaks American English well enough to pss by an American.",
 					"He walked on the street the orther day and happened to pass by an American.",
 					"He walked out to the front door quickly and was passed for the thief.",

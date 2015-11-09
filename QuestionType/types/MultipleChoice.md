@@ -24,7 +24,7 @@ D. establish
 				"type": "MultipleChoice",
 				"shuffle": true, 				
 				"strict": true,	
-				options: [		
+				"options": [		
 					"abolish",
 					"accomplish",
 					"distinguish",

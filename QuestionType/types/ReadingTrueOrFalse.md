@@ -25,7 +25,7 @@ James Chaney, Andrew Goodman and Michael Schwerner were all white volunteers.
 			{
 				"type": "TrueOrFalse",
 				"stem": "James Chaney, Andrew Goodman and Michael Schwerner were all white volunteers.",
-				options: [		
+				"options": [		
 					"T",
 					"F",
 				],
