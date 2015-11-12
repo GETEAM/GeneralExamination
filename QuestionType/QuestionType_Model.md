@@ -13,9 +13,10 @@
 		"duration": "试题所需时长",					
 		"flowable": "试题是否为流程性试题，true为是，false为否",				
 		"recommendation-point": "建议每小题的指定分数",		
+		"direction": "试题item的direction",
 		"stem": "试题题干",
 		"src": { 		//题干中包含的视频、音频以及图片的地址
-			"image": "图片地址"，
+			"image": "图片地址",
 			"audio": "音频地址",
 			"video": "视频体质"
 		},
@@ -27,11 +28,11 @@
 		"questions": [			//试题item所包含的所有问题数组，数组中的每个元素为一个question，每个question为一个对象
 			{
 				"type": "question的类型",	// SingleAnswer(简答)、BlankFilling(填空）、SingleChoice(单选）、MultipleChoice(多选)、Record(录音）
-				"pause": "当有需要时，如听力播放完成后的暂停时间"， //此处单位为秒
+				"pause": "当有需要时，如听力播放完成后的暂停时间", //此处单位为秒
 				"shuffle": true, //只有当type为多选或者单选时，该选项才有效			
 				"stem": "question题干",	
 				"src": { 		//题干中包含的视频、音频以及图片的地址
-					"image": "图片地址"，
+					"image": "图片地址",
 					"audio": "音频地址",
 					"video": "视频体质"
 				},		
