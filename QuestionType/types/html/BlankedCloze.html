@@ -187,16 +187,16 @@
 		}
 
 		//试题item的direnction
-		var ItemDirection = React.createClass({
-			render: function() {
-				return (
-					<div className="item-direction">
-						<span className="direction-title">Directions: </span>
-						<span className="direction-content">{this.props.direction}</span>
-					</div>
-				);
-			}
-		});
+		// var ItemDirection = React.createClass({
+		// 	render: function() {
+		// 		return (
+		// 			<div className="item-direction">
+		// 				<span className="direction-title">Directions: </span>
+		// 				<span className="direction-content">{this.props.direction}</span>
+		// 			</div>
+		// 		);
+		// 	}
+		// });
 
 		//试题item题干
 		var ItemStem = React.createClass({
@@ -279,8 +279,7 @@
 			render: function() {
 				var itemOptions = this.props.data['item-options'] ?　<ItemOptions options={this.props.data['item-options']} /> : '';
 				return (
-					<div className="item-box">
-						<ItemDirection direction={this.props.data.direction} />
+					<div className="item">
 						<ItemStem stem={this.props.data.stem} />
 						{itemOptions}
 						<ItemQuestions questions={this.props.data.questions} itemOptionsNum={this.props.data['item-options'].length ? this.props.data['item-options'].length : 0} itemId={this.props.data.id} /> 

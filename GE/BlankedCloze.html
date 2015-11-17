@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>选词填空</title>
+	<link rel="stylesheet" href="lib/bootstrap-3.3.5-dist/css/bootstrap.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			line-height: 1.4;
+			font-size: 18px;
+		}
+		#content {
+			width: 1080px;
+			margin: 0 auto;
+			border: 1px solid #666;
+			border-radius: 5px;
+			padding: 10px;
+		}
+		h1 {
+			padding-bottom: 5px;
+			border-bottom: 1px solid #666;
+		}
+		#item-content {
+			padding: 0 10px;
+		}
+		.item-direction {
+			font-size: 16px;
+			margin-bottom: 5px;
+		}
+		.direction-title {
+			font-weight: bold;
+		}
+		.item-stem {
+			text-indent: 2em;
+		}
+		.item-options {
+			min-width: 60%;
+			max-width: 90%;
+			width: auto;
+			margin: 0 auto 20px;
+		}
+		.item-questions {
+			border-radius: 5px;
+			background-color: #eee;
+			padding: 10px;
+			font-size: 12px;
+		}
+		label.question-option {
+			font-weight: normal;
+		}
+		.question-option input {
+			display: none;
+		}
+		.question-option span {
+			display: inline-block;
+			opacity: 0.7;
+			/*width: 3em;*/
+			text-align: center;
+			margin: 5px 5px;
+			border-radius: 5px;
+			background-color: #ccc;
+		}
+		.question-option span:hover {
+			opacity: 1;
+		}
+		.question-option input:checked + span {
+			opacity: 1;
+			background-color: lightgreen;
+		}
+		.question-stem {
+			display: inline-block;
+			/*width: 2em;*/
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="content">
+		<h1>选词填空</h1>
+		<div id="item-content"></div>
+	</div>
+	<script>
+		Array.prototype.shuffle = function() {
+			var newArr = [];
+			for( var i = 0, len = this.length; i < len; i++ ){
+				newArr.push(this[i]);
+			}
+			for( var i = 0, newLen = newArr.length; i < newLen; i++ ){
+				var random = Math.floor( Math.random() * newLen );
+				var temp = newArr[random];
+				newArr[random] = newArr[i];
+				newArr[i] = temp;
+			}
+			return newArr;
+		}
+	</script>
+	<script type="text/babel">
+		var capitalLetterArr = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+		//单选试题
+		var item = 
+			{			
+				"id": "item007",
+				"stem": "Global warming is a trend toward warmer conditions around the world. Part of the warming is natural; we have experienced a 20,000 -year -long warming as the last ice age ended and the ice ( 1 ) away. However, we have already reached temperatures that are in ( 2 ) with other minimum-ice periods, so continued warming is likely not natural. We are ( 3 ) to a predicted worldwide increase in temperatures ( 4 ) between 1℃ and 6℃ over the next 100 years. The warming will be more ( 5 ) in some areas, less in others, and some places may even cool off. Likewise, the ( 6 ) of this warming will be very different depending on where you are—coastal areas must worry about rising sea levels, while Siberia and northern Canada may become more habitable (宜居的) and ( 7 ) for humans than these areas are now. <br>The fact remains, however, that it will likely get warmer, on ( 8 ) , everywhere. Scientists are in general agreement that the warmer conditions we have been experiencing are at least in part the result of a human-induced global warming trend. Some scientists ( 9 ) that the changes we are seeing fall within the range of random (无规律的) variation—some years are cold, others warm, and we have just had an unremarkable string of warm years ( 10 ) —but that is becoming an increasingly rare interpretation in the face of continued and increasing warm conditions.<br/><img src='http://pica.nipic.com/2008-03-19/2008319183523380_2.jpg' width='500' height='300' />",//图片和item json文件存储在同一个文件夹 所以不用存相对路径
+				"length": "500",
+				"shuffle": true,
+				"preShow": "是否提前显示小题",
+				"questions": [
+							{
+								"type": "SingleChoice",
+								"shuffle": true,
+								"stem": "What does the author say about energy independence for America?",
+								"options": [
+									"It sounds very attractive.",
+									"It ensures national security.",
+									"It will bring oil prices down.",
+									"It has long been everyone’s dream."
+								],
+								"strict": true,
+								"reference-answer": 0,
+								"answer-analysis": "答案解析"
+							},
+							{
+								"type": "SingleChoice",
+								"shuffle": true,
+								"stem": "What does the author think of biofuels?",
+								"options": [
+									"They keep America’s economy running healthily.",
+									"They prove to be a good alternative to petroleum.",
+									"They do not provide a sustainable energy supply.",
+									"They cause serious damage to the environment."
+								],
+								"strict": true,
+								"reference-answer": 2,
+								"answer-analysis": "答案解析"
+							},
+							{
+								"type": "SingleChoice",
+								"shuffle": true,
+								"stem": "Why does America rely heavily on oil imports?",
+								"options": [
+									"It wants to expand its storage of crude oil.",
+									"Its own oil reserves are quickly running out.",
+									"It wants to keep its own environment intact.",
+									"Its own oil production falls short of demand."
+								],
+								"strict": true,
+								"reference-answer": 3,
+								"answer-analysis": "答案解析"
+							},
+							{
+								"type": "SingleChoice",
+								"shuffle": true,
+								"stem": "What does the author say about oil trade?",
+								"options": [
+									"It proves profitable to both sides.",
+									"It improves economic efficiency.",
+									"It makes for economic prosperity.",
+									"It saves the cost of oil exploration."
+								],
+								"strict": true,
+								"reference-answer": 3,
+								"answer-analysis": "答案解析"
+							},
+							{
+								"type": "SingleChoice",
+								"shuffle": true,
+								"stem": "What is the author’s purpose in writing the passage?",
+								"options": [
+									"To justify America’s dependence on oil imports.",
+									"To arouse Americans’ awareness of the energy crisis.",
+									"To stress the importance of energy conservation.",
+									"To explain the increase of international oil trade."
+								],
+								"strict": true,
+								"reference-answer": 3,
+								"answer-analysis": "答案解析"
+							}
+						]
+			};
+
+		//小题Question中的答题区域部分
+		var SingleChoice = React.createClass({
+			render: function() {
+				var options = this.props.options;
+				var name = this.props.name;
+				var showOption = this.props.showOption;
+				var answer_area = [];
+
+				for(var i = 0; i < options.length; i++) {
+					var option = 
+						<label className="question-option">
+							<input type="radio" name={name} value={options[i]} />
+							<span className={showOption ? "showOption" : "hideOption"}>{capitalLetterArr[i]}{showOption ? options[i] : ''}</span>
+						</label>;
+					answer_area.push(option);
+				}
+				return (
+					<div className="answer_area">
+						{answer_area}
+					</div>
+				)
+			}
+		});
+
+		//试题item中包含的小题Question
+		var Question = React.createClass({
+			render: function() {
+				var item_options = this.props.itemOptions;
+				var question = this.props.data;
+				var item_id = this.props.itemId;
+				var order_num = this.props.orderNum;
+				var type = question.type;
+
+				var question_id = item_id + '_' + order_num;
+				var question_stem = question.stem 
+					? <div className="question-stem">{question.stem}</div> 
+					: '';
+				var answer_area;
+
+				//当item_options存在时，小题默认为单选题
+				if(item_options) {
+					//展示选项时，是否展示选项内容
+					var showOption = false;
+					answer_area = <SingleChoice options={item_options} name={question_id} showOption={showOption} />
+				}else {
+					if(type = "SingleChoice") {
+						//展示选项时，是否展示选项内容
+						var showOption = true;
+ 						answer_area = <SingleChoice options={question.options} name={question_id} showOption={showOption} />
+					}else if(type = "SimpleAnswer") {
+						answer_area = <SimpleAnswer />
+					}else if(type = "BlankFilling") {
+						answer_area = <BlankFilling />
+					}
+				}
+
+				return (
+					<div id={question_id} className="question">
+						<div className="question_order_num">{order_num + 1}</div>
+						<div className="question_content">
+							{question_stem}
+							{answer_area}
+						</div>
+					</div>
+				);
+			}
+		});
+
+		//试题item题干
+		var ItemStem = React.createClass({
+			render: function() {
+				//题干的长度
+				var length = this.props.length ? '(' + this.props.length + " words)" : "";
+				var stem = {
+					'__html': this.props.stem + length
+				}
+				return (
+					<div className="item-stem" dangerouslySetInnerHTML={stem}></div>
+				);
+			}
+		}); 
+
+		//试题item的options
+		var ItemOptions = React.createClass({
+			optionsToTableRows: function() {
+				/*将item的options转化为表格的形式展示，该函数将options变为表格的rows*/
+
+				var options = this.props.options;
+				var tableRows = [];
+
+				for( var i = 0, len = options.length; i < len; i = i + 2 ){
+					var td2 = options[i+1] ? <td>{capitalLetterArr[i+1]}.{options[i+1]}</td> : <td></td>;
+					var tempRow = 
+						<tr>
+							<td>{capitalLetterArr[i]}.{options[i]}</td>
+							{td2}
+						</tr>;
+					tableRows.push(tempRow);
+				}
+
+				return tableRows;
+			},
+			render: function() {
+				var options = this.props.options;
+				return (
+					<table className="table table-bordered table-striped table-condensed item-options">
+						<tbody>
+							{this.optionsToTableRows()}
+						</tbody>
+					</table>
+				)
+			}
+		});
+
+		//试题item内的questions
+		var ItemQuestions = React.createClass({
+			render: function() {
+				var item_options = this.props.itemOptions;
+				var questions = this.props.questions;
+				var item_id = this.props.itemId;
+
+				var questionsArr = questions.map(function( v, i, arr ){
+					return (
+						<Question data={v} itemOptions={item_options} itemId={item_id} orderNum={i} />
+					);
+				});
+				return (
+					<div className="item-questions">
+						{questionsArr}
+					</div>
+				);
+			}
+		});
+
+		//试题item框
+		var Item  = React.createClass({
+			render: function() {
+				//shuffle指定item的options是否打乱
+				var shuffle = this.props.data.shuffle ? true : false;
+
+				//因为item的options的顺序打乱，会关系到questions选项的打乱，所以item的options在这个地方做处理
+				var options = this.props.data.options 
+								? ( shuffle ? this.props.data.options.shuffle() : this.props.data.options ) 
+								: ""; 
+				var item_options = options ?　<ItemOptions options={options} /> : '';
+
+				return (
+					<div className="item">
+						<ItemStem stem={this.props.data.stem} length={this.props.data.length} />
+						{item_options}
+						<ItemQuestions questions={this.props.data.questions} itemOptions={options} itemId={this.props.data.id} /> 
+					</div>
+				);
+			}
+		});
+
+		ReactDOM.render(
+			<Item data={item} />,
+			document.getElementById('item-content')
+		);
+	</script>
+</body>
+</html>
+ 
