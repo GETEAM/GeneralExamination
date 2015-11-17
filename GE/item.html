@@ -112,7 +112,7 @@
 				"length": "500",
 				"shuffle": true,
 				"preShow": "是否提前显示小题",
-				"questions": [
+				"questions": [			
 							{
 								"type": "SingleChoice",
 								"shuffle": true,
@@ -128,72 +128,26 @@
 								"answer-analysis": "答案解析"
 							},
 							{
-								"type": "SingleChoice",
-								"shuffle": true,
-								"stem": "What does the author think of biofuels?",
-								"options": [
-									"They keep America’s economy running healthily.",
-									"They prove to be a good alternative to petroleum.",
-									"They do not provide a sustainable energy supply.",
-									"They cause serious damage to the environment."
-								],
+								"type": "BlankFilling",
 								"strict": true,
-								"reference-answer": 2,
-								"answer-analysis": "答案解析"
-							},
-							{
-								"type": "SingleChoice",
-								"shuffle": true,
-								"stem": "Why does America rely heavily on oil imports?",
-								"options": [
-									"It wants to expand its storage of crude oil.",
-									"Its own oil reserves are quickly running out.",
-									"It wants to keep its own environment intact.",
-									"Its own oil production falls short of demand."
-								],
+								"reference-answer": "strong belief",		
+								"answer-analysis": "参考答案解析"
+							},{
+								"type": "SimpleAnswer",
 								"strict": true,
-								"reference-answer": 3,
-								"answer-analysis": "答案解析"
-							},
-							{
-								"type": "SingleChoice",
-								"shuffle": true,
-								"stem": "What does the author say about oil trade?",
-								"options": [
-									"It proves profitable to both sides.",
-									"It improves economic efficiency.",
-									"It makes for economic prosperity.",
-									"It saves the cost of oil exploration."
-								],
-								"strict": true,
-								"reference-answer": 3,
-								"answer-analysis": "答案解析"
-							},
-							{
-								"type": "SingleChoice",
-								"shuffle": true,
-								"stem": "What is the author’s purpose in writing the passage?",
-								"options": [
-									"To justify America’s dependence on oil imports.",
-									"To arouse Americans’ awareness of the energy crisis.",
-									"To stress the importance of energy conservation.",
-									"To explain the increase of international oil trade."
-								],
-								"strict": true,
-								"reference-answer": 3,
-								"answer-analysis": "答案解析"
+								"reference-answer": "ending place",		
+								"answer-analysis": "参考答案解析"
 							}
-						]
+				]
 			};
 
-		//小题Question中的答题区域部分
+		//小题Question中的答题区域部分————单选题
 		var SingleChoice = React.createClass({
 			render: function() {
 				var options = this.props.options;
 				var name = this.props.name;
 				var showOption = this.props.showOption;
 				var answer_area = [];
-
 				for(var i = 0; i < options.length; i++) {
 					var option = 
 						<label className="question-option">
@@ -210,11 +164,35 @@
 			}
 		});
 
+		//小题Question中的答题区域部分————填空题
+		var BlankFilling = React.createClass({
+			render: function() {
+				var answer_area = <input type="text" placeholder="请输入答案" />;
+				return (
+					<div className="answer_area">
+						{answer_area}
+					</div>
+				)
+			}
+		});
+
+		//小题Question中的答题区域部分————简答题
+		var SimpleAnswer = React.createClass({
+			render: function() {
+				var answer_area = <textarea placeholder="请输入答案" ></textarea>;
+				return (
+					<div className="answer_area">
+						{answer_area}
+					</div>
+				)
+			}
+		});
+
 		//试题item中包含的小题Question
 		var Question = React.createClass({
 			render: function() {
 				var item_options = this.props.itemOptions;
-				var question = this.props.data;
+				var question = this.props.question;
 				var item_id = this.props.itemId;
 				var order_num = this.props.orderNum;
 				var type = question.type;
@@ -231,13 +209,14 @@
 					var showOption = false;
 					answer_area = <SingleChoice options={item_options} name={question_id} showOption={showOption} />
 				}else {
-					if(type = "SingleChoice") {
+				//当item_options不存在时，判断小题类型，再做相应处理
+					if(type == "SingleChoice") {
 						//展示选项时，是否展示选项内容
 						var showOption = true;
  						answer_area = <SingleChoice options={question.options} name={question_id} showOption={showOption} />
-					}else if(type = "SimpleAnswer") {
+					}else if(type == "SimpleAnswer") {
 						answer_area = <SimpleAnswer />
-					}else if(type = "BlankFilling") {
+					}else if(type == "BlankFilling") {
 						answer_area = <BlankFilling />
 					}
 				}
@@ -309,7 +288,7 @@
 
 				var questionsArr = questions.map(function( v, i, arr ){
 					return (
-						<Question data={v} itemOptions={item_options} itemId={item_id} orderNum={i} />
+						<Question question={v} itemOptions={item_options} itemId={item_id} orderNum={i} />
 					);
 				});
 				return (
@@ -323,27 +302,29 @@
 		//试题item框
 		var Item  = React.createClass({
 			render: function() {
+				var item = this.props.item;
+
 				//shuffle指定item的options是否打乱
-				var shuffle = this.props.data.shuffle ? true : false;
+				var shuffle = item.shuffle ? true : false;
 
 				//因为item的options的顺序打乱，会关系到questions选项的打乱，所以item的options在这个地方做处理
-				var options = this.props.data.options 
-								? ( shuffle ? this.props.data.options.shuffle() : this.props.data.options ) 
+				var options = item.options 
+								? ( shuffle ? item.options.shuffle() : item.options ) 
 								: ""; 
 				var item_options = options ?　<ItemOptions options={options} /> : '';
 
 				return (
 					<div className="item">
-						<ItemStem stem={this.props.data.stem} length={this.props.data.length} />
+						<ItemStem stem={item.stem} length={item.length} />
 						{item_options}
-						<ItemQuestions questions={this.props.data.questions} itemOptions={options} itemId={this.props.data.id} /> 
+						<ItemQuestions questions={item.questions} itemOptions={options} itemId={item.id} /> 
 					</div>
 				);
 			}
 		});
 
 		ReactDOM.render(
-			<Item data={item} />,
+			<Item item={item} />,
 			document.getElementById('item-content')
 		);
 	</script>
