@@ -14,13 +14,10 @@ Englishmen like food from other countries,  especially from France,  China,  Ita
 ##JSON结构
 
 	{
-		"id": 1,						
-		"type": "ReadingCloze",			
-		"level": 3,						
-		"duration": 8,					
-		"flowable": false,				
-		"recommendation-point": 2,		
+		"id": 1,							
 		"stem": "<p data-anchor-id="1iuk">English breakfast is a big meal: eggs,  tomatoes,  tea,  coffee. . . For many people,  lunch is a quick meal.  In cities,  there are a lot of sandwich bars.  There office workers can buy their favorite bread-brown,  white,  or a roll and even all kinds of salad,  meat and  fish.  School children can have a hot meal at school.  But many just take a sandwich,  a soft drink and some fruit from home."Tea" means two things.  It is a drink and also a meal!  Some people have afternoon tea with sandwiches,  cakes and a cup of tea.     They usually have the evening meal quite late,  between 6: 00 pm and 8: 00 pm,  and often all the family  eat together. On Sundays,  many families have a traditional lunch.  They have chicken,  pork with potatoes, vegetables. . . <br>Englishmen like food from other countries,  especially from France,  China,  Italy and India.  People often get take-away food. they buy the food outside and then bring it home to eat.</p>",
+		"length": 550,
+		"preShow": true,
 		"questions": [
 			{
 				"type": "BlankFilling",		
@@ -56,6 +53,6 @@ Englishmen like food from other countries,  especially from France,  China,  Ita
 				"strict": true,	
 				"reference-answer": "take-away  food",		
 				"answer-analysis": "参考答案解析"
-			},
+			}
 		]
 	}

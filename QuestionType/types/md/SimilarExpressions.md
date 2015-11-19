@@ -15,18 +15,13 @@ D. stand around
 ##JSON结构
 
 	{
-		"id": 1,						
-		"type": "SimilarExpressions",			
-		"level": 2,						
-		"duration": 1,					
-		"flowable": false,				
-		"recommendation-point": 1,		
+		"id": 1,								
 		"stem": "All of you friends will support you.",
+		"preShow": true,
 		"questions": [
 			{
 				"type": "SingleChoice",
 				"shuffle": true,
-				"stem": "All of you friends will **support** you.",
 				"options": [   
 					"stand up for",
 					"be against",

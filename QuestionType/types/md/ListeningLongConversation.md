@@ -38,23 +38,14 @@ D. Her father said she could marry Eric right away.
 
 	{
 	    "id": 1,
-		"type": "ListeningLongConversation",
-		"level": 3,
-		"duration": 10,
-		"flowable": ture,
-		"recommendation-point": 1,
-		"stem": "Followed 3 questions are based on the long conversation you have just heard.",
-		"src": {
-			"audio": "item题干音频"
-		},
+		"stem": "Followed 3 questions are based on the long conversation you have just heard.<audio src="abc.mp3">",
+		"preShow": true,
 		"questions"：[
 			{
 				"type": "SingleChoice",
 				"shuffle": true,
 				"pause": 3,
-				"src": {
-					"audio": "question题干音频"
-				},
+				"stem": "<audio src="abc.mp3">",
 				"options": [
 			  		"He teaches in a law school.",
 			  		"He loves classical music.",
@@ -69,9 +60,7 @@ D. Her father said she could marry Eric right away.
 				"type": "SingleChoice",
 				"shuffle": true,
 				"pause": 3,
-				"src": {
-					"audio": "question题干音频"
-				},
+				"stem": "<audio src="abc.mp3">",
 				"options": [
 			  		"Went to see a play.",
 			  		"Watched a soccer game.",
@@ -86,9 +75,7 @@ D. Her father said she could marry Eric right away.
 				"type": "SingleChoice",
 				"shuffle": true,
 				"pause": 3,
-				"src": {
-					"audio": "question题干音频"
-				},
+				"stem": "<audio src="abc.mp3">",
 				"options": [
 			 		"She decided to get married in three years.",
 			  		"Her mother objected to Eric’s flying lessons.",

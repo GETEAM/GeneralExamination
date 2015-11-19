@@ -13,13 +13,9 @@ D. For almost three years,emails have been passing between the American and him.
 ##JSON结构
 
 	{
-		"id": 1,						
-		"type": "InappropriateCollocation",			
-		"level": 1,						
-		"duration": 1,					
-		"flowable": false,				
-		"recommendation-point": 1,		
+		"id": 1,								
 		"stem": "试题题干",
+		"preShow": true,
 		"questions": [	
 			{
 				"type": "SingleChoice",

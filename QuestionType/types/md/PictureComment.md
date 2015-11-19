@@ -8,18 +8,13 @@
 
 	{
 		"id": 1,						
-		"type": "PictureComment",			
-		"level": 3,						
-		"duration": 3,					
-		"flowable": true,				
-		"recommendation-point": 10,		
-		"src": {
-			"image": "图片地址"
-		},
+		"stem": "<img src="picture.jpg">",
+		"preShow": true,	
 		"questions": [
 			{
 				"type": "Record",
-				"pause":120,		
+				"pause":120,	
+				"stem": "录音提示音<audio src="abc.mp3">",	
 				"strict": false,
 				"reference-answer": "略",		
 				"answer-analysis": "参考答案解析"

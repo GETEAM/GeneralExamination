@@ -58,15 +58,8 @@ D) To explain the increase of international oil trade.
 
 	{
 		"id": 1,
-		"type": "VideoComprehension",
-		"level": 3,
-		"duration": 10,
-		"flowable": ture,
-		"recommendation-point": 2,
-		"stem": "A Video",
-		"src": {
-			"video": "视频地址"
-		}
+		"stem": "A Video <video src="youku.mp4">",
+		"preShow":true,
 		"questions": [
 			{
 				"type": "SingleChoice",

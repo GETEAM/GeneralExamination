@@ -7,12 +7,7 @@
 ##JSON结构
 
 	{
-		"id": 1,						
-		"type": "ChineseToEnglishTranslation",			
-		"level": 4,						
-		"duration": 10,					
-		"flowable": false,				
-		"recommendation-point": 10,		
+		"id": 1,							
 		"stem": "就我所知，教育对一个社会的发展起着决定性的作用。",
 		"questions": [			
 			{

@@ -13,16 +13,9 @@ There are three questions based on the passage you have just heard;
 ##JSON结构
 
 	{
-		"id": 1,						
-		"type": "ListeningShortAnswer",			
-		"level": 4,						
-		"duration": 5,					
-		"flowable": true,				
-		"recommendation-point": 2,		
-		"stem": "There are three questions based on the passage you have just heard;",
-		"src": { 		
-			"audio": "音频地址"
-		},
+		"id": 1,								
+		"stem": "There are three questions based on the passage you have just heard;<audio src="abc.mp3">",
+		"preShow": true,
 		"questions": [	
 			{
 				"type": "BlankFilling",
