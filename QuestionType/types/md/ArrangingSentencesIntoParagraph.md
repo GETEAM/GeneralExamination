@@ -25,13 +25,7 @@ J. In New Orleans, when public schools admitted four young black girls to the fi
 ##JSON结构
 
 	{
-		"id": 1,						
-		"type": "ArrangingSentencesIntoParagraph",			
-		"level": 4,						
-		"duration": 10,					
-		"flowable": false,				
-		"recommendation-point": 2,		
-		"shuffle": true,
+		"id": 1,																	
 		"item-options": [ 	
 			"The fight for school integration had few supporters outside the black community.",			
 			"Five other states enacted laws requiring the NAACP to register and to provide lists of members and contributors.",
@@ -44,6 +38,8 @@ J. In New Orleans, when public schools admitted four young black girls to the fi
 			"In the meantime, the White Citizens Council (WCC), founded in Sunflower County, Mississippi, in 1956, organized local businessmen and civic leaders throughout the South.",
 			"In New Orleans, when public schools admitted four young black girls to the first grade, whites in the city rioted."
 		],
+		"shuffle": true,
+		"preShow":true,
 		"questions": [
 			{
 				"type": "BlankFilling",
