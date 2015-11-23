@@ -158,7 +158,7 @@
 		var PartOrderNum = 1;
 		var QuestionOrderNum = 1;
 
-		window.answer = JSON.parse(localStorage['answer']) || {};
+		window.answer = localStorage['answer'] ? JSON.parse(localStorage['answer']) : {};
 
 		var paper={
 		     "question-option-shuffle": true,
@@ -1137,7 +1137,7 @@
 				for(var i = 0; i < options.length; i++) {
 					var option = 
 						<label className={'question-option ' + ( showOption ? 'block' : 'inline' )}>
-							<input type="radio" name={question_id} value={options[i]} checked={question_answer == options[i] ? true : ''} />
+							<input type="radio" name={question_id} value={options[i]}  />
 							<span className={'option ' + ( showOption ? 'show-option' : 'hide-option' )}>
 								<span className="option-order-num">{capitalLetterArr[i]}</span>
 								<span className="option-content">{showOption ? options[i] : ''}</span>
@@ -1487,4 +1487,5 @@
 	</script>
 </body>
 </html>
+ 
  
