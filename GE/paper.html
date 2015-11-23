@@ -1332,14 +1332,13 @@
 				return next_group_time;
 			},
 			restTimeUpdate: function(rest_time) {
-				console.log(1111,rest_time,this.state.next_group_time)
+				//本地存储设置rest_time
+				localStorage['rest_time'] = rest_time;
 				if(rest_time <= this.state.next_group_time){
 					var grouping = this.state.grouping + 1;
-					console.log('ggggg',grouping);
 					var next_group_time = 0;
 					if(grouping < this.state.group_len){
 						var next_group_time = this.getNextGroupTime(grouping);
-						console.log('nnnn',next_group_time)
 					}
 					this.setState({
 						grouping: grouping,
