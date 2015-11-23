@@ -1,0 +1,172 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1.4;
+}
+.title {
+	font-weight: bold;
+}
+#content, #rest-time {
+	width: 1080px;
+	margin: 0 auto;
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 10px;
+}
+/*试卷相关样式*/
+.paper {
+	counter-reset: part 0 question 0;
+}
+.groups {
+	overflow: hidden;
+}
+.group {
+	height:0;
+	overflow:hidden;
+}
+.group.show {
+	height: auto;
+}
+.part {
+	counter-increment: part 1;
+	counter-reset: section 0;
+}
+.part-top {
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.part-top:before{
+	content: "Part "counter(part, upper-roman);
+	display: block;
+	float: left;
+}
+.part-duration {
+	float: right;
+}
+.part .section {
+	counter-increment: section 1;
+}
+.part .section:before {
+	display: block;
+	font-weight: bold;
+	content: "Section "counter(section, upper-alpha);
+}
+/*当part下只有一个section时，不显示section序号*/
+.part .section:only-child:before {
+	content: "";
+}
+.direction {
+	margin-bottom: 10px;
+}
+.direction-content {
+	font-style: oblique;
+}
+.item-stem {
+	margin-bottom: 10px;
+}
+.item-options {
+	min-width: 60%;
+	max-width: 90%;
+	width: auto;
+	margin: 0 auto 20px;
+	counter-reset: item-option 0;
+}
+.item-options td {
+	counter-increment: item-option 1;
+}
+.item-options td:before {
+	width: 2em;
+	text-align: center;
+	display: inline-block;
+	content: counter(item-option, upper-alpha)'.';
+}
+.questions {
+	border-radius: 5px;
+	background-color: #eee;
+	padding: 10px;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+.question {
+	margin-bottom: 10px;
+	counter-increment: question 1;
+	counter-reset: option-order-num 0;
+}
+.question:last-child {
+	margin-bottom: 0;
+}
+.question:before {
+	float: left;
+	width: 2em;
+	text-align: center;
+	content: counter(question)
+}
+.question .question-option {
+	counter-increment: option-order-num 1;
+}
+.question-option .option:before {
+	content: counter(option-order-num, upper-alpha);
+}
+.question-content {
+	overflow: hidden;
+}
+label.question-option {
+	font-weight: normal;
+}
+label:last-child {
+	margin-bottom: 0;
+}
+.question-option.block {
+	display: block;
+}
+.question-option input {
+	display: none;
+}
+.question-option .option {
+	display: inline-block;
+	opacity: 0.7;			
+	text-align: center;
+	margin: 0 5px;
+	padding: 0 8px;
+	border-radius: 5px;
+	background-color: #ccc;
+	transition: background-color ease 0.3s, opacity ease 0.3s;
+}
+.question-option .hide-option {
+	width: 3em;
+}
+.question-option .hide-option:hover, 
+.question-option .show-option:hover {
+	opacity: 1;
+	background-color: #999;
+}
+.question-option input:checked + .option {
+	opacity: 1;
+	background-color: lightgreen;
+}
+.show-option:before {
+	padding-right: 5px;
+	border-right: 1px solid white;
+}
+.show-option .option-content {
+	padding-left: 5px;
+}
+.question-stem {
+	display: inline-block;
+	text-align: center;
+}
+.answer-area input, .answer-area input:focus {
+	width: 100%;
+	border: none;
+	background-color: inherit;
+	border-bottom: 1px solid #333;
+	outline-width: 0px; 
+}
+.answer-area input:focus {
+	border-bottom: 1px solid lightgreen;
+}
+.answer-area textarea {
+	width: 100%;
+}
