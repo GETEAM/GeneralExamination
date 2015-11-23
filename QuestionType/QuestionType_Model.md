@@ -8,7 +8,12 @@
 
 	{	"id": 1,				
 		"stem": "试题题干<img src='dafa.img' />",//图片和item json文件存储在同一个文件夹 所以不用存相对路径
+<<<<<<< HEAD
 		"length": "当type为阅读类型时,为文章字数",
+=======
+		"length": "当type为阅读类型时。为文章字数",
+		"showLength": true, //是否显示题干字数
+>>>>>>> 8a8d19b7b330446a5c38aa2e928ba65b5b0ff7eb
 		"options": [ 		//item选项数组，数组中的内容为item各选项
 			"item选项1",			
 			"item选项2"
