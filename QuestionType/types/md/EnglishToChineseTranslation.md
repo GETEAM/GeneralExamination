@@ -9,13 +9,10 @@ The other thing we have to notice is that the assessment of the intelligence of 
 ##JSON结构
 
 	{
-		"id": 1,						
-		"type": "EnglishToChineseTranslation",			
-		"level": 4,						
-		"duration": 10,					
-		"flowable": false,				
-		"recommendation-point": 10,		
+		"id": 1,							
 		"stem": "<p data-anchor-id="34l1">"Intellingence"at best is an assumptive construct—the meaning of the word has never been clear.<strong>（71）There is more agreement on the kinds of behavior referred to by the term than there is on how to interpret or classify them.</strong> But it is generally agreed that a person of high intelligence is one who can grasp ideas readily，make distinctions，reason logically，and make ue of verbal and mathematical symbols in solving problems.An intelligence test is a rough measure of a child's capacity for learning the kinds of things required in school.It does not measure character，social adjustment，physical endurance，manual skills，or artistic abilities.It is not supposed to—it was not designed for such purposes.<strong>（72）To criticise it for such failure is roughly comparable to criticising a thermometer for not measuring wind velocity.</strong> <br>The other thing we have to notice is that the assessment of the intelligence of any subject is essentially a comparative affair. <br><strong>（73）Now since the assessment of intelligence is a comparative matter we must be sure that the scale with which we are comparing our subjects provides a"valid"or"fair"comparison.</strong> It is here that some of the difficulties which interest us begin.Any test performed involves at least three factors:the intention to do one's best，the knowledge required for understanding what you have to do，and the intellectual ability to do it.<strong>（74）The first two must be equal for all who are being compared，if any comparison in terms of intelligence is to be made.</strong> In school populations in our culture these assumptions can be made fair and reasonable，and the value of intelligence testing has been proved thoroughly.Its value lies，of course，in its providing a satisfactory basis for prediction.No one is in the least interested in the marks a little child gets on his test;what we are interested in is whether we can conclude from his mark on the test that the child will do better or worse than other children of his age at tasks which we think require"general intelligence".<strong>（75）On the whole such a conclusion can be drawn with a certain degree of confidence，but only if the child can be assumed to have had the same attitude towards the test as the others with whom he is being compared，and only if he was not punished by lack of relevant information which they possessed.</strong></p>",
+		"length":335,
+		"preShow": true,
 		"questions": [			
 			{
 				"type": "SimpleAnswer",			

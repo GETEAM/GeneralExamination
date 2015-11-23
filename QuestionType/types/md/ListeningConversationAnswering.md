@@ -8,21 +8,13 @@ A audio
 
 	{
 		"id": 1,						
-		"type": "ListeningConversationAnswering",			
-		"level": 2,						
-		"duration": 1,					
-		"flowable": true,				
-		"recommendation-point": 2,		
-		"src": {
-			"audio": "音频地址"
-		},
+		"stem": "<audio src="abc.mp3">",
+		"preShow":false,		
 		"questions": [
 			{
 				"type": "Record",
 				"pause": 10,			
-				"src": { 		
-					"audio": "音频地址"
-				},		
+				"stem": "<audio src="abc.mp3">",
 				"strict": false,
 				"reference-answer": "参考答案",		
 				"answer-analysis": "参考答案解析"

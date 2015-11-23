@@ -9,19 +9,13 @@ A video
 
 	{
 		"id": 1,						
-		"type": "VideoComment",			
-		"level": 3,						
-		"duration": 3,					
-		"flowable": true,				
-		"recommendation-point": 10,
-		"stem": "下面是段视频，请看完后评述该视频",	
-		"src": {
-			"video": "视频地址"
-		},
+		"stem": "下面是段视频，请看完后评述该视频 <video src="youku.mp4">",	
+		"preShow": true,
 		"questions": [
 			{
 				"type": "Record",
-				"pause":120,		
+				"pause":120,
+				"stem": "录音提示音<audio src="abc.mp3">",		
 				"strict": false,
 				"reference-answer": "略",		
 				"answer-analysis": "参考答案解析"

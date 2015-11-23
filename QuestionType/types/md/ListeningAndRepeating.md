@@ -8,21 +8,16 @@
 
 	{
 		"id": 1,
-		"type": "ListeningAndRepeating",
-		"level": 3,
-		"duration": 10,
-		"flowable": ture,
-		"recommendation-point": 2,
-		"stem": "An audio",
-		"src": {
-			"audio": "会话音频地址"
-		},
+		"stem": "An audio <audio src="abc.mp3">",
+		"preShow":true,
 		"questions": [
 			{
 				"type": "Record",
+				"pause": 30,
+				"stem": "录音提示音<audio src="abc.mp3">",
 				"strict": false,
 				"reference-answer": "参考答案",
-				"reference-answer": "答案解析"
+				"answer-analysis": "答案解析"
 			}
 		]
 	}

@@ -7,13 +7,9 @@ It took Jack two hours climb the mountain. _______
 ##JSON结构
 
 	{
-		"id": 1,						
-		"type": "SentenceErrorCorrection",			
-		"level": 2,						
-		"duration": 1,					
-		"flowable": false,				
-		"recommendation-point": 1,		
+		"id": 1,							
 		"stem": "It took Jack two hours climb the mountain. _______  ",
+		"preShow": true,
 		"questions": [
 			{
 				"type": "BlankFilling",	

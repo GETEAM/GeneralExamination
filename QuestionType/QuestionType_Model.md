@@ -6,7 +6,7 @@
 
 ##JSON结构
 
-	{					
+	{	"id": 1,				
 		"stem": "试题题干<img src='dafa.img' />",//图片和item json文件存储在同一个文件夹 所以不用存相对路径
 		"length": "当type为阅读类型时。为文章字数",
 		"showLength": true, //是否显示题干字数
@@ -16,7 +16,7 @@
 		],
 		"shuffle": "当itemoption存在时，指定是否可以乱序",
 		"preShow": "是否提前显示小题",
-		"questions": [			//试题item所包含的所有问题数组，数组中的每个元素为一个question，每个question为一个对象
+		"questions": [			//试题item所包含的所有问题数组，数组中的每个元素为一个question,每个question为一个对象
 			{
 				"type": "question的类型",	// SingleAnswer(简答)、BlankFilling(填空）、SingleChoice(单选）、MultipleChoice(多选)、Record(录音）
 				"pause": "如果为听力题，则为听力答题时长，如果为录音题，则为录音时长", //此处单位为秒
