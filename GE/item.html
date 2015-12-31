@@ -4,17 +4,137 @@
 	<meta charset="utf-8">
 	<title>选词填空</title>
 	<link rel="stylesheet" href="lib/bootstrap-3.3.5-dist/css/bootstrap.css">
-	<link rel="stylesheet" href="css/paper.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
-
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-size: 18px;
+			line-height: 1.4;
+		}
+		.title {
+			font-weight: bold;
+		}
+		#content {
+			width: 1080px;
+			margin: 0 auto;
+			border: 1px solid #666;
+			border-radius: 5px;
+			padding: 10px;
+		}
+		#item-content {
+			padding: 0 10px;
+		}
+		.part-top {
+			font-size: 20px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		.part-order-num {
+			float: left;
+		}
+		.part-duration {
+			float: right;
+		}
+		.section-direction {
+			margin-bottom: 10px;
+		}
+		.section-content {
+			font-style: oblique;
+		}
+		.item-stem {
+			text-indent: 2em;
+			margin-bottom: 20px;
+		}
+		.item-options {
+			min-width: 60%;
+			max-width: 90%;
+			width: auto;
+			margin: 0 auto 20px;
+		}
+		.item-questions {
+			border-radius: 5px;
+			background-color: #eee;
+			padding: 10px;
+			font-size: 12px;
+			margin-bottom: 15px;
+		}
+		.question {
+			margin-bottom: 10px;
+		}
+		.question-order-num {
+			float: left;
+			width: 2em;
+			text-align: center;
+		}
+		.question-content {
+			overflow: hidden;
+		}
+		label.question-option {
+			font-weight: normal;
+		}
+		.question-option.block {
+			display: block;
+		}
+		.question-option input {
+			display: none;
+		}
+		.question-option .option {
+			display: inline-block;
+			opacity: 0.7;			
+			text-align: center;
+			margin: 0 5px;
+			padding: 0 8px;
+			border-radius: 5px;
+			background-color: #ccc;
+			transition: background-color ease 0.3s, opacity ease 0.3s;
+		}
+		.question-option .hide-option {
+			width: 3em;
+		}
+		.question-option .hide-option:hover, 
+		.question-option .show-option:hover {
+			opacity: 1;
+			background-color: #999;
+		}
+		.question-option input:checked + .option {
+			opacity: 1;
+			background-color: lightgreen;
+		}
+		.show-option .option-order-num {
+			padding-right: 5px;
+			border-right: 2px solid white;
+		}
+		.show-option .option-content {
+			padding-left: 5px;
+		}
+		.question-stem {
+			display: inline-block;
+			/*width: 2em;*/
+			text-align: center;
+		}
+		.answer-area input, .answer-area input:focus {
+			width: 100%;
+			border: none;
+			background-color: inherit;
+			border-bottom: 1px solid #333;
+			outline-width: 0px; 
+		}
+		.answer-area input:focus {
+			border-bottom: 1px solid lightgreen;
+		}
+		.answer-area textarea {
+			width: 100%;
+		}
+	</style>
 </head>
 <body>
-	<div id="container">
-		<div id="rest-time"></div>
+
+	<div id="content">
 		<div id="content"></div>
 	</div>
 	<script>
@@ -29,7 +149,6 @@
 				newArr[random] = newArr[i];
 				newArr[i] = temp;
 			}
-			console.log(newArr);
 			return newArr;
 		}
 	</script>
@@ -39,7 +158,11 @@
 		var PartOrderNum = 1;
 		var QuestionOrderNum = 1;
 
+<<<<<<< HEAD
 		window.answer = localStorage['answer'] ? JSON.parse(localStorage['answer']) : {};
+=======
+		window.answer = JSON.parse(localStorage['answer']) || {};
+>>>>>>> c50180efc62d38b70e1ad33246260e59952c1aa9
 
 		var paper={
 		     "question-option-shuffle": true,
@@ -57,7 +180,7 @@
 		                 "shuffle": "section内的item顺序是否乱序",
 		                 "items": [
 		                   {
-		                     "id": 121,
+		                     "id": 1,
 		                     "stem": "For this part, you are allowed 30 minutes to write an essay based on the picture below.You should start your essay with a brief description of the picture and comment on parents’ role in their children’s growth. You should write at least 150 words but no more than 180 words.",
 		                     "questions": [
 		                       {
@@ -89,7 +212,7 @@
 		                         "type": "SingleChoice",
 		                         "shuffle": true,
 		                         "options": [
-		                             "The man is not good at balancing his budget.",
+		                           "The man is not good at balancing his budget.",
 		                             "She will go purchase the gift herself.",
 		                             "The gift should not be too expensive.",
 		                             "They are gonging to Jane's house-warming party."
@@ -952,77 +1075,87 @@
 		       }
 		     ]
 		   }
-
-		//倒计时组件
-		var RestTime = React.createClass({
-			getInitialState: function() {
-				var rest_time = this.props.restTime;
-				return {
-					rest_time: rest_time
-				};
-			},
-			generateHMS: function() {
-				var self = this;
-				var temp_hours = Math.floor( self.state.rest_time / 3600 );
-				var hours = temp_hours < 10 ? '0' + temp_hours : temp_hours;
-				var temp_minutes = Math.floor( (self.state.rest_time - parseInt(hours) * 3600) / 60 );
-				var minutes = temp_minutes < 10 ? '0' + temp_minutes : temp_minutes;
-				var temp_seconds = Math.floor( self.state.rest_time - temp_hours * 3600 - temp_minutes * 60 );
-				var seconds = temp_seconds < 10 ? '0' + temp_seconds : temp_seconds;
-				self.props.restTimeUpdate(self.state.rest_time - 1);
-				self.setState({
-					rest_time: self.state.rest_time - 1,
-					hours: hours,
-					minutes: minutes,
-					seconds: seconds
-				});
-			},
-			componentDidMount: function() {
-				var self = this;
-				this.generateHMS();
-				this.__interval = setInterval(function(){
-					self.generateHMS();
-				}, 1000);
-			},
-			render: function() {
-				return (
-					<div>{this.state.hours}:{this.state.minutes}:{this.state.seconds}</div>
-				);
-			}
-		})
+		//单选试题
+		var item = 
+			{			
+				"id": "item007",
+				"stem": "Global warming is a trend toward warmer conditions around the world. Part of the warming is natural; we have experienced a 20,000 -year -long warming as the last ice age ended and the ice ( 1 ) away. However, we have already reached temperatures that are in ( 2 ) with other minimum-ice periods, so continued warming is likely not natural. We are ( 3 ) to a predicted worldwide increase in temperatures ( 4 ) between 1℃ and 6℃ over the next 100 years. The warming will be more ( 5 ) in some areas, less in others, and some places may even cool off. Likewise, the ( 6 ) of this warming will be very different depending on where you are—coastal areas must worry about rising sea levels, while Siberia and northern Canada may become more habitable (宜居的) and ( 7 ) for humans than these areas are now. <br>The fact remains, however, that it will likely get warmer, on ( 8 ) , everywhere. Scientists are in general agreement that the warmer conditions we have been experiencing are at least in part the result of a human-induced global warming trend. Some scientists ( 9 ) that the changes we are seeing fall within the range of random (无规律的) variation—some years are cold, others warm, and we have just had an unremarkable string of warm years ( 10 ) —but that is becoming an increasingly rare interpretation in the face of continued and increasing warm conditions.<br/><img src='http://pica.nipic.com/2008-03-19/2008319183523380_2.jpg' width='500' height='300' />",//图片和item json文件存储在同一个文件夹 所以不用存相对路径
+				"length": "500",
+				"shuffle": true,
+				"preShow": "是否提前显示小题",
+				"options": [
+				  "appealing",
+				  "average",
+				  "contributing",
+				  "dramatic",
+				  "frequently",
+				  "impact",
+				  "line",
+				  "maintain",
+				  "melted",
+				  "persist",
+				  "ranging",
+				  "recently",
+				  "resolved",
+				  "sensible",
+				  "shock"
+				],
+				"questions": [			
+							{
+								"type": "SingleChoice",
+								"shuffle": true,
+								"stem": "What does the author say about energy independence for America?",
+								"options": [
+									"It sounds very attractive.",
+									"It ensures national security.",
+									"It will bring oil prices down.",
+									"It has long been everyone’s dream."
+								],
+								"strict": true,
+								"reference-answer": 0,
+								"answer-analysis": "答案解析"
+							},
+							{
+								"type": "BlankFilling",
+								"strict": true,
+								"reference-answer": "strong belief",		
+								"answer-analysis": "参考答案解析"
+							},{
+								"type": "SimpleAnswer",
+								"strict": true,
+								"reference-answer": "ending place",		
+								"answer-analysis": "参考答案解析"
+							}
+				]
+			};
 
 		//小题Question中的答题区域部分————单选题
 		var SingleChoice = React.createClass({
-			handleChange: function(event) {
-				var question_id = this.props.questionId;
-				var newValue = event.target.checked ? event.target.value : '';
-
-				answer[question_id] = newValue;
-				// 	//将答案存入localstorage  
-				localStorage.setItem('answer', JSON.stringify(answer));				
-			},
 			render: function() {
-				var self = this;
 				var options = this.props.options;
 				var question_id = this.props.questionId;
-				var show_option = this.props.showOption;
+				var showOption = this.props.showOption;
 				var answer_area = [];
 				var question_answer = answer[question_id] || '';
 
-				var answer_area = options.map(function(option, i, a) {
-					return (
-						<label className={'question-option ' + ( show_option ? 'block' : 'inline' )}>
-							<input type="radio" name={question_id} value={option} defaultChecked={question_answer == option} onChange={self.handleChange} />
-							<span className={'option' + ( show_option ? ' show-option' : ' hide-option' )}>
-								<span className="option-content">{show_option ? option : ''}</span>
+				for(var i = 0; i < options.length; i++) {
+					var option = 
+						<label className={'question-option ' + ( showOption ? 'block' : 'inline' )}>
+<<<<<<< HEAD
+							<input type="radio" name={question_id} value={options[i]}  />
+=======
+							<input type="radio" name={question_id} value={options[i]} checked={question_answer == options[i] ? true : ''} />
+>>>>>>> c50180efc62d38b70e1ad33246260e59952c1aa9
+							<span className={'option ' + ( showOption ? 'show-option' : 'hide-option' )}>
+								<span className="option-order-num">{capitalLetterArr[i]}</span>
+								<span className="option-content">{showOption ? options[i] : ''}</span>
 							</span>
-						</label>
-					)
-				});
-				/****************选项是否打乱顺序尚未做处理*********************/
+						</label>;
+					answer_area.push(option);
+				}
 				return (
 					<div className="answer-area">
-						{show_option ? answer_area.shuffle() : answer_area}
+						{answer_area}
 					</div>
 				)
 			}
@@ -1030,17 +1163,8 @@
 
 		//小题Question中的答题区域部分————填空题
 		var BlankFilling = React.createClass({
-			handleChange: function(event) {
-				var question_id = this.props.questionId;
-				var newValue = event.target.value;
-				answer[question_id] = newValue;
-				// 	//将答案存入localstorage  
-				localStorage.setItem('answer', JSON.stringify(answer));
-			},
 			render: function() {
-				var question_id = this.props.questionId;
-				var question_answer = answer[question_id] || '';
-				var answer_area = <input type="text" placeholder="请输入答案" defaultValue={question_answer} onChange={this.handleChange} />;
+				var answer_area = <input type="text" placeholder="请输入答案" />;
 				return (
 					<div className="answer-area">
 						{answer_area}
@@ -1051,17 +1175,8 @@
 
 		//小题Question中的答题区域部分————简答题
 		var SimpleAnswer = React.createClass({
-			handleChange: function(event) {
-				var question_id = this.props.questionId;
-				var newValue = event.target.value;
-				answer[question_id] = newValue;
-				// 	//将答案存入localstorage  
-				localStorage.setItem('answer', JSON.stringify(answer));
-			},
 			render: function() {
-				var question_id = this.props.questionId;
-				var question_answer = answer[question_id] || '';
-				var answer_area = <textarea placeholder="请输入答案" defaultValue={question_answer} onChange={this.handleChange}></textarea>;
+				var answer_area = <textarea placeholder="请输入答案" ></textarea>;
 				return (
 					<div className="answer-area">
 						{answer_area}
@@ -1075,9 +1190,15 @@
 			render: function() {
 				var item_options = this.props.itemOptions;
 				var question = this.props.question;
-				var id = this.props.id;
+				var item_id = this.props.itemId;
+				//question在item中的序号
+				var order_num = this.props.orderNum;
+				//question在整张试卷中的序号
+				var question_order_num = this.props.questionOrderNum;
+
 				var type = question.type;
 
+				var question_id = item_id + '_' + order_num;
 				var question_stem = question.stem 
 					? <div className="question-stem">{question.stem}</div> 
 					: '';
@@ -1087,46 +1208,27 @@
 				if(item_options) {
 					//展示选项时，是否展示选项内容
 					var showOption = false;
-					answer_area = <SingleChoice options={item_options} questionId={id} showOption={showOption} />
+					answer_area = <SingleChoice options={item_options} questionId={question_id} showOption={showOption} />
 				}else {
 				//当item_options不存在时，判断小题类型，再做相应处理
 					if(type == "SingleChoice") {
 						//展示选项时，是否展示选项内容
 						var showOption = true;
- 						answer_area = <SingleChoice options={question.options} questionId={id} showOption={showOption} />
+ 						answer_area = <SingleChoice options={question.options} questionId={question_id} showOption={showOption} />
 					}else if(type == "SimpleAnswer") {
-						answer_area = <SimpleAnswer questionId={id} />
+						answer_area = <SimpleAnswer questionId={question_id} />
 					}else if(type == "BlankFilling") {
-						answer_area = <BlankFilling questionId={id} />
+						answer_area = <BlankFilling questionId={question_id} />
 					}
 				}
 
 				return (
-					<div id={id} className="question">
+					<div id={question_id} className="question">
+						<div className="question-order-num">{question_order_num}</div>
 						<div className="question-content">
 							{question_stem}
 							{answer_area}
 						</div>
-					</div>
-				);
-			}
-		});
-
-		//试题item内的questions
-		var Questions = React.createClass({
-			render: function() {
-				var item_options = this.props.itemOptions;
-				var questions = this.props.questions;
-				var item_id = this.props.itemId;
-
-				var questionsArr = questions.map(function( question, i, questions ){
-					return (
-						<Question question={question} itemOptions={item_options} id={item_id + '_' + i} />
-					);
-				});
-				return (
-					<div className="questions">
-						{questionsArr}
 					</div>
 				);
 			}
@@ -1137,10 +1239,8 @@
 			render: function() {
 				//题干的长度
 				var length = this.props.length ? '(' + this.props.length + " words)" : "";
-				//判断item的题干长度是否显示
-				var show_length = this.props.showLength ? true : false;
 				var stem = {
-					'__html': this.props.stem + (show_length ? length : '')
+					'__html': this.props.stem + length
 				}
 				return (
 					<div className="item-stem" dangerouslySetInnerHTML={stem}></div>
@@ -1152,14 +1252,15 @@
 		var ItemOptions = React.createClass({
 			optionsToTableRows: function() {
 				/*将item的options转化为表格的形式展示，该函数将options变为表格的rows*/
+
 				var options = this.props.options;
 				var tableRows = [];
 
 				for( var i = 0, len = options.length; i < len; i = i + 2 ){
-					var td2 = options[i+1] ? <td>{options[i+1]}</td> : '';
+					var td2 = options[i+1] ? <td>{capitalLetterArr[i+1]}.{options[i+1]}</td> : <td></td>;
 					var tempRow = 
 						<tr>
-							<td>{options[i]}</td>
+							<td>{capitalLetterArr[i]}.{options[i]}</td>
 							{td2}
 						</tr>;
 					tableRows.push(tempRow);
@@ -1179,6 +1280,26 @@
 			}
 		});
 
+		//试题item内的questions
+		var ItemQuestions = React.createClass({
+			render: function() {
+				var item_options = this.props.itemOptions;
+				var questions = this.props.questions;
+				var item_id = this.props.itemId;
+
+				var questionsArr = questions.map(function( v, i, arr ){
+					return (
+						<Question question={v} itemOptions={item_options} itemId={item_id} orderNum={i} questionOrderNum={QuestionOrderNum++} />
+					);
+				});
+				return (
+					<div className="item-questions">
+						{questionsArr}
+					</div>
+				);
+			}
+		});
+
 		//试题item框
 		var Item  = React.createClass({
 			render: function() {
@@ -1190,28 +1311,26 @@
 				//因为item的options的顺序打乱，会关系到questions选项的打乱，所以item的options在这个地方做处理
 				var options = item.options 
 								? ( shuffle ? item.options.shuffle() : item.options ) 
-								: ''; 
-
-				//如果item选项存在，则插入ItemOptions
+								: ""; 
 				var item_options = options ?　<ItemOptions options={options} /> : '';
 
 				return (
 					<div className="item">
-						<ItemStem stem={item.stem} length={item.length} showLength={item.showLength} />
+						<ItemStem stem={item.stem} length={item.length} />
 						{item_options}
-						<Questions questions={item.questions} itemOptions={options} itemId={item.id} /> 
+						<ItemQuestions questions={item.questions} itemOptions={options} itemId={item.id} /> 
 					</div>
 				);
 			}
 		});
 
 		//section中的items
-		var Items = React.createClass({
+		var SectionItems = React.createClass({
 			render: function() {
 				var items = this.props.items;
-				var itemsArr = items.map(function(item, i, items) {
+				var itemsArr = items.map(function(v, i, a) {
 					return (
-						<Item item={item} />
+						<Item item={v} />
 					);
 				});
 				return (
@@ -1223,11 +1342,11 @@
 		});
  
 		//section的direction区域
-		var Direction = React.createClass({
+		var SectionDirection = React.createClass({
 			render: function() {
 				var direction = this.props.direction;
 				return (
-					<div className="direction">
+					<div className="section-direction">
 						<span className="title direction-title">Directions: </span>
 						<span className="direction-content">{direction}</span>
 					</div>
@@ -1239,12 +1358,14 @@
 		var Section = React.createClass({
 			render: function() {
 				var section = this.props.section;
+				var section_title = this.props.sectionTitle;
 				var direction = section.direction;
 				var items = section.items;
 				return (
 					<div className="section">
-						<Direction direction={direction} />
-						<Items items={items} />
+						<div className="title section-title">{section_title}</div>
+						<SectionDirection direction={direction} />
+						<SectionItems items={items} />
 					</div>
 				);
 
@@ -1255,9 +1376,10 @@
 		var Sections = React.createClass({
 			render: function() {
 				var sections = this.props.sections;
-				var sectionsArr = sections.map(function(section, i, sections) {
+				var sectionsArr = sections.map(function(v, i, a) {
+					var section_title = "Section " + capitalLetterArr[i];
 					return (
-						<Section section={section} />
+						<Section section={v} sectionTitle={section_title} />
 					);
 				});
 				return (
@@ -1271,11 +1393,13 @@
 		var Part = React.createClass({
 			render: function() {
 				var part = this.props.part;
+				var part_order_num = this.props.partOrderNum;
 				return (
 					<div className="part">
-						<div className="part-top title">
-							<div className="part-duration">({part.duration} minutes)</div>
-							<div className="part-name">{part.name}</div>
+						<div className="part-top">
+							<div className="title part-order-num">{part_order_num}</div>
+							<div className="title part-duration">({part.duration} minutes)</div>
+							<div className="title part-name">{part.name}</div>
 						</div>
 						<Sections sections={part.sections} />
 					</div>
@@ -1286,8 +1410,9 @@
 		var Parts = React.createClass({
 			render: function() {
 				var parts = this.props.parts;
-				var partsArr = parts.map(function(part, i, parts){
-					return (<Part part={part} />);
+				var partsArr = parts.map(function(v, i, a){
+					var part_order_num = 'Part ' + (PartOrderNum++);
+					return (<Part part={v} partOrderNum={part_order_num} />);
 				});
 				return (
 					<div className="parts">
@@ -1300,9 +1425,8 @@
 		var Group = React.createClass({
 			render: function() {
 				var group = this.props.group;
-				var grouping = this.props.grouping;
 				return (
-					<div className={'group' + (grouping ? ' show' : '')}>
+					<div className="group">
 						<Parts parts={group.parts} />
 					</div>
 				)
@@ -1310,67 +1434,12 @@
 		});
 
 		var Groups = React.createClass({
-			getInitialState: function() {
-				var grouping = localStorage['grouping'] ? localStorage['grouping'] : 0;
-				var groups = this.props.groups;
-				var group_len = groups.length;
-				//从下一个group算起剩余的所有时间
-				var next_group_time = 0;
-				for(var i = grouping + 1; i < group_len; i++){
-					next_group_time += this.props.groups[i].duration;
-				}
-				return {
-					group_len: group_len,
-					grouping: grouping,
-					next_group_time: next_group_time
-				}
-			},
-			getNextGroupTime: function(grouping) {
-				var next_group_time = 0;
-				for(var i = grouping + 1; i < this.state.group_len; i++){
-					next_group_time += this.props.groups[i].duration;
-				}
-				return next_group_time;
-			},
-			restTimeUpdate: function(rest_time) {
-				//本地存储设置rest_time
-				localStorage['rest_time'] = rest_time;
-				if(rest_time <= this.state.next_group_time){
-					var grouping = this.state.grouping + 1;
-					var next_group_time = 0;
-					if(grouping < this.state.group_len){
-						var next_group_time = this.getNextGroupTime(grouping);
-					}
-					this.setState({
-						grouping: grouping,
-						next_group_time: next_group_time
-					});
-				}
-				if(rest_time < 0){
-					localStorage.clear();  
-				}
-			},
-			componentDidMount: function() {
-				var self = this;
-				var groups = this.props.groups;
-				var total_time = groups.reduce(function(a, b){
-					return a['duration'] + b['duration'];
-				});
-
-				var rest_time = localStorage['rest_time'] || total_time;
-
-				ReactDOM.render(
-					<RestTime restTime={rest_time} restTimeUpdate={this.restTimeUpdate} />,
-					document.getElementById('rest-time')
-				);
-			},
 			render: function() {
-				var self = this;
 				var groups = this.props.groups;
 
-				var groupsArr = groups.map(function(group, i, groups) {
+				var groupsArr = groups.map(function(v, i, a) {
 					return (
-						<Group group={group} grouping={self.state.grouping == i} />
+						<Group group={v} />
 					)
 				});
 				return (
@@ -1392,14 +1461,42 @@
 				)
 			}
 		});
-		
+
 		ReactDOM.render(
 			<Paper paper={paper} />,
 			document.getElementById('content')
 		);
 
+
+		$("input[type='radio'").change(function(){
+			var question_id = $(this).closest('.question')[0].id;
+			var question_answer = $(this).val();
+			answer[question_id] = question_answer;
+			//将答案存入localstorage
+			localStorage.setItem('answer', JSON.stringify(answer));
+		});
+		$("input[type='text']").change(function(){
+			var question_id = $(this).closest('.question')[0].id;
+			var question_answer = $(this).val();
+			answer[question_id] = question_answer;
+			//将答案存入localstorage
+			localStorage.setItem('answer', JSON.stringify(answer));
+		});
+		$("textarea").change(function() {
+			var question_id = $(this).closest('.question')[0].id;
+			var question_answer = $(this).val();
+			answer[question_id] = question_answer;
+			//将答案存入localstorage
+			localStorage.setItem('answer', JSON.stringify(answer));
+		});
+
 		
+
 	</script>
 </body>
 </html>
+<<<<<<< HEAD
+ 
+=======
+>>>>>>> c50180efc62d38b70e1ad33246260e59952c1aa9
  
