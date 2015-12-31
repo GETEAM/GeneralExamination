@@ -1,0 +1,61 @@
+/*particles-js样式*/
+#particles-js {
+	height: 460px;
+	text-align: center;
+	color: #fff;
+	background-color: #252525;
+	position: relative;
+}
+#particles-js .common-block {
+	position: absolute;
+	left: 50%;
+	top: 80px;
+	transform: translate(-50%, 0);
+}
+#particles-js h1 {
+	font-size: 72px;
+	font-weight: normal;
+}
+#particles-js h2 {
+	font-size: 16px;
+	font-weight: normal;
+}
+#particles-js .exercise-btns {
+	margin-top: 50px;
+}
+#particles-js .btn {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 40px;
+    margin: 0 10px;
+}
+
+/*exercise-kind、introduce的样式*/
+.exercise-kinds, .introduce, .statistic {
+	margin-top: 60px;
+}
+.exercise-kinds h1, .introduce h1, .statistic h1 {
+	font-size: 36px;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.introduce iframe {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+.statistic img {
+	display: block;
+	margin: 0 auto;
+}
+
+/*footer的样式*/
+.footer {
+	margin-top: 60px;
+	border-top: 1px solid #ddd;
+	height: 80px;
+}

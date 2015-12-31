@@ -1,0 +1,8 @@
+/*各个功能模块样式*/
+.function-module {
+    margin-top: 20px;
+}
+.function-module:first-child {
+    margin-top: 50px;
+}
+

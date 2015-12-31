@@ -1345,6 +1345,9 @@
 						next_group_time: next_group_time
 					});
 				}
+				if(rest_time < 0){
+					localStorage.clear();  
+				}
 			},
 			componentDidMount: function() {
 				var self = this;

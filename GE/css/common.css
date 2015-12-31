@@ -1,0 +1,88 @@
+/*通用样式*/
+body {
+	background-color: #fff;
+	color: #444;
+	font: 14px/1.5 "Microsoft YaHei","宋体",arial,Helvetica,sans-serif;
+	height: 100%;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.common-block {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+/*按钮的样式*/
+.btn {
+    border: 1px solid #f70;
+    border-radius: 2px;
+    color: #f70;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    transition: background-color 0.1s, color 0.1s;
+}
+.btn:hover {
+    background-color: #f82;
+    border: 1px solid #f82;
+    color: #fff;
+}
+
+/*块级li标签的样式*/
+.li-block {
+    margin: 0 150px 20px;
+    padding: 10px 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: background-color 0.6s;
+}
+.li-block:hover {
+    background-color: #dedede;
+}
+.li-block h2 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.li-block h2 a.btn {
+    float: right;
+    line-height: 24px;
+    padding: 0 10px;
+}
+.li-block img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+/*无权向的.li-block的样式*/
+.li-block.no-role {
+    position: relative;
+
+}
+.li-block.no-role img, .li-block.no-role h2, .li-block.no-role p {
+    opacity: 0.15;
+}
+.li-block.no-role:hover {
+    background-color: inherit;
+}
+.li-block.no-role:hover:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table-cell;
+    content: "对不起，您没有相应的权限";
+    text-align: center;
+    line-height: 120px;
+    font-size: 16px;
+    color: #fa0;
+    background-color: rgba(222, 222, 222, .4);
+}

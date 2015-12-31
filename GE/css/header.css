@@ -1,0 +1,30 @@
+/*头部样式*/
+.header {
+	height: 60px;
+	background-color: #3c3d41;
+	color: #999;
+	font-size: 16px;
+}
+.header .common-block {
+	overflow: hidden;
+}
+.header .logo {
+	float: left;
+	height: 100%;
+	line-height: 60px;
+	font-size: 2em;
+	padding-right: 60px;
+}
+.header nav, .header nav ul, .header nav ul li {
+	float: left;
+	line-height: 60px;
+}
+.header nav ul li a {
+	display: inline-block;
+	color: inherit;
+	margin: 0 15px;
+	padding: 0 15px;
+}
+.header nav ul li a:hover {
+	color: #f70;
+}
