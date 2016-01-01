@@ -6,31 +6,34 @@
 
 ##JSON结构
 
-	{	"id": 1,	
+	{	
 		"stem": "试题题干，为包括图片、音频以及视频的富文本内容",
-		"length": "当type为阅读类型时。为文章字数",
+		"length": "题干中包含的字数，比如，在阅读题型时，可以提供题干字数的显示",
 		"showLength": true, //是否显示题干字数
-		"options": [ 		//item选项数组，数组中的内容为item各选项
+		"options": [ 		//试题选项数组，数组中的内容为item各选项
 			"item选项1",			
-			"item选项2"
+			……
+			"item选项n"
 		],
-		"shuffle": "当itemoption存在时，指定是否可以乱序",
+		"shuffle": "当item的options存在时，指定是否可以乱序",
 		"preShow": "是否提前显示小题",
-		"questions": [			//试题item所包含的所有问题数组，数组中的每个元素为一个question,每个question为一个对象
+		"questions": [			
+			//试题item所包含的所有问题数组，数组中的每个元素为一个question,每个question为一个对象
 			{
-				"type": "question的类型",	// SingleAnswer(简答)、BlankFilling(填空）、SingleChoice(单选）、MultipleChoice(多选)、Record(录音）
+				// SingleAnswer(简答)、BlankFilling(填空）、SingleChoice(单选）、MultipleChoice(多选)、Record(录音）
+				"type": "question的类型",	
 				"pause": "如果为听力题，则为听力答题时长，如果为录音题，则为录音时长", //此处单位为秒
 				"shuffle": true, //只有当type为多选或者单选时，该选项才有效			
-				"stem": "question题干<img src='dafa.img' />",
+				"stem": "小题题干",
 				"options": [		//question的各个选项
-					"option1",
-					"option2",
-					"option3",
-					"option4"
+					"小题选项1",
+					……
+					"小题选项n"
 				],
 				"strict": true,	//正确答案是否要与参考答案完全匹配
-				"reference-answer": "question的参考答案",		
+				"reference-answer": "参考答案",		
 				"answer-analysis": "参考答案解析"
 			}
 		]
 	}
+
