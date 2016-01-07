@@ -7,22 +7,22 @@
 			"description": "试题item的题干，题干中可包含简单的文本格式、图片，流程性试题可额外包括音频和视频。默认为空(可缺省)",
 			"sample": "We will have a _________ holiday after the exam。"
 		},
+		"show-length": {
+			"type": Boolean,
+			"default": false,
+			"description": "该字段标识试题显示时，是否在题干末尾显示题干字数(题干字数自动计算)，默认为false(即不显示)。该字段在添加题型时可设定默认值，具体试题内可作修改。"
+		},
 		"flowable": {
 			"type": Boolean,
 			"default": false,
 			"description": "该字段表示试题是否为流程性试题。听力试题、口语试题等题型是按照一定的流程完成播放、显示、答题整个过程。其用时是已知的，称为流程性试题。"
-		}
-		"showLength": {
-			"type": Boolean,
-			"default": false,
-			"description": "该字段标识试题显示时，是否在题干末尾显示题干字数(题干字数自动计算)，默认为false(即不显示)。该字段在添加题型时可设定默认值，具体试题内可作修改。"
 		},
 		"shuffle": {
 			"type": Boolean,
 			"default": false,
 			"description": "该字段只有在试题选项，即item存在options属性时，才有意义。该字段标识试题选项是否打乱，默认false(即不打乱)。该字段在添加题型时可设定默认值，具体试题内可作修改。"
 		},
-		"showOptionsOrderNum": {
+		"show-options-order-num": {
 			"type": Boolean,
 			"default": true,
 			"description": "该字段标识试题选项是否显示序号(如A/B/C/D)，主要针对于选词变形填空和常规选词填空两种类型的题型。默认为true(显示试题选项序号)"
@@ -30,22 +30,22 @@
 		"options": {
 			"type": Array,
 			"default": null,
-			"description": "该字段包含一个数组，数组中各元素为试题的试题选项。该字段默认为可缺省(即不包含试题选项)",
+			"description": "该字段包含一个数组，数组中各元素为试题的试题选项。该字段为可缺省(即不包含试题选项)",
 			"sample": [
 				"item选项1",
 				……
 				"item选型n"
 			]
 		},
-		"questionsNumberLimit": {
+		"questions-number-limit": {
 			"type": Boolean,
 			"default": true,
 			"description": "该字段标识试题是否限制小题数量，不限制小题数量可以自由添加小题(在添加题型，和添加、修改试题时需要用到)。添加题型时，小题不限时，需设定小题类型(小题类型不可重复)。添加或修改试题时，小题不限，可以自由添加小题。该字段默认为true(限制小题数量)"
 		},
-		"preShow": {
+		"pre-show": {
 			"type": Boolean,
 			"defalult": true,
-			"description": "该字段标识是否提前显示试题所包含的各小题(部分题型可能需求小题先隐藏达到一定条件后显示)。该字段默认为true(提前显示各小题)。该字段在添加题型时可设定默认值，具体试题内可作修改。"
+			"description": "该字段标识是否提前显示试题所包含的各小题(部分题型可能需求小题先隐藏达到一定条件后显示，一般在流程性试题中使用，当听力或视频播放结束后显示小题)。该字段默认为true(提前显示各小题)。该字段在添加题型时可设定默认值，具体试题内可作修改。"
 		},
 		"questions": {
 			"type": Array,
@@ -81,9 +81,9 @@
 		"shuffle": {
 			"type": Boolean,
 			"default": true,
-			"description": "当小题type为单选或多选时，该选项表示小题选项是否可大乱。该字段可缺省，存在时，默认为true(小题选项可打乱)"
+			"description": "当小题type为单选或多选时，该选项表示小题选项是否可打乱。该字段可缺省，存在时，默认为true(小题选项可打乱)"
 		},
-		"showOptions": {
+		"show-options-content": {
 			"type": Boolean,
 			"defalut": true,
 			"description": "当试题存在试题选项时，小题选项文本不显示。默认为true，存在试题选项时可为true或false，此时默认为false"
