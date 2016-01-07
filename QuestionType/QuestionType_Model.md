@@ -22,6 +22,11 @@
 			"default": false,
 			"description": "该字段只有在试题选项，即item存在options属性时，才有意义。该字段标识试题选项是否打乱，默认false(即不打乱)。该字段在添加题型时可设定默认值，具体试题内可作修改。"
 		},
+		"showOptionsOrderNum": {
+			"type": Boolean,
+			"default": true,
+			"description": "该字段标识试题选项是否显示序号(如A/B/C/D)，主要针对于选词变形填空和常规选词填空两种类型的题型。默认为true(显示试题选项序号)"
+		},
 		"options": {
 			"type": Array,
 			"default": null,
@@ -81,7 +86,7 @@
 		"showOptions": {
 			"type": Boolean,
 			"defalut": true,
-			"description": "当试题存在试题选项时，小题选项文本不显示。默认为true，存在试题选项时可为true或false"
+			"description": "当试题存在试题选项时，小题选项文本不显示。默认为true，存在试题选项时可为true或false，此时默认为false"
 		}
 		"options": {
 			"type": Array,
