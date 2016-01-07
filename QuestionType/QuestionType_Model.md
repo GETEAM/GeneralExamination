@@ -1,39 +1,111 @@
-#试题类型英文名(中文名)
-
-##实际样题
-
-(试题item的实际信息，包括题干，各小题)
-
-##JSON结构
+#试题类型(item)----JSON结构
 
 	{	
-		"stem": "试题题干，为包括图片、音频以及视频的富文本内容",
-		"length": "题干中包含的字数，比如，在阅读题型时，可以提供题干字数的显示",
-		"showLength": true, //是否显示题干字数
-		"options": [ 		//试题选项数组，数组中的内容为item各选项
-			"item选项1",			
-			……
-			"item选项n"
-		],
-		"shuffle": "当item的options存在时，指定是否可以乱序",
-		"preShow": "是否提前显示小题",
-		"questions": [			
-			//试题item所包含的所有问题数组，数组中的每个元素为一个question,每个question为一个对象
-			{
-				// SingleAnswer(简答)、BlankFilling(填空）、SingleChoice(单选）、MultipleChoice(多选)、Record(录音）
-				"type": "question的类型",	
-				"pause": "如果为听力题，则为听力答题时长，如果为录音题，则为录音时长", //此处单位为秒
-				"shuffle": true, //只有当type为多选或者单选时，该选项才有效			
-				"stem": "小题题干",
-				"options": [		//question的各个选项
-					"小题选项1",
-					……
-					"小题选项n"
-				],
-				"strict": true,	//正确答案是否要与参考答案完全匹配
-				"reference-answer": "参考答案",		
-				"answer-analysis": "参考答案解析"
-			}
-		]
+		"stem": {
+			"type": String,
+			"default": "",
+			"description": "试题item的题干，题干中可包含简单的文本格式、图片，流程性试题可额外包括音频和视频。默认为空(可缺省)",
+			"sample": "We will have a _________ holiday after the exam。"
+		},
+		"flowable": {
+			"type": Boolean,
+			"default": false,
+			"description": "该字段表示试题是否为流程性试题。听力试题、口语试题等题型是按照一定的流程完成播放、显示、答题整个过程。其用时是已知的，称为流程性试题。"
+		}
+		"showLength": {
+			"type": Boolean,
+			"default": false,
+			"description": "该字段标识试题显示时，是否在题干末尾显示题干字数(题干字数自动计算)，默认为false(即不显示)。该字段在添加题型时可设定默认值，具体试题内可作修改。"
+		},
+		"shuffle": {
+			"type": Boolean,
+			"default": false,
+			"description": "该字段只有在试题选项，即item存在options属性时，才有意义。该字段标识试题选项是否打乱，默认false(即不打乱)。该字段在添加题型时可设定默认值，具体试题内可作修改。"
+		},
+		"options": {
+			"type": Array,
+			"default": null,
+			"description": "该字段包含一个数组，数组中各元素为试题的试题选项。该字段默认为可缺省(即不包含试题选项)",
+			"sample": [
+				"item选项1",
+				……
+				"item选型n"
+			]
+		},
+		"questionsNumberLimit": {
+			"type": Boolean,
+			"default": true,
+			"description": "该字段标识试题是否限制小题数量，不限制小题数量可以自由添加小题(在添加题型，和添加、修改试题时需要用到)。添加题型时，小题不限时，需设定小题类型(小题类型不可重复)。添加或修改试题时，小题不限，可以自由添加小题。该字段默认为true(限制小题数量)"
+		},
+		"preShow": {
+			"type": Boolean,
+			"defalult": true,
+			"description": "该字段标识是否提前显示试题所包含的各小题(部分题型可能需求小题先隐藏达到一定条件后显示)。该字段默认为true(提前显示各小题)。该字段在添加题型时可设定默认值，具体试题内可作修改。"
+		},
+		"questions": {
+			"type": Array,
+			"default": [],
+			"descripiton": "该字段包含一个数组，数组中各元素为试题包含的各小题，每个元素为一个小题(为一个对象，格式见下)。该字段默认不可缺省(即试题必须存在小题)",
+			"sample": [			
+				question1,
+				……
+				questionn
+			]
+		}
 	}
 
+#question----JSON结构
+
+	{
+		"type": {
+			"type": String,
+			"defalut": "小题基本类型之一",
+			"description": "该字段为小题类型，基本类型中的一个。SingleAnswer(简答)、BlankFilling(填空）、SingleChoice(单选）、MultipleChoice(多选)、Record(录音）。该字段不可为空，默认为基本题型中的一个。"
+			"sample": "SingleChoice"
+		},
+		"stem": {
+			"type": String,
+			"default": "",
+			"description": "该字段为小题题干，可以包含简单的文本格式、图片。默认为可缺省"
+		},
+		"pause": {
+			"type": Integer,
+			"default": 0,
+			"description": "如果小题为流程性试题，该字段标识流程性试题答题时长。如果为听力题，则为听力答题时长，如果为录音题，则为录音时长。默认为0"
+		},
+		"shuffle": {
+			"type": Boolean,
+			"default": true,
+			"description": "当小题type为单选或多选时，该选项表示小题选项是否可大乱。该字段可缺省，存在时，默认为true(小题选项可打乱)"
+		},
+		"showOptions": {
+			"type": Boolean,
+			"defalut": true,
+			"description": "当试题存在试题选项时，小题选项文本不显示。默认为true，存在试题选项时可为true或false"
+		}
+		"options": {
+			"type": Array,
+			"default": [],
+			"description": "该字段为小题选项，当小题类型为选择题时，才存在",
+			"sample": 
+				"小题选项1",
+				……
+				"小题选项n"
+			]
+		},
+		"strict": {
+			"type": Boolean,
+			"default": true,
+			"description": "该参数标识正确答案是否和参考答案完全匹配。true，表示完全匹配为正确；false，表示参考答案仅供参考"
+		},
+		"reference-answer": {
+			"type": String,
+			"default": "",
+			"description": "该参数为小题的参考答案。可缺省，默认为空"
+		},
+		"answer-analysis": {
+			"type": String,
+			"default": "",
+			"description": "该参数为小题的参考答案解析。可缺省，默认为空"
+		}
+ 	}
