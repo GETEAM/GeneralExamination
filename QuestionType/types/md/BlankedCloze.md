@@ -68,7 +68,7 @@ The fact remains, however, that it will likely get warmer, on ( 8 ) , everywhere
 			"shock"
 		],
 		"questions-num-limit": true,
-		"preShow": true,
+		"pre-show": true,
 		"questions": [
 			{
 				"type": "SingleChoice", 

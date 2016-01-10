@@ -30,7 +30,7 @@ E. African Americans have more difficulty obtaining business loans, buying homes
 			"African Americans have more difficulty obtaining business loans, buying homes, getting hired. Schools and housing patterns are still largely separate and unequal. Women still face glass ceilings in corporate offices. Ninety-seven percent of the corporate CEOs of the Fortune 500 are white men. That does not result from talent being concentrated among males with pale skin."
 		],
 		"questions-num-limit": true,
-		"preShow":true,
+		"pre-show":true,
 		"questions": [
 			{
 				"type": "Sorting", 

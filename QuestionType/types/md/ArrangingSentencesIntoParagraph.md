@@ -45,7 +45,7 @@ J. In New Orleans, when public schools admitted four young black girls to the fi
 			"In New Orleans, when public schools admitted four young black girls to the first grade, whites in the city rioted."
 		],
 		"questions-num-limit": true,
-		"preShow":true,
+		"pre-show": true,
 		"questions": [
 			{
 				"type": "Sorting", 

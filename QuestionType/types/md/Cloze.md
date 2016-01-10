@@ -162,14 +162,16 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 ##JSON结构
 
 	{
-		"id": 1,							
 		"stem": "Over half the world’s people now live in cities. The latest “Global Report on Human Settlements” says a significant change took place last year. The report ( 1 ) this week from U.N. Habitat, a United Nations agency. <br>A century ago, ( 2 ) than five percent of all people lived in cities. ( 3 ) the middle of this century it could be seventy percent, or ( 4 ) six and a half billion people. <br>Already three-fourths of people in ( 5 ) countries live in cities. Now most urban population ( 6 ) is in the developing world. <br>Urbanization can ( 7 ) to social and economic progress, but also put ( 8 ) on cities to provide housing and ( 9 ) . The new report says almost two hundred thousand people move ( 10 ) cities and towns each day. It says worsening inequalities, ( 11 ) by social divisions and differences in ( 12 ) , could result in violence and crime ( 13 ) cities plan better. <br>Another issue is urban sprawl(无序扩展的城区). This is where cities ( 14 ) quickly into rural areas, sometimes ( 15 ) a much faster rate than urban population growth. <br>Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, Art Hall at the University of Kansas found that people are moving away from the ( 17 ) cities to smaller ones. He sees a ( 18 ) toward “de-urbanization” across the nation. <br>( 19 ) urban economies still provide many ( 20 ) that rural areas do not.",
-		"length":335,
-		"preShow": true,
+		"show-stem-length": true,
+		"flowable": false,
+		"questions-num-limit": true,
+		"pre-show": true,
 		"questions": [			
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 
+				"show-options-content": true,			
 				"options": [		
 					"came on",
 					"came of",
@@ -182,7 +184,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"more",
 					"other",
@@ -195,7 +198,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"By",
 					"Through",
@@ -208,7 +212,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 		
+				"show-options-content": true,		
 				"options": [		
 					"really",
 					"barely",
@@ -221,7 +226,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"flourishing",
 					"developed",
@@ -234,7 +240,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"extension",
 					"addition",
@@ -247,7 +254,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"keep",
 					"turn",
@@ -260,7 +268,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"pressure",
 					"load",
@@ -273,7 +282,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"surroundings",
 					"communities",
@@ -286,7 +296,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"onto",
 					"into",
@@ -299,7 +310,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"pulled",
 					"driven",
@@ -312,7 +324,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"situation",
 					"wealth",
@@ -325,7 +338,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"when",
 					"unless",
@@ -338,7 +352,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"expand",
 					"invade",
@@ -351,7 +366,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"in",
 					"beyond",
@@ -364,7 +380,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"common",
 					"conventional",
@@ -377,7 +394,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"essential",
 					"prior",
@@ -390,7 +408,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"trend",
 					"style",
@@ -403,7 +422,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"Then",
 					"For",
@@ -416,7 +436,8 @@ Sprawl is ( 16 ) in the United States. Americans move a lot. In a recent study, 
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
+				"shuffle": true, 	
+				"show-options-content": true,			
 				"options": [		
 					"abilities",
 					"qualities",

@@ -92,7 +92,7 @@
 			"type": Array,
 			"default": [],
 			"description": "该字段为小题选项，当小题类型为选择题时，才存在",
-			"sample": 
+			"sample": [
 				"小题选项1",
 				……
 				"小题选项n"
@@ -104,7 +104,7 @@
 			"description": "该参数标识正确答案是否和参考答案完全匹配。true，表示完全匹配为正确；false，表示参考答案仅供参考"
 		},
 		"reference-answer": {
-			"type": String,
+			"type": String/Integer,
 			"default": "",
 			"description": "该参数为小题的参考答案。可缺省，默认为空"
 		},
