@@ -15,7 +15,7 @@
 		"questions": [
 			{
 				"type": "Record",
-				"pause": 30,
+				"pause": 15,
 				"stem": "录音提示音<audio src="abc.mp3">",
 				"strict": false,
 				"reference-answer": "参考答案",
