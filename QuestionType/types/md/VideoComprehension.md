@@ -57,14 +57,17 @@ D) To explain the increase of international oil trade.
 ##JSON结构
 
 	{
-		"id": 1,
 		"stem": "A Video <video src="youku.mp4">",
+		"show-stem-length": false,
+		"flowable": true,
+		"questions-num-limit": true,
 		"pre-show":true,
 		"questions": [
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What does the author say about energy independence for America?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"It sounds very attractive.",
 					"It ensures national security.",
@@ -77,8 +80,9 @@ D) To explain the increase of international oil trade.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What does the author think of biofuels?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"They keep America’s economy running healthily.",
 					"They prove to be a good alternative to petroleum.",
@@ -91,8 +95,9 @@ D) To explain the increase of international oil trade.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "Why does America rely heavily on oil imports?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"It wants to expand its storage of crude oil.",
 					"Its own oil reserves are quickly running out.",
@@ -105,8 +110,9 @@ D) To explain the increase of international oil trade.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What does the author say about oil trade?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"It proves profitable to both sides.",
 					"It improves economic efficiency.",
@@ -119,8 +125,9 @@ D) To explain the increase of international oil trade.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What is the author’s purpose in writing the passage?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"To justify America’s dependence on oil imports.",
 					"To arouse Americans’ awareness of the energy crisis.",
