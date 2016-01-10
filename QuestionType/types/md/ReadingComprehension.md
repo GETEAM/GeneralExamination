@@ -69,15 +69,17 @@ D) To explain the increase of international oil trade.
 ##JSON结构
 
 	{
-		"id": 1,
 		"stem": "Energy independence. It has a nice ring to it. Doesn’t it? If you think so, you’re not alone, because energy independence has been the dream of American president for decades, and never more so than in the past few years, when the most recent oil price shock has been partly responsible for kicking off the great recession. <br>“Energy independence” and its rhetorical (修辞的) companion “energy security” are, however, slippery concepts that are rarely though through. What is it we want independence from, exactly? <br>Most people would probably say that they want to be independent from imported oil. But there are reasons that we buy all that old from elsewhere. <br>The first reason is that we need it to keep our economy running. Yes, there is a trickle(涓涓细流)of biofuel(生物燃料)available, and more may become available, but most biofuels cause economic waste and environmental destruction. <br>Second, Americans have basically decided that they don’t really want to produce all their own oil. They value the environmental quality they preserve over their oil imports from abroad. Vast areas of the United States are off-limits to oil exploration and production in the name of environmental protection. To what extent are Americans really willing to endure the environmental impacts of domestic energy production in order to cut back imports? <br>Third, there are benefits to trade. It allows for economic efficiency, and when we buy things from places that have lower production costs than we do, we benefit. And although you don’t read about this much, the United States is also a large exporter of oil products, selling about 2 million barrels of petroleum products per day to about 90 countries. <br>There is no question that the United States imports a great deal of energy and, in fact, relies on that steady flow to maintain its economy. When that flow is interrupted, we feel the pain in short supplies and higher prices, At the same time, we derive massive economic benefits when we buy the most affordable energy on the world market and when we engage in energy trade around the world.",
-		"length": 550,
+		"show-stem-length": true,
+		"flowable": false,
+		"questions-num-limit": true,
 		"pre-show": true,
 		"questions": [
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What does the author say about energy independence for America?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"It sounds very attractive.",
 					"It ensures national security.",
@@ -90,8 +92,9 @@ D) To explain the increase of international oil trade.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What does the author think of biofuels?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"They keep America’s economy running healthily.",
 					"They prove to be a good alternative to petroleum.",
@@ -104,8 +107,9 @@ D) To explain the increase of international oil trade.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "Why does America rely heavily on oil imports?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"It wants to expand its storage of crude oil.",
 					"Its own oil reserves are quickly running out.",
@@ -118,8 +122,9 @@ D) To explain the increase of international oil trade.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What does the author say about oil trade?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"It proves profitable to both sides.",
 					"It improves economic efficiency.",
@@ -132,8 +137,9 @@ D) To explain the increase of international oil trade.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What is the author’s purpose in writing the passage?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"To justify America’s dependence on oil imports.",
 					"To arouse Americans’ awareness of the energy crisis.",
