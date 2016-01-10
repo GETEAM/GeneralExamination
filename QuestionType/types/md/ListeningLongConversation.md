@@ -41,7 +41,7 @@ D. Her father said she could marry Eric right away.
 		"show-stem-lenght": false,
 		"flowable": true,
 		"questions-num-limit": true,
-		"preShow": true,
+		"pre-show": true,
 		"questions"：[
 			{
 				"type": "SingleChoice",

@@ -16,7 +16,7 @@ D. They are gonging to Jane's house-warming party.
 	{
 	    "id": 1,
 		"stem": "<audio src="abc.mp3">",
-		"preShow": true,
+		"pre-show": true,
 		"questions":[
 			{
 				"type": "SingleChoice",

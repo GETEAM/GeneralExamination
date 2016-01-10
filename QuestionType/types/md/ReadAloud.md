@@ -12,7 +12,7 @@ Disneyland is a famous park in the USA.Its founder was Walt Disney.He is famous 
     {    
         "id": 1,                       
         "stem": "给你50秒钟时间准备朗读。当听到“开始录音”的信号后，立即在80秒钟内朗读短文一遍， 当听到要求“停止录音”的信号时，应立即中止朗读。（操作说明：学生朗读的准备时间为50秒钟，录音时间为80秒钟。 当80秒钟过后，电脑播出录音中止信号）<audio src="abc.mp3">",
-        "preShow": true,
+        "pre-show": true,
         "questions": [
             {
                 "type": "Record",  

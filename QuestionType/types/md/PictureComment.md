@@ -9,7 +9,7 @@
 	{
 		"id": 1,						
 		"stem": "<img src="picture.jpg">",
-		"preShow": true,	
+		"pre-show": true,	
 		"questions": [
 			{
 				"type": "Record",

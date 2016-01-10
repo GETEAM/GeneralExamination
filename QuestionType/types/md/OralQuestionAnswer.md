@@ -9,7 +9,7 @@ A audio(How does your family usually celebrate Chinese New Year?)
 	{
 		"id": 1,						
 		"stem": "<audio src="abc.mp3">",  
-		"preShow": false,                                                                                       
+		"pre-show": false,                                                                                       
 		"questions": [
 			{
 				"type": "Record",

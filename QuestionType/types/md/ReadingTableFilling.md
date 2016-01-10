@@ -25,7 +25,7 @@ Talk to the strangers       |  Don't say your parents 5. ____________
 		"id": 1,							
 		"stem": "<p data-anchor-id="6vzg">There&nbsp;are&nbsp;many&nbsp;things&nbsp;that&nbsp;you&nbsp;should&nbsp;be&nbsp;careful&nbsp;with&nbsp;when&nbsp;you&nbsp;are&nbsp;alone&nbsp;at&nbsp;home.&nbsp;Read&nbsp;the&nbsp;following&nbsp;sulutions&nbsp;to&nbsp;protect&nbsp;yourself.&nbsp;</p><ul data-anchor-id="1iuk"><li>Keep&nbsp;the&nbsp;door&nbsp;locked&nbsp;when&nbsp;you&nbsp;are&nbsp;alone&nbsp;at&nbsp;home.&nbsp;Many&nbsp;people&nbsp;think&nbsp;it‘s&nbsp;the&nbsp;best&nbsp;way&nbsp;to&nbsp;protect&nbsp;themselves.&nbsp;</li><li>Keep&nbsp;a&nbsp;list&nbsp;of&nbsp;phone&nbsp;numbers&nbsp;to&nbsp;call&nbsp;for&nbsp;help---such&nbsp;as&nbsp;110,&nbsp;the&nbsp;police&nbsp;station&nbsp;of&nbsp;a&nbsp;neighbor‘s&nbsp;number.&nbsp;</li><li>Be&nbsp;careful&nbsp;with&nbsp;the&nbsp;electrical&nbsp;appliance(电器).&nbsp;If&nbsp;you&nbsp;don‘t&nbsp;know&nbsp;how&nbsp;to&nbsp;use&nbsp;them,&nbsp;ask&nbsp;your&nbsp;parents.&nbsp;Make&nbsp;a&nbsp;safety&nbsp;check&nbsp;before&nbsp;going&nbsp;to&nbsp;sleep.&nbsp;</li><li>Look&nbsp;through&nbsp;the&nbsp;keyhole&nbsp;when&nbsp;you&nbsp;hear&nbsp;the&nbsp;doorbell.&nbsp;If&nbsp;there&nbsp;are&nbsp;strangers,&nbsp;ask&nbsp;―Who‘s&nbsp;that?&nbsp;‖&nbsp;with&nbsp;the&nbsp;door&nbsp;locked&nbsp;and&nbsp;say&nbsp;―Come&nbsp;back&nbsp;later.‖&nbsp;Don‘t&nbsp;tell&nbsp;them&nbsp;that&nbsp;your&nbsp;parents&nbsp;are&nbsp;away.&nbsp;Say&nbsp;―Mum‘s&nbsp;having&nbsp;a&nbsp;shower,‖&nbsp;or&nbsp;―Dad‘s&nbsp;having&nbsp;a&nbsp;sleep.</li></ul>",
 		"length": 350,
-		"preShow": true,
+		"pre-show": true,
 		"questions": [
 			{
 				"type": "BlankFilling",

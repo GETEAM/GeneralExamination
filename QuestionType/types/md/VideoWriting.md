@@ -9,7 +9,7 @@
 	{
 		"id": 1,
 		"stem": "An video <video src="youku.mp4">",
-		"preShow": true,
+		"pre-show": true,
 		"questions": [
 			{
 				"type":"SingleAnswer",

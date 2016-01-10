@@ -17,7 +17,7 @@ D. stand around
 	{
 		"id": 1,								
 		"stem": "All of you friends will support you.",
-		"preShow": true,
+		"pre-show": true,
 		"questions": [
 			{
 				"type": "SingleChoice",

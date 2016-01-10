@@ -9,7 +9,7 @@ It took Jack two hours climb the mountain. _______
 	{
 		"id": 1,							
 		"stem": "It took Jack two hours climb the mountain. _______  ",
-		"preShow": true,
+		"pre-show": true,
 		"questions": [
 			{
 				"type": "BlankFilling",	

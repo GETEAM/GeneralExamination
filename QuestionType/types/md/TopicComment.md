@@ -21,7 +21,7 @@ Mike是你的好朋友，他有一些不良习惯。请你根据下面的提示�
         提示：姓名：Mike 
         问题：不爱运动，爱吃零食；体型偏胖；他的父母很担心他的健康，
         建议：do more exercise, eat less food, snacks, junk food, unhealthy, fruit and vegetables</p>",
-        "preShow": true,
+        "pre-show": true,
         "questions": [     
             {
                 "type": "Record",

@@ -15,7 +15,7 @@ There are three questions based on the passage you have just heard;
 	{
 		"id": 1,								
 		"stem": "There are three questions based on the passage you have just heard;<audio src="abc.mp3">",
-		"preShow": true,
+		"pre-show": true,
 		"questions": [	
 			{
 				"type": "BlankFilling",

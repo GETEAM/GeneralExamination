@@ -10,7 +10,7 @@ A video
 	{
 		"id": 1,						
 		"stem": "下面是段视频，请看完后评述该视频 <video src="youku.mp4">",	
-		"preShow": true,
+		"pre-show": true,
 		"questions": [
 			{
 				"type": "Record",

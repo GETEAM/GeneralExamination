@@ -17,7 +17,7 @@ D. establish
 	{
 		"id": 1,							
 		"stem": "As some of the rules concerning foreign trade ran contrary to the principles of the WTO,the government decided to ______ them as soon as possible.",
-		"preShow": true,
+		"pre-show": true,
 		"questions": [
 			{
 				"type": "SingleChoice",

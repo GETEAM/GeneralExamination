@@ -11,7 +11,7 @@ Listen to the story twice and then retell it.  You'll have one minute to prepare
 		"id": 1,								
 		"stem": "Listen to the story twice and then retell it.  You'll have one minute to prepare 
 		and another minute to retell the story you've just heard <audio src="abc.mp3">",
-		"preShow": true,
+		"pre-show": true,
 		"questions": [
 			{
 				"type": "Record",
