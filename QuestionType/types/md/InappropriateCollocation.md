@@ -2,6 +2,8 @@
 
 ##实际样题
 
+请从下列句子中选出存在搭配不当错误的句子
+
 A. He speaks American English well enough to pass by an American.
 
 B. He walked on the street the orther day and happened to pass by an American.
@@ -13,19 +15,23 @@ D. For almost three years,emails have been passing between the American and him.
 ##JSON结构
 
 	{
-		"id": 1,								
-		"stem": "试题题干",
-		"preShow": true,
+		"stem": "请从下列句子中选出存在搭配不当错误的句子",
+		"show-stem-length": false,
+		"flowable": false,
+		"shuffle": true,
+		"show-options-order-num": true,
+		"options": [
+			"He speaks American English well enough to pss by an American.",
+			"He walked on the street the orther day and happened to pass by an American.",
+			"He walked out to the front door quickly and was passed for the thief.",
+			"For almost three years,emails have been passing between the American and him."
+		],
+		"questions-num-limit": true,
+		"pre-show": true,
 		"questions": [	
 			{
 				"type": "SingleChoice",
-				"shuffle": true, 			
-				"options": [		
-					"He speaks American English well enough to pss by an American.",
-					"He walked on the street the orther day and happened to pass by an American.",
-					"He walked out to the front door quickly and was passed for the thief.",
-					"For almost three years,emails have been passing between the American and him."
-				],
+				"show-options-content": false,
 				"strict": true,	
 				"reference-answer": 1,		
 				"answer-analysis": "参考答案解析"
