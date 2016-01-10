@@ -7,8 +7,11 @@
 ##JSON结构
 
 	{
-		"id": 1,							
 		"stem": "就我所知，教育对一个社会的发展起着决定性的作用。",
+		"show-stem-length": false,
+		"flowable": false,
+		"questions-num-limit": true,
+		"pre-show": true,
 		"questions": [			
 			{
 				"type": "SimpleAnswer",		
