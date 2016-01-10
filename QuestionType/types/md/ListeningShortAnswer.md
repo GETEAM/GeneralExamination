@@ -13,30 +13,32 @@ There are three questions based on the passage you have just heard;
 ##JSON结构
 
 	{
-		"id": 1,								
 		"stem": "There are three questions based on the passage you have just heard;<audio src="abc.mp3">",
+		"show-stem-length": false,
+		"flowable": true,
+		"questions-num-limit": true,
 		"pre-show": true,
 		"questions": [	
 			{
 				"type": "BlankFilling",
-				"pause": 10,			
 				"stem": "What was Cathy's job? She was a__________;",		
+				"pause": 10,			
 				"strict": false,
 				"reference-answer": "program",		
 				"answer-analysis": "参考答案解析"
 			},
 			{
 				"type": "SingleAnswer",
-				"pause": 60,			
 				"stem": "Which country relies heavily on nuclear power?",		
+				"pause": 60,			
 				"strict": false,
 				"reference-answer": "United States",		
 				"answer-analysis": "参考答案解析"
 			},
 			{
 				"type": "SingleAnswer",
-				"pause": 60,			
 				"stem": "What do we learn about the people working in the shop?",		
+				"pause": 60,			
 				"strict": false,
 				"reference-answer": "They are working very hard",		
 				"answer-analysis": "参考答案解析"
