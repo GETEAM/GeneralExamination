@@ -36,63 +36,63 @@ coin **(before arriving hasty conclusions)( 10 )**.
 		"pre-show": true,
 		"questions": [			
 			{
-				"type": "BlankFilling",			
+				"type": "Correction",			
 				"strict": true,				
-				"reference-answer": "had to has",	
+				"reference-answer": ["had", "has"],	
 				"answer-analysis": "略"
 			},
 			{
-				"type": "BlankFilling",						
+				"type": "Correction",						
 				"strict": true,	
-				"reference-answer": "directly to indirectly",	
+				"reference-answer": ["directly", "indirectly"],	
 				"answer-analysis": "略"
 			},
 			{
-				"type": "BlankFilling",			
+				"type": "Correction",			
 				"strict": true,				
-				"reference-answer": "into to on",	
+				"reference-answer": ["into", "on"],	
 				"answer-analysis": "略"
 			},
 			{
-				"type": "BlankFilling",			
+				"type": "Correction",			
 				"strict": true,				
-				"reference-answer": "too to so",	
+				"reference-answer": ["too", "so"],	
 				"answer-analysis": "略"
 			},
 			{
-				"type": "BlankFilling",					
+				"type": "Correction",					
 				"strict": true,		
-				"reference-answer": "plant to planets",	
+				"reference-answer": ["plant", "planets"],	
 				"answer-analysis": "略"
 			},
 			{
-				"type": "BlankFilling",				
+				"type": "Correction",				
 				"strict": true,			
-				"reference-answer": "head to mind",	
+				"reference-answer": ["head", "mind"],	
 				"answer-analysis": "略"
 			},
 			{
-				"type": "BlankFilling",				
+				"type": "Correction",				
 				"strict": true,			
-				"reference-answer": "little to much",	
+				"reference-answer": ["little", "much"],	
 				"answer-analysis": "略"
 			},
 			{
-				"type": "BlankFilling",						
+				"type": "Correction",						
 				"strict": true,	
-				"reference-answer": "Consider to Considering",	
+				"reference-answer": ["Consider", "Considering"],	
 				"answer-analysis": "略"
 			},
 			{
-				"type": "BlankFilling",			
+				"type": "Correction",			
 				"strict": true,				
-				"reference-answer": "they to ",	
+				"reference-answer": ["they", "them"],	
 				"answer-analysis": "略"
 			},
 			{
-				"type": "BlankFilling",						
+				"type": "Correction",						
 				"strict": true,	
-				"reference-answer": "arriving hasty to at",	
+				"reference-answer": ["arriving hasty", "at"],	
 				"answer-analysis": "略"
 			}
 		]
