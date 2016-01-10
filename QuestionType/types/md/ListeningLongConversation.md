@@ -37,15 +37,17 @@ D. Her father said she could marry Eric right away.
 ##JSON结构
 
 	{
-	    "id": 1,
 		"stem": "Followed 3 questions are based on the long conversation you have just heard.<audio src="abc.mp3">",
+		"show-stem-lenght": false,
+		"flowable": true,
+		"questions-num-limit": true,
 		"preShow": true,
 		"questions"：[
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
-				"pause": 3,
 				"stem": "<audio src="abc.mp3">",
+				"pause": 5,
+				"shuffle": true,
 				"options": [
 			  		"He teaches in a law school.",
 			  		"He loves classical music.",
@@ -58,9 +60,9 @@ D. Her father said she could marry Eric right away.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
-				"pause": 3,
 				"stem": "<audio src="abc.mp3">",
+				"pause": 5,
+				"shuffle": true,
 				"options": [
 			  		"Went to see a play.",
 			  		"Watched a soccer game.",
@@ -73,9 +75,9 @@ D. Her father said she could marry Eric right away.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
-				"pause": 3,
 				"stem": "<audio src="abc.mp3">",
+				"pause": 5,
+				"shuffle": true,
 				"options": [
 			 		"She decided to get married in three years.",
 			  		"Her mother objected to Eric’s flying lessons.",
