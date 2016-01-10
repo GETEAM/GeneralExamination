@@ -48,6 +48,7 @@ D. Her father said she could marry Eric right away.
 				"stem": "<audio src="abc.mp3">",
 				"pause": 5,
 				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 			  		"He teaches in a law school.",
 			  		"He loves classical music.",
@@ -63,6 +64,7 @@ D. Her father said she could marry Eric right away.
 				"stem": "<audio src="abc.mp3">",
 				"pause": 5,
 				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 			  		"Went to see a play.",
 			  		"Watched a soccer game.",
@@ -78,6 +80,7 @@ D. Her father said she could marry Eric right away.
 				"stem": "<audio src="abc.mp3">",
 				"pause": 5,
 				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 			 		"She decided to get married in three years.",
 			  		"Her mother objected to Eric’s flying lessons.",

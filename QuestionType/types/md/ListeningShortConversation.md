@@ -14,15 +14,18 @@ D. They are gonging to Jane's house-warming party.
 
 ##JSON结构
 	{
-	    "id": 1,
 		"stem": "<audio src="abc.mp3">",
+		"show-stem-length": false,
+		"flowable": false,
+		"questions-num-limit": true,
 		"pre-show": true,
 		"questions":[
 			{
 				"type": "SingleChoice",
+				"stem": "<audio src="abc.mp3">",
 				"pause": 3,
 				"shuffle": true,
-				"stem": "<audio src="abc.mp3">",
+				"show-options-content": true,
 				"options": [
 		 			"The man is not good at balancing his budget.",
 		  			"She will go purchase the gift herself.",
