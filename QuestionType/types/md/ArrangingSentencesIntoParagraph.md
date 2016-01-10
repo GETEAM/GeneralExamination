@@ -2,6 +2,8 @@
 
 ##实际样题
 
+请按照句子之间的联系，将以下各句子排成正确的顺序
+
 A. The fight for school integration had few supporters outside the black community.
 
 B. Five other states enacted laws requiring the NAACP to register and to provide lists of members and contributors.
@@ -25,8 +27,12 @@ J. In New Orleans, when public schools admitted four young black girls to the fi
 ##JSON结构
 
 	{
-		"id": 1,																	
-		"item-options": [ 	
+		"stem": "请按照句子之间的联系，将以下各句子排成正确的顺序",
+		"show-stem-length": false,
+		"flowable": false,
+		"shuffle": true,
+		"show-options-order-num": true,
+		"options": [ 	
 			"The fight for school integration had few supporters outside the black community.",			
 			"Five other states enacted laws requiring the NAACP to register and to provide lists of members and contributors.",
 			"Escorted by United States troops, nine black students walk up the stairs to the main entrance of Central High School, Little Rock, Arkansas, on the first full day of integration, September 25, 1957.",
@@ -38,64 +44,74 @@ J. In New Orleans, when public schools admitted four young black girls to the fi
 			"In the meantime, the White Citizens Council (WCC), founded in Sunflower County, Mississippi, in 1956, organized local businessmen and civic leaders throughout the South.",
 			"In New Orleans, when public schools admitted four young black girls to the first grade, whites in the city rioted."
 		],
-		"shuffle": true,
+		"questions-num-limit": true,
 		"preShow":true,
 		"questions": [
 			{
-				"type": "BlankFilling",
+				"type": "Sorting", 
+				"show-options-content": false,
 				"strict": true,
 				"reference-answer": 1,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankFilling",
+				"type": "Sorting", 
+				"show-options-content": false,
 				"strict": true,
 				"reference-answer": 0,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankFilling",
+				"type": "Sorting", 
+				"show-options-content": false,
 				"reference-answer": 2,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankFilling",	
+				"type": "Sorting", 
+				"show-options-content": false,	
 				"strict": true,
 				"reference-answer": 4,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankFilling",
+				"type": "Sorting", 
+				"show-options-content": false,
 				"strict": true,
 				"reference-answer": 3,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankFilling",
+				"type": "Sorting", 
+				"show-options-content": false,
 				"strict": true,
 				"reference-answer": 6,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankFilling",
+				"type": "Sorting", 
+				"show-options-content": false,
 				"strict": true,
 				"reference-answer": 7,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankFilling",
+				"type": "Sorting", 
+				"show-options-content": false,
 				"strict": true,
 				"reference-answer": 8,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankFilling",
+				"type": "Sorting", 
+				"show-options-content": false,
 				"strict": true,
 				"reference-answer": 9,		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "BlankFilling",
+				"type": "Sorting", 
+				"show-options-content": false,
 				"strict": true,
 				"reference-answer": 5,		
 				"answer-analysis": "参考答案解析"

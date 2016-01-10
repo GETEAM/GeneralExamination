@@ -7,7 +7,7 @@
 			"description": "试题item的题干，题干中可包含简单的文本格式、图片，流程性试题可额外包括音频和视频。默认为空(可缺省)",
 			"sample": "We will have a _________ holiday after the exam。"
 		},
-		"show-length": {
+		"show-stem-length": {
 			"type": Boolean,
 			"default": false,
 			"description": "该字段标识试题显示时，是否在题干末尾显示题干字数(题干字数自动计算)，默认为false(即不显示)。该字段在添加题型时可设定默认值，具体试题内可作修改。"
@@ -15,7 +15,7 @@
 		"flowable": {
 			"type": Boolean,
 			"default": false,
-			"description": "该字段表示试题是否为流程性试题。听力试题、口语试题等题型是按照一定的流程完成播放、显示、答题整个过程。其用时是已知的，称为流程性试题。"
+			"description": "该字段表示试题是否为流程性试题。听力试题、口语试题等题型是按照一定的流程完成播放、显示、答题整个过程。其用时是已知的，称为流程性试题。默认为false(非流程性试题)"
 		},
 		"shuffle": {
 			"type": Boolean,
@@ -37,7 +37,7 @@
 				"item选型n"
 			]
 		},
-		"questions-number-limit": {
+		"questions-num-limit": {
 			"type": Boolean,
 			"default": true,
 			"description": "该字段标识试题是否限制小题数量，不限制小题数量可以自由添加小题(在添加题型，和添加、修改试题时需要用到)。添加题型时，小题不限时，需设定小题类型(小题类型不可重复)。添加或修改试题时，小题不限，可以自由添加小题。该字段默认为true(限制小题数量)"
@@ -65,7 +65,7 @@
 		"type": {
 			"type": String,
 			"defalut": "小题基本类型之一",
-			"description": "该字段为小题类型，基本类型中的一个。SingleAnswer(简答)、BlankFilling(填空）、SingleChoice(单选）、MultipleChoice(多选)、Record(录音）。该字段不可为空，默认为基本题型中的一个。"
+			"description": "该字段为小题类型，基本类型中的一个。SingleAnswer(简答)、BlankFilling(填空）、SingleChoice(单选）、MultipleChoice(多选)、Record(录音）、Sorting(排序)。该字段不可为空，默认为基本题型中的一个。"
 			"sample": "SingleChoice"
 		},
 		"stem": {
@@ -81,7 +81,7 @@
 		"shuffle": {
 			"type": Boolean,
 			"default": true,
-			"description": "当小题type为单选或多选时，该选项表示小题选项是否可打乱。该字段可缺省，存在时，默认为true(小题选项可打乱)"
+			"description": "当小题type为单选/多选时，该选项表示小题选项是否可打乱。该字段可缺省，存在时，默认为true(小题选项可打乱)"
 		},
 		"show-options-content": {
 			"type": Boolean,
