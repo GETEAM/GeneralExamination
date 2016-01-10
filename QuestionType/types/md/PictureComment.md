@@ -7,14 +7,16 @@
 ##JSON结构
 
 	{
-		"id": 1,						
 		"stem": "<img src="picture.jpg">",
+		"show-stem-length": false,
+		"flowable": false,
+		"questions-num-limit": true,
 		"pre-show": true,	
 		"questions": [
 			{
 				"type": "Record",
-				"pause":120,	
 				"stem": "录音提示音<audio src="abc.mp3">",	
+				"pause": 120,	
 				"strict": false,
 				"reference-answer": "略",		
 				"answer-analysis": "参考答案解析"
