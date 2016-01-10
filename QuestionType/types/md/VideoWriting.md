@@ -7,8 +7,10 @@
 ##JSON结构
 
 	{
-		"id": 1,
 		"stem": "An video <video src="youku.mp4">",
+		"show-stem-length": false,
+		"flowable": false,
+		"questions-num-limit": true,
 		"pre-show": true,
 		"questions": [
 			{
