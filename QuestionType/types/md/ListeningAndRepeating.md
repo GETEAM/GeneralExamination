@@ -7,9 +7,11 @@
 ##JSON结构
 
 	{
-		"id": 1,
 		"stem": "An audio <audio src="abc.mp3">",
-		"preShow":true,
+		"show-stem-length": false,
+		"flowable": true,
+		"questions-num-limit": true,
+		"pre-show":true,
 		"questions": [
 			{
 				"type": "Record",
