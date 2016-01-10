@@ -65,7 +65,7 @@
 		"type": {
 			"type": String,
 			"defalut": "小题基本类型之一",
-			"description": "该字段为小题类型，基本类型中的一个。SingleAnswer(简答)、BlankFilling(填空）、SingleChoice(单选）、MultipleChoice(多选)、Record(录音）、Sorting(排序)、TrueOrFalse(判断题)。该字段不可为空，默认为基本题型中的一个。"
+			"description": "该字段为小题类型，基本类型中的一个。SingleAnswer(简答)、BlankFilling(填空）、SingleChoice(单选）、MultipleChoice(多选)、Record(录音）、Sorting(排序)、TrueOrFalse(判断题)、Correction(改错题)。该字段不可为空，默认为基本题型中的一个。"
 			"sample": "SingleChoice"
 		},
 		"stem": {

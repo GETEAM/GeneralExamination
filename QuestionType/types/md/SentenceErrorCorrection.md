@@ -7,14 +7,16 @@ It took Jack two hours climb the mountain. _______
 ##JSON结构
 
 	{
-		"id": 1,							
 		"stem": "It took Jack two hours climb the mountain. _______  ",
+		"show-stem-length": false,
+		"flowable": false,
+		"questions-num-limit": true,
 		"pre-show": true,
 		"questions": [
 			{
-				"type": "BlankFilling",	
+				"type": "Correction",	
 				"strict": true,	
-				"reference-answer": "climb to to climb",		
+				"reference-answer": ["climb", "to climb"],		
 				"answer-analysis": "参考答案解析"
 			}
 		]
