@@ -15,13 +15,16 @@ D. stand around
 ##JSON结构
 
 	{
-		"id": 1,								
 		"stem": "All of you friends will support you.",
+		"show-stem-length": false,
+		"flowable": false,
+		"questions-num-limit": true,
 		"pre-show": true,
 		"questions": [
 			{
 				"type": "SingleChoice",
 				"shuffle": true,
+				"show-options-content": true,
 				"options": [   
 					"stand up for",
 					"be against",

@@ -15,13 +15,16 @@ D. establish
 ##JSON结构
 
 	{
-		"id": 1,							
 		"stem": "As some of the rules concerning foreign trade ran contrary to the principles of the WTO,the government decided to ______ them as soon as possible.",
+		"show-stem-length": false,
+		"flowable": false,
+		"questions-num-limit": true,
 		"pre-show": true,
 		"questions": [
 			{
 				"type": "SingleChoice",
 				"shuffle": true, 					
+				"show-options-content": true,
 				"options": [		
 					"abolish",
 					"accomplish",

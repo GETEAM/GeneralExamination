@@ -106,15 +106,17 @@ D) They come in a great variety.
 ##JSON结构
 
 	{
-		"id": 1,
 		"stem": "<p data-anchor-id="gwj0">British Cuisine: the Best of Old and New</p><p data-anchor-id="34l1">British cuisine (烹饪) has come of age in recent years as chefs (厨师) combine the best of old and new. <br>Why does British food have a reputation for being so bad? Because it is bad! Those are not the most encouraging words to hear just before eating lunch at one of Hong Kong's smartest British restaurants, Alfie's by KEE, but head chef Neil Tomes has more to say. <br>"The past 15 years or so have been a noticeable period of improvement for food in England," the English chef says, citing the trend in British cuisine for better ingredients, preparation and cooking methods, and more appealing presentation. Chefs such as Delia Smith, Nigel Slater, Jamie Oliver and Gordon Ramsay made the public realise that cooking - and eating - didn't have to be a boring thing. And now, most of the British public is familiar even with the extremes of Heston BlumenthaPs molecular gastronomy, a form of cooking that employs scientific methods to create the perfect dish. <br>"It's no longer the case that the common man in England is embarrassed to show he knows about food," Tomes says. <br>There was plenty of room for improvement. The problems with the nation's cuisine can be traced back to the Second World War. Before the War, much of Britain's food was imported and when German U-boats began attacking ships bringing food to the country, Britain went on rations (配给). <br>"As rationing came to an end in the 1950s, technology picked up and was used to mass-produce food," Tomes says. "And by then people were just happy to have a decent quantity of food in their kitchens." <br>They weren't looking for cured meats, organic produce or beautiful presentation; they were looking for whatever they could get their hands on, and this prioritisation of quantity over quality prevailed for decades, meaning a generation was brought up with food that couldn't compete with neighbouring France, Italy, Belgium or Spain. <br>Before star chefs such as Oliver began making cooking fashionable, it was hard to find a restaurant in London that was open after 9pm. But in recent years the capital's culinary (烹饪的) scene has developed to the point that it is now confident of its ability to please the tastes of any international visitor. <br>With the opening of Alfie's in April, and others such as The Pawn, two years ago, modern British food has made its way to Hong Kong. "With British food, I think that Hong Kong restaurants are keeping up," says David Tamlyn, the Welsh executive chef at The Pawn in Wan Chai. "Hong Kong diners are extremely responsive to new ideas or presentations, which is good news for new dishes." <br>Chefs agree that diners in Hong Kong are embracing the modern British trend. Some restau rants are modifying the recipes (菜谱) of British dishes to breathe new life into the classics, while others are using better quality ingredients but remaining true to British traditions and tastes. <br>Tamlyn is in the second camp. "We select our food very particularly. We use US beef, New Zealand lamb and for our custards (牛奶蛋糊)we use Bird's Custard Powder," Tamlyn says. "Some restaurants go for custard made fresh with eggs, sugar and cream, but British custard is different, and we stay true to that." <br>Matthew Hill, senior manager at the two-year-old SoHo restaurant Yorkshire Pudding, also uses better ingredients as a means of improving dishes. "There are a lot of existing perceptions about British food and so we can't alter these too much. We're a traditional British restaurant so there are some staples (主菜) that will remain essentially unchanged." <br>These traditional dishes include fish and chips, steak and kidney pie and large pieces of roasted meats. At Alfie's, the newest of the British restaurants in town and perhaps the most gentlemen's club-like in design, Neil Tomes explains his passion for provenance (原产地)."Britain has started to become really proud of the food it's producing. It has excellent organic farms, beautifully crafted cheeses, high-quality meats." <br>However, the British don't have a history of exporting their foodstuffs, which makes it difficult for restaurants in Hong Kong to source authentic ingredients. <br>"We can get a lot of our ingredients once a week from the UK," Tamlyn explains. "But there is also pressure to buy local and save on food miles, which means we take our vegetables from the local markets, and there are a lot that work well with British staples." <br>The Phoenix, in Mid-Levels, offers the widest interpretation of "British cuisine", while still trying to maintain its soul. The gastro-pub has existed in various locations in Hong Kong since 2002. Singaporean head chef Tommy Teh Kum Chai offers daily specials on a blackboard, rather than sticking to a menu. This enables him to reinterpret British cuisine depending on what is avail able in the local markets. <br>"We use a lot of ingredients that people wouldn't perhaps associate as British, but are presented in a British way. Bell pepper stuffed with couscous, alongside ratatouille, is a very popular dish." <br>Although the ingredients may not strike diners as being traditional, they can be found in dishes across Britain. <br>Even the traditional chefs are aware of the need to adapt to local tastes and customs, while maintaining the Britishness of their cuisine. <br>At Yorkshire Pudding, Hill says that his staff asks diners whether they would like to share their meals. Small dishes, shared meals and "mixing it up" is not something commonly done in Britain, but Yorkshire Pudding will bring full dishes to the table and offer individual plates for each diner. "That way, people still get the presentation of the dishes as they were designed, but can carve them up however they like," Hill says. <br>This practice is also popular at The Pawn, although largely for rotisseries (烤肉馆),Tamlyn says. "Some tables will arrive on a Sunday, order a whole chicken and a shoulder of lamb or a baby pig, and just stay for hours enjoying everything we bring out for them." <br>Some British traditions are too sacred (神圣的)to mess with, however, Tomes says. "I'd never change a full English breakfast."</p>",
-		"length": 850,
+		"show-stem-length": true,
+		"flowable": false,
+		"questions-num-limit": true,
 		"pre-show": true,
 		"questions": [
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What is British food generally known for?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"Its unique flavour.",
 					"Its bad taste.",
@@ -127,8 +129,9 @@ D) They come in a great variety.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What does the author think of biofuels?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"They keep America’s economy running healthily.",
 					"They prove to be a good alternative to petroleum.",
@@ -141,8 +144,9 @@ D) They come in a great variety.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "Why does America rely heavily on oil imports?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"It wants to expand its storage of crude oil.",
 					"Its own oil reserves are quickly running out.",
@@ -155,8 +159,9 @@ D) They come in a great variety.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What does the author say about oil trade?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"It proves profitable to both sides.",
 					"It improves economic efficiency.",
@@ -169,8 +174,9 @@ D) They come in a great variety.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "What is the author’s purpose in writing the passage?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"To justify America’s dependence on oil imports.",
 					"To arouse Americans’ awareness of the energy crisis.",
@@ -183,8 +189,9 @@ D) They come in a great variety.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "While using quality ingredients, David Tamlyn insists that the dishes should?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"It proves profitable to both sides.",
 					"It improves economic efficiency.",
@@ -197,8 +204,9 @@ D) They come in a great variety.
 			},
 			{
 				"type": "SingleChoice",
-				"shuffle": true,
 				"stem": "Why does Neil Tomes say he loves food ingredients from Britain?",
+				"shuffle": true,
+				"show-options-content": true,
 				"options": [
 					"They appeal to people from all over the world.",
 					"They are produced on excellent organic farms.",
