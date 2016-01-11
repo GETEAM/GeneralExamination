@@ -25,35 +25,35 @@ Refusing to give up her seat made her great because--and only because-- her defi
 		"pre-show": true,
 		"questions": [		
 			{
-				"type": "SingleAnswer",	
+				"type": "SimpleAnswer",	
 				"stem": "What did Rosa Parks once do? ",	
 				"strict": false,	
 				"reference-answer": "question的参考答案",		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "SingleAnswer",	
+				"type": "SimpleAnswer",	
 				"stem": "What makes him so tired?",	
 				"strict": false,	
 				"reference-answer": "question的参考答案",		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "SingleAnswer",	
+				"type": "SimpleAnswer",	
 				"stem": "what shall we do?",	
 				"strict": false,	
 				"reference-answer": "question的参考答案",		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "SingleAnswer",	
+				"type": "SimpleAnswer",	
 				"stem": "How to do it?",	
 				"strict": false,	
 				"reference-answer": "question的参考答案",		
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "SingleAnswer",	
+				"type": "SimpleAnswer",	
 				"stem": "Do you think Rosa is a good boy? why?",	
 				"strict": false,	
 				"reference-answer": "question的参考答案",		

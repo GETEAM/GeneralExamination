@@ -15,7 +15,7 @@ For this part, you are allowed 30 minutes to write an essay based on the picture
 		"show-stem-length": false,
 		"flowable": false,
 		"questions-num-limit": true,
-		"pre-show": true,
+		"pre-show": true, 
 		"questions": [
 			{
 				"type": "SimpleAnswer",

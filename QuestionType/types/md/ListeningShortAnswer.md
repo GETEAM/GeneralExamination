@@ -28,7 +28,7 @@ There are three questions based on the passage you have just heard;
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "SingleAnswer",
+				"type": "SimpleAnswer",
 				"stem": "Which country relies heavily on nuclear power?",		
 				"pause": 60,			
 				"strict": false,
@@ -36,7 +36,7 @@ There are three questions based on the passage you have just heard;
 				"answer-analysis": "参考答案解析"
 			},
 			{
-				"type": "SingleAnswer",
+				"type": "SimpleAnswer",
 				"stem": "What do we learn about the people working in the shop?",		
 				"pause": 60,			
 				"strict": false,
