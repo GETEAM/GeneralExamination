@@ -86,7 +86,7 @@
 		"show-options-content": {
 			"type": Boolean,
 			"defalut": true,
-			"description": "当试题存在试题选项时，小题选项文本不显示。默认为true，存在试题选项时可为true或false，此时默认为false"
+			"description": "当试题存在试题选项时，小题选项文本默认false(不显示)。当小题选项存在时，默认为true(显示)"
 		}
 		"options": {
 			"type": Array,
@@ -106,7 +106,7 @@
 		"reference-answer": {
 			"type": String/Integer,
 			"default": "",
-			"description": "该参数为小题的参考答案。可缺省，默认为空"
+			"description": "该参数为小题的参考答案。选择题为选项编号，从0开始。填空题时为字符串。可缺省，默认为空"
 		},
 		"answer-analysis": {
 			"type": String,
