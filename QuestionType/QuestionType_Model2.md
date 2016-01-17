@@ -17,20 +17,15 @@
 			"default": false,
 			"description": "该字段表示试题是否为流程性试题。听力试题、口语试题等题型是按照一定的流程完成播放、显示、答题整个过程，其用时是已知的，称为流程性试题。默认为false(非流程性试题)"
 		},
-		"questions-num-limit": {
-			"type": Boolean,
-			"default": true,
-			"description": "该字段标识试题是否限制小题数量。小题数量不限时可以自由添加小题，需设定小题类型(小题类型不可重复)。该字段默认为true(限制小题数量)"
-		},
 		"shuffle": {
 			"type": Boolean,
 			"default": false,
-			"description": "该字段针对选项顺序是否打乱。当试题存在options属性，该字段标识试题选项是否打乱顺序，当试题不存在试题选项时，该字段标识小题选项顺序是否打乱。默认false(即不打乱)，可作修改。"
+			"description": "该字段针对选项顺序是否打乱。当试题存在options属性，该字段标识试题选项是否打乱顺序，当试题不存在试题选项时，该字段标识选择型小题选项顺序是否打乱。默认false(即不打乱)，可作修改。"
 		},
-		"pre-show": {
+		"show-options-order-num": {
 			"type": Boolean,
-			"defalult": true,
-			"description": "该字段标识是否提前显示试题所包含的各小题（题型可能需求小题先隐藏达到一定条件后显示，一般在流程性试题中使用，当听力或视频播放结束后显示小题）。该字段默认为true(提前显示各小题)，可作修改。"
+			"default": true,
+			"description": "该字段标识试题选项是否显示选项序号(如A/B/C/D)，一般都是显示以供选择，不显示主要针对于选词变形填空的题型。默认为true(显示试题选项序号)"
 		},
 		"options": {
 			"type": Array,
@@ -42,11 +37,21 @@
 				"item选型n"
 			]
 		},
-		"show-options-order-num": {
+		"questions-num-limit": {
 			"type": Boolean,
 			"default": true,
-			"description": "该字段标识试题选项是否显示选项序号(如A/B/C/D)，一般都是显示以供选择，不显示主要针对于选词变形填空的题型。默认为true(显示试题选项序号)"
+			"description": "该字段标识试题是否限制小题数量。小题数量不限时可以自由添加小题，需设定小题类型(小题类型不可重复)。该字段默认为true(限制小题数量)"
 		},
+		"pre-show": {
+			"type": Boolean,
+			"defalult": true,
+			"description": "该字段标识是否提前显示试题所包含的各小题（题型可能需求小题先隐藏达到一定条件后显示，一般在流程性试题中使用，当听力或视频播放结束后显示小题）。该字段默认为true(提前显示各小题)，可作修改。"
+		},
+		"show-options-content": {
+			"type": Boolean,
+			"defalut": true,
+			"description": "当试题已有试题选项时，小题选项文本默认false(不显示)，只显示选项序号。当小题选项存在时，默认为true(显示)"
+		}
 		"questions": {
 			"type": Array,
 			"default": [],
@@ -78,11 +83,6 @@
 			"default": 0,
 			"description": "如果小题为流程性试题，该字段标识流程性试题答题时长。如果为听力题，则为听力答题时长，如果为录音题，则为录音时长。默认为0"
 		},
-		"show-options-content": {
-			"type": Boolean,
-			"defalut": true,
-			"description": "当试题已有试题选项时，小题选项文本默认false(不显示)，只显示选项序号。当小题选项存在时，默认为true(显示)"
-		}
 		"options": {
 			"type": Array,
 			"default": [],
