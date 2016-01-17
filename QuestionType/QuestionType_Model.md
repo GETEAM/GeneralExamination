@@ -40,7 +40,7 @@
 		"questions-num-limit": {
 			"type": Boolean,
 			"default": true,
-			"description": "该字段标识试题是否限制小题数量。小题数量不限时可以自由添加小题，需设定小题类型(小题类型不可重复)。该字段默认为true(限制小题数量)"
+			"description": "该字段标识试题是否限制小题数量。不限制小题数量的题型，在添加具体试题时，可以以任一小题为模板额外增加小题。限制小题数量时，不可额外增加小题。该字段默认为true(限制小题数量)"
 		},
 		"pre-show": {
 			"type": Boolean,
