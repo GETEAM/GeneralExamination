@@ -1,0 +1,298 @@
+[33mcommit 4d1fb9a037f509016f276f5b62ac5d1be6bb2c51[m
+Merge: 1c6efcb c50180e
+Author: dst_program <1258632526@qq.com>
+Date:   Wed Dec 23 13:35:37 2015 +0800
+
+    update database
+
+[33mcommit c50180efc62d38b70e1ad33246260e59952c1aa9[m
+Author: wangxin1990 <825249167@qq.com>
+Date:   Sat Dec 19 21:00:03 2015 +0800
+
+    update datebase
+
+[33mcommit a12a97362060a0e6424d6fefd1df4a6d1d57c2c7[m
+Merge: 3c12630 8a8d19b
+Author: wangxin1990 <825249167@qq.com>
+Date:   Mon Nov 23 15:32:01 2015 +0800
+
+    update
+
+[33mcommit 1c6efcbf4826ee83626679252090503e8eb1e6ab[m
+Merge: 1725abd 8a8d19b
+Author: dst_program <1258632526@qq.com>
+Date:   Mon Nov 23 15:31:22 2015 +0800
+
+    update
+
+[33mcommit 3c12630b35940ee7ed4cee5f9f919364b0cb1fd2[m
+Author: wangxin1990 <825249167@qq.com>
+Date:   Mon Nov 23 15:29:44 2015 +0800
+
+    update
+
+[33mcommit 1725abd0381214f08be0f7b943c3193cef379987[m
+Author: dst_program <1258632526@qq.com>
+Date:   Mon Nov 23 15:29:36 2015 +0800
+
+    update construct
+
+[33mcommit 8a8d19b7b330446a5c38aa2e928ba65b5b0ff7eb[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Mon Nov 23 15:18:59 2015 +0800
+
+    uodate
+
+[33mcommit 7430410af6f20f33540115f9a725cc79792b3daf[m
+Merge: 6dc8870 e5a895a
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Mon Nov 23 12:57:53 2015 +0800
+
+    update
+
+[33mcommit 6dc88705f222c39600ac72f07b49d18a78a28a60[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Mon Nov 23 12:56:50 2015 +0800
+
+    update paper
+
+[33mcommit b87814e61851eb3526a40e1adbe3ffed7ec3aaa2[m
+Author: wangxin1990 <825249167@qq.com>
+Date:   Mon Nov 23 11:33:07 2015 +0800
+
+    update
+
+[33mcommit e5a895a6134e6f924a5debf47ca1e44f061277de[m
+Author: dst_program <1258632526@qq.com>
+Date:   Thu Nov 19 21:17:34 2015 +0800
+
+    update construct
+
+[33mcommit 68211cc15cf7bde7ad67d448c0502bb1d674c521[m
+Author: dst_program <1258632526@qq.com>
+Date:   Thu Nov 19 17:44:30 2015 +0800
+
+    update construct
+
+[33mcommit a3eecf676ac2fd490ff4d0e2f9d2b9819ae1c209[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Wed Nov 18 14:12:37 2015 +0800
+
+    update
+
+[33mcommit 0194f8b1b77deefc44b5bf9902e920573498dcbb[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Tue Nov 17 21:21:28 2015 +0800
+
+    add item.html
+
+[33mcommit cc843ba8601adfd230c588f6c028a9a7e91ae0d2[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Tue Nov 17 20:39:44 2015 +0800
+
+    change file structure
+
+[33mcommit cad7475bd76263b6b09e97add1aab85941b8b3ac[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Tue Nov 17 14:47:19 2015 +0800
+
+    add state paperStructure
+
+[33mcommit 6e19224889fa7a3c875d7a864307f56f5b0d4896[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Fri Nov 13 15:29:22 2015 +0800
+
+    add BlankedCloze
+
+[33mcommit 352323b2d64db490810dad428a21c0735ab650be[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Thu Nov 12 19:22:51 2015 +0800
+
+    add questiontype html
+
+[33mcommit 142f863618858e9f5e08b6b12ab78d67a04b3320[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Thu Nov 12 16:39:08 2015 +0800
+
+    update QuestionType_Model.md
+
+[33mcommit 00255b13dffc202d8e72421fbe2996a946da75b3[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Mon Nov 9 14:17:05 2015 +0800
+
+    check ReadingTableFilling
+
+[33mcommit 72b5ff3ab16aa2b7ee34abd4c1f3b8ddde1c56f7[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Mon Nov 9 14:11:38 2015 +0800
+
+    check PassageBlankFilling
+
+[33mcommit f8295c96fff2471237089c8a6e1a2df82fd707c8[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Mon Nov 9 14:05:37 2015 +0800
+
+    check ReadingCloze
+
+[33mcommit 1288d4d78e47a5566108f769a578ecf5eda292f9[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Mon Nov 9 14:02:10 2015 +0800
+
+    update ReadingMatch
+
+[33mcommit 02c6b5f5d590a433a08da9d3d6ac1010da331d4e[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Mon Nov 9 13:58:12 2015 +0800
+
+    check MultipleChoice
+
+[33mcommit d5137a34c27211e7446350d3632f9ab659ccf8fd[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Mon Nov 9 13:56:54 2015 +0800
+
+    check MultipleChoice
+
+[33mcommit ad5e4d2e371f8dbfe761de3c2bb5f1b17c84bee7[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Mon Nov 9 13:53:05 2015 +0800
+
+    check
+
+[33mcommit 4a86a67a215bcb48cc16fca02aa658fd9147f869[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 23:09:02 2015 +0800
+
+    update ArrangingParagraphsIntoPassage
+
+[33mcommit 8a726aa4443ae7abd2bddc6570dd0476a601e6b1[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 23:07:59 2015 +0800
+
+    update ArrangingParagraphsIntoPassage
+
+[33mcommit e98ae4b45781d719ab9d10efa964bb2913648b36[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 23:07:15 2015 +0800
+
+    update ArrangingParagraphsIntoPassage
+
+[33mcommit 1b96dc0f9434da363d0146b14bbc67030dffa57e[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 23:06:51 2015 +0800
+
+    update ArrangingParagraphsIntoPassage
+
+[33mcommit f41c06e15be3cad031a888d0882a8694d3a6743f[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 23:05:20 2015 +0800
+
+    update ArrangingParagraphsIntoPassage
+
+[33mcommit 449bbc003584260cb448949fabb8c6daac5a3a68[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 22:59:06 2015 +0800
+
+    update
+
+[33mcommit 586cd3f8af7a50cc1e3e1a80f4b7e54fc377c4dd[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 22:57:27 2015 +0800
+
+    update
+
+[33mcommit a1fb6c131535069686126decb8a9516215d7095a[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 22:47:01 2015 +0800
+
+    check ReadingShortAnswerQuestion
+
+[33mcommit 66d6483ed63ad65f7dcb8691c2375d7e16a44f30[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 22:42:22 2015 +0800
+
+    check ReadingTrueorFalse
+
+[33mcommit e799a0a50fbc50372fb3d11559aacf8d0821e4a3[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 22:41:55 2015 +0800
+
+    check ReadingTrueorFalse
+
+[33mcommit 120c1fb1e0ded77191867f94ef05b3a0c4ca685c[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 22:40:58 2015 +0800
+
+    check ReadingTrueorFalse
+
+[33mcommit a6303feee84864040c2f5cd72eeab2c4c76bd072[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 21:43:01 2015 +0800
+
+    update
+
+[33mcommit 7e1606e13d3311226f21c979d64c5e840a86e7b7[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 21:41:51 2015 +0800
+
+    update
+
+[33mcommit 15fab0b197b06c58053b93d4c964790af492c539[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 21:36:52 2015 +0800
+
+    update SingleBlankFilling
+
+[33mcommit 0f43c84111c93dfd5b94ea36bfb272031dbedb32[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 21:35:13 2015 +0800
+
+    update SingleBlankFilling
+
+[33mcommit 363d02a40de6d427fab604c817430f48a000db7e[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 21:32:19 2015 +0800
+
+    check InappropriateCollocation
+
+[33mcommit 83e5b18a32eba9f5a0ec0c723ec637a24b11ecb3[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 21:31:58 2015 +0800
+
+    check InappropriateCollocation
+
+[33mcommit e6a673c3281010e5d278c103fdaedc5d6450d043[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 21:21:53 2015 +0800
+
+    update ListeningCompoundDictation
+
+[33mcommit 6cdcab519aff17daadf2696f10e7ee79ca23cb45[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 21:19:18 2015 +0800
+
+    update
+
+[33mcommit 4fda6c06382464d0cd38a8164b13e54e2ca41065[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 21:14:49 2015 +0800
+
+    check SimilarExpression
+
+[33mcommit 38c7ed2764879d767d67f9b6e2b6d2acddb0f90d[m
+Author: very-much <fenggao@mail.ustc.edu.cn>
+Date:   Sun Nov 8 21:14:09 2015 +0800
+
+    check SimilarExpression
+
+[33mcommit ca128b45b34640007fea4acf1852142f3f0035f7[m
+Author: dst_program <1258632526@qq.com>
+Date:   Sun Nov 8 20:23:24 2015 +0800
+
+    delete PassageBlankFillingWithWordsFromText
+
+[33mcommit 5596810d758848e411ff21f27e042566a6184ec9[m
+Merge: e2f5006 201220c
+Author: dst_program <1258632526@qq.com>
+Date:   Sun Nov 8 19:58:21 2015 +0800
+
+    Merge branch 'master' of ht
