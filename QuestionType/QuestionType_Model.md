@@ -47,11 +47,6 @@
 			"defalult": true,
 			"description": "该字段标识是否提前显示试题所包含的各小题（题型可能需求小题先隐藏达到一定条件后显示，一般在流程性试题中使用，当听力或视频播放结束后显示小题）。该字段默认为true(提前显示各小题)，可作修改。"
 		},
-		"show-options-content": {
-			"type": Boolean,
-			"defalut": true,
-			"description": "当试题已有试题选项时，小题选项文本默认false(不显示)，只显示选项序号。当小题选项存在时，默认为true(显示)"
-		}
 		"questions": {
 			"type": Array,
 			"default": [],
