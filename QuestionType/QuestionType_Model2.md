@@ -22,6 +22,11 @@
 			"default": true,
 			"description": "该字段标识试题是否限制小题数量。小题数量不限时可以自由添加小题，需设定小题类型(小题类型不可重复)。该字段默认为true(限制小题数量)"
 		},
+		"shuffle": {
+			"type": Boolean,
+			"default": false,
+			"description": "该字段针对选项顺序是否打乱。当试题存在options属性，该字段标识试题选项是否打乱顺序，当试题不存在试题选项时，该字段标识小题选项顺序是否打乱。默认false(即不打乱)，可作修改。"
+		},
 		"pre-show": {
 			"type": Boolean,
 			"defalult": true,
@@ -36,11 +41,6 @@
 				……
 				"item选型n"
 			]
-		},
-		"shuffle": {
-			"type": Boolean,
-			"default": false,
-			"description": "该字段针对试题选项，即item存在options属性时，才有意义。该字段标识试题选项是否打乱顺序，默认false(即不打乱)，可作修改。"
 		},
 		"show-options-order-num": {
 			"type": Boolean,
